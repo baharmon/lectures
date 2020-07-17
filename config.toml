@@ -1,0 +1,13 @@
+baseURL = "https://baharmon.github.io/lectures/"
+languageCode = "en-us"
+title = "Lectures"
+theme = "reveal-hugo"
+publishDir = "docs"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
