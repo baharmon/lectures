@@ -5,4 +5,4 @@ outputs = ["Reveal"]
 
 # Presentations
 
-* [demo](/lectures/demo/index.html)
+* [Geodesy](/lectures/geodesy/index.html)

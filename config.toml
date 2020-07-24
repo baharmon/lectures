@@ -11,3 +11,10 @@ unsafe = true
 baseName = "index"
 mediaType = "text/html"
 isHTML = true
+
+[params]
+author = "Brendan Harmon"
+email = "brendan.harmon@gmail.com"
+
+[params.reveal_hugo]
+custom_theme = "reveal-hugo/themes/static-custom-theme.css"
