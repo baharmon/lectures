@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://baharmon.github.io/lectures/demo/body/</loc>
+    <loc>https://baharmon.github.io/lectures/geodesy/body/</loc>
   </url>
   
   <url>
-    <loc>https://baharmon.github.io/lectures/demo/conclusion/</loc>
+    <loc>https://baharmon.github.io/lectures/geodesy/conclusion/</loc>
   </url>
   
   <url>
@@ -19,15 +19,15 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/geodesy/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/categories/</loc>
   </url>
   
   <url>
     <loc>https://baharmon.github.io/lectures/home/</loc>
-  </url>
-  
-  <url>
-    <loc>https://baharmon.github.io/lectures/demo/</loc>
   </url>
   
   <url>
