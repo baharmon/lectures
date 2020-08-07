@@ -7,6 +7,8 @@ outputs = ["Reveal"]
 
 ### The science of the shape of the Earth
 
+# <i class="ms ms-globe"></i>
+
 Brendan Harmon
 
 <img height="50px" src="lsu-coad-logo.png">
@@ -63,6 +65,9 @@ d.legend raster=emg at=5,35,2,3 font=Lato-Regular fontsize=16
 ---
 
 # Ellipsoid
+
+<i class="ms ms-sphere"></i>
+
 The World Geodetic System 1984 (WGS84)
 uses the Earth Gravitational Model 1996 (EMG96)
 as its geoid reference.
@@ -72,6 +77,8 @@ as its coordinate reference system (CRS)
 ---
 
 # Map Projections
+
+ <i class="ms ms-map"></i>
 
 A map projection transforms a globe into a planar map that can be measured.
 
@@ -128,8 +135,9 @@ To reduce distortion, many states have multiple zones.
 
 # Course Datasets
 
-* [Natural Earth Dataset](https://doi.org/10.5281/zenodo.3762808): WGS84
-* [Governor's Island Dataset](http://doi.org/10.5281/zenodo.3940780): NAD 83, NY Long Island State Plane Feet
+* [<i class="ms ms-qgis"></i> Natural Earth Vector Theme GeoPackage](http://naciscdn.org/naturalearth/packages/natural_earth_vector.gpkg.zip): WGS84
+* [<i class="ms ms-grass-gis"></i> Natural Earth Dataset](https://doi.org/10.5281/zenodo.3762808): WGS84
+* [<i class="ms ms-grass-gis"></i> Governor's Island Dataset](http://doi.org/10.5281/zenodo.3940780): NAD 83, NY Long Island State Plane Feet
 
 ---
 

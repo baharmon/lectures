@@ -5,4 +5,4 @@ outputs = ["Reveal"]
 
 # Presentations
 
-* [Geodesy](/lectures/geodesy/index.html)
+* [<i class="ms ms-globe"></i> Geodesy](/lectures/geodesy/index.html)
