@@ -5,4 +5,7 @@ outputs = ["Reveal"]
 
 # Presentations
 
-* [<i class="ms ms-globe"></i> Geodesy](/lectures/geodesy/index.html)
+* [Geodesy](/lectures/geodesy/)
+* [Cartography](/lectures/cartography/)
+* [Virtual Reality for Digital Humanists](/lectures/vr/)
+* [Generative Design](/lectures/generative-design/)

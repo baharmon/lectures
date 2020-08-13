@@ -39,7 +39,7 @@ orthometric height above sea level.
 {{< slide background-video="geoid.mp4" >}}
 # [Geoid](https://svs.gsfc.nasa.gov/3655)
 
-[NASA Scientific Visualization Studio]((https://svs.gsfc.nasa.gov/3655))
+[NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/3655)
 
 ---
 
@@ -96,11 +96,15 @@ A map projection transforms a globe into a planar map that can be measured.
 
 ---
 
+{{< slide background-iframe="https://www.jasondavies.com/maps/transition/" >}}
+
+---
+
 {{< slide background-iframe="https://xkcd.com/977/" >}}
 
 ---
 
-{{< slide background-iframe="https://www.jasondavies.com/maps/transition/" >}}
+{{< slide background-iframe="https://map-projections.net/compare.php?p1=hobo-dyer&p2=mercator-84" >}}
 
 ---
 
@@ -152,3 +156,20 @@ To reduce distortion, many states have multiple zones.
 
 # Governor's Island
 ### NY Long Island State Plane Feet
+
+---
+
+# Credits
+
+* [NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/3655)
+* [Georg Simon Ohm University of Applied Sciences Nuremberg](http://schorsch.efi.fh-nuernberg.de/data/terrain/EGM/)
+* [Cameron Beccario](https://earth.nullschool.net/)
+* [XKCD](https://xkcd.com/)
+* [Jason Davies](https://www.jasondavies.com/)
+* [NGA Office of Geomatics](https://earth-info.nga.mil/GandG/update/index.php)
+* [National Geodetic Survey](https://www.ngs.noaa.gov/SPCS/index.shtml)
+* [Natural Earth Data](https://www.naturalearthdata.com/)
+* [NYC Open Data](https://opendata.cityofnewyork.us/)
+* [Google Arts & Culture](https://g.co/arts/1Vug3pMVhGBYSySK9)
+
+---
