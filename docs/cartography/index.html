@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Cartography</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="cartography">Cartography</h1>
+<p>Brendan Harmon</p>
+<img height="50px" src="lsu-coad-logo.png">
+</section><section>
+<h1 id="decolonizing-cartography">Decolonizing Cartography</h1>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="buddhist-world-map.jpg">
+  
+<h1 id="cosmography">Cosmography</h1>
+<p><a href="https://g.co/arts/1Vug3pMVhGBYSySK9">Rokashi Hotan, Buddhist Map of the World, 1710</a></p>
+</section><section>
+<h1 id="slide">Slide</h1>
+<p>text&hellip;</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+<h1 id="slide-with-background">Slide with background</h1>
+<p>text&hellip;</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-video=".mp4">
+  
+<h1 id="slide-with-video-background">Slide with video background</h1>
+<p>text&hellip;</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="">
+  
+</section><section>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

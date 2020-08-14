@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://baharmon.github.io/lectures/cartography/body/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/cartography/conclusion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/generative-design/body/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/generative-design/conclusion/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/geodesy/body/</loc>
   </url>
   
@@ -19,11 +35,40 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/notes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/template/body/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/template/conclusion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/vr/body/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/vr/conclusion/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/geodesy/</loc>
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/cartography/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/generative-design/</loc>
   </url>
   
   <url>
@@ -36,6 +81,14 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/template/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/vr/</loc>
   </url>
   
 </urlset>
