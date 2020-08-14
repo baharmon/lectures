@@ -23,9 +23,9 @@ Brendan Harmon
 
 ---
 
-# Slide
+# Cognitive Maps
 
-text...
+Asger Jorn and the Situationalist International
 
 ---
 
