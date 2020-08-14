@@ -151,6 +151,11 @@ can be built precisely and efficiently.
 
 ---
 
+{{< slide background-image="usace_erdc_aces.jpg" >}}
+## [USACE ERDC, Automated Construction of Expeditionary Structures (ACES), 2017](https://www.erdc.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/1290247/automated-construction-of-expeditionary-structures-aces/)
+
+---
+
 {{< slide background-image="kinematic-petals-dress.jpg" >}}
 ## [Nervous System, Kinematic Petal Dress, 2016](https://n-e-r-v-o-u-s.com/projects/sets/kinematics-dress/)
 <!-- Customized Couture -->
