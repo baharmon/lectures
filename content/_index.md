@@ -3,7 +3,7 @@ title = "Lectures"
 outputs = ["Reveal"]
 +++
 
-# Presentations
+# Lectures
 
 * [Geodesy](/lectures/geodesy/)
 * [Cartography](/lectures/cartography/)
