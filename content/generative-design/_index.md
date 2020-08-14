@@ -89,7 +89,7 @@ Adjust model parameters to explore design alternatives.
 
 ---
 
-{{< slide background-iframe="https://www.youtube.com/embed/zzoE5Xbnso0?autoplay=1" >}}
+{{< slide background-iframe="https://www.youtube.com/embed/zzoE5Xbnso0?autoplay=1&rel=0" >}}
 <!-- [BUGA Wood Pavilion, Bundesgartenschau Heilbronn, 2019](https://www.icd.uni-stuttgart.de/projects/buga-wood-pavilion-2019/) -->
 
 
@@ -172,7 +172,7 @@ can be built precisely and efficiently.
 
 ---
 
-{{< slide background-iframe="https://www.youtube.com/embed/u4juGQXyDD0?autoplay=1&start=47" >}}
+{{< slide background-iframe="https://www.youtube.com/embed/u4juGQXyDD0?autoplay=1&start=47&rel=0" >}}
 <!-- Delas Frères Winery -->
 
 ---
@@ -236,6 +236,7 @@ the mass customization of the environment.
 ---
 
 ## Aerial Surveying with Drones
+<i class="ms ms-drone-quad-nano"></i>
 * Photography and videography
 * Multispectral sensing
 * Photogrammetry
@@ -244,6 +245,7 @@ the mass customization of the environment.
 
 {{< slide background-image="firefly-takeoff.jpg" >}}
 ## [Aerial Surveying with Drones](http://baharmon.github.io/blog/drone-surveying)
+### <i class="ms ms-drone-wing"></i>
 
 ---
 
@@ -260,6 +262,24 @@ the mass customization of the environment.
 
 {{< slide background-iframe="https://sketchfab.com/models/18e50ba68fc647fea58134bdff26c19a/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" >}}
 ## Surveying Landscapes
+
+---
+
+{{< slide background-image="tangible-landscape.jpg" >}}
+## [Tangible Landscape](https://tangible-landscape.github.io/)
+### [<i class="ms ms-grass-gis"></i>](http://grass.osgeo.org/)
+
+---
+
+{{< slide background-image="tangible-landscape-diagram.jpg" >}}
+
+---
+
+{{< slide background-iframe="https://www.youtube.com/embed/Cd3cCQTGer4?autoplay=1&rel=0" >}}
+
+---
+
+{{< slide background-iframe="https://www.youtube.com/embed/akCTeknStmQ?autoplay=1&rel=0" >}}
 
 ---
 
@@ -306,9 +326,9 @@ the mass customization of the environment.
 & [ITKE](https://www.itke.uni-stuttgart.de/)
 * [Carl Fredrik Svenstedt Architect](https://www.carlfredriksvenstedt.com/)
 * [Olivier van Herpt](http://oliviervanherpt.com/)
+* [USACE ERDC](https://www.erdc.usace.army.mil/)
 * [ETH Zurich, Gramazio & Kohler](https://gramaziokohler.arch.ethz.ch/)
 * [Joris Laarman](https://www.jorislaarman.com/)
+* [Tangible Landscape](https://tangible-landscape.github.io/)
 * [ETHZ dfab](https://dfab.ch/)
 * [Benedikt Groß](http://benedikt-gross.de/)
-
----

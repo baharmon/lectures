@@ -5,7 +5,7 @@ outputs = ["Reveal"]
 
 # Lectures
 
-* [Geodesy](/lectures/geodesy/)
-* [Cartography](/lectures/cartography/)
-* [Virtual Reality for Digital Humanists](/lectures/vr/)
-* [Generative Design](/lectures/generative-design/) + [Video](https://youtu.be/w1UtTZNvsu4)
+* [<i class="ms ms-txt"></i> Geodesy](/lectures/geodesy/)
+* [<i class="ms ms-txt"></i> Cartography](/lectures/cartography/)
+* [<i class="ms ms-txt"></i> Virtual Reality for Digital Humanists](/lectures/vr/)
+* [<i class="ms ms-action-camera"></i>](https://youtu.be/w1UtTZNvsu4) | [<i class="ms ms-txt"></i> Generative Design](/lectures/generative-design/)
