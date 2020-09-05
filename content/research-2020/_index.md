@@ -75,6 +75,7 @@ outputs = ["Reveal"]
 * Mass customization
 * Novel aesthetics
 * Material exploration
+* Autonomous construction
 
 ---
 
@@ -88,9 +89,19 @@ outputs = ["Reveal"]
 
 ---
 
+# Our Robots
+* 2 x UR5e collaborative robotic arm
+* 1 x UR5e collaborative robotic arm
+* 3 x DJI Phantom 4 quadcopter
+* 1 x DJI Matrice 600 Pro hexacopter
+* 1 x FireFLY6 Pro
+
+---
+
 # Education
-* Drone Photogrammetry in LA 7032 Media III
-* Robotic 3D Printing in LA 7051 Advanced Topics Studio
+* **LA 7032 Media III**: Drone Photogrammetry
+* **LA 7051 Advanced Topics Studio**: Robotic 3D Printing
+* **LA 7504 Ecological Robotics**: Robotic Panting
 
 ---
 
