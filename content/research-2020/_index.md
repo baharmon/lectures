@@ -61,11 +61,6 @@ outputs = ["Reveal"]
 
 ---
 
-{{< slide background-image="benedikt-gross-avena.png" >}}
-## [Benedikt Groß, Avena+ Test Bed, 2013](http://benedikt-gross.de/log/2013/06/avena-test-bed_agricultural-printing-and-altered-landscapes/)
-
----
-
 # Robotic Fabrication
 
 * Algorithmic design
