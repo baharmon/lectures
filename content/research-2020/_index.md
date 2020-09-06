@@ -86,7 +86,7 @@ outputs = ["Reveal"]
 
 # Our Robots
 * 2 x UR5e collaborative robotic arm
-* 1 x UR5e collaborative robotic arm
+* 1 x UR10e collaborative robotic arm
 * 3 x DJI Phantom 4 quadcopter
 * 1 x DJI Matrice 600 Pro hexacopter
 * 1 x FireFLY6 Pro
