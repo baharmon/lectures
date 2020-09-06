@@ -48,19 +48,6 @@ outputs = ["Reveal"]
 
 ---
 
-# Robotic Planting
-
----
-
-{{< slide background-image="aerial-planting-system-1.png" >}}
-
----
-
-{{< slide background-image="aerial-mangrove-planting-3.png" >}}
-## Aerial Planting
-
----
-
 # Robotic Fabrication
 
 * Algorithmic design
@@ -84,6 +71,19 @@ outputs = ["Reveal"]
 
 ---
 
+# Robotic Planting
+
+---
+
+{{< slide background-image="aerial-planting-system-1.png" >}}
+
+---
+
+{{< slide background-image="aerial-mangrove-planting-3.png" >}}
+## Aerial Planting
+
+---
+
 # Our Robots
 * 2 x UR5e collaborative robotic arm
 * 1 x UR5e collaborative robotic arm
@@ -103,5 +103,3 @@ outputs = ["Reveal"]
 # Learn more
 * [Online Tutorials](http://baharmon.github.io/courses)
 * [Video Tutorials](https://www.youtube.com/channel/UCmGEF6Bf1SO92oLQoGCPDTw)
-
----
