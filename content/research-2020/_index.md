@@ -96,7 +96,7 @@ outputs = ["Reveal"]
 # Education
 * **LA 7032 Media III**: Drone Photogrammetry
 * **LA 7051 Advanced Topics Studio**: Robotic 3D Printing
-* **LA 7504 Ecological Robotics**: Robotic Panting
+* **LA 7504 Ecological Robotics**: Robotic Planting
 
 ---
 
