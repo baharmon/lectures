@@ -289,6 +289,10 @@ the mass customization of the environment.
 
 ---
 
+{{< slide background-iframe="https://girot.arch.ethz.ch/events-conferences/robotic-embankment-prototype" >}}
+
+---
+
 {{< slide background-image="benedikt-gross-avena.png" >}}
 ## [Benedikt Groß, Avena+ Test Bed, 2013](http://benedikt-gross.de/log/2013/06/avena-test-bed_agricultural-printing-and-altered-landscapes/)
 
@@ -331,4 +335,5 @@ the mass customization of the environment.
 * [Joris Laarman](https://www.jorislaarman.com/)
 * [Tangible Landscape](https://tangible-landscape.github.io/)
 * [ETHZ dfab](https://dfab.ch/)
+* [ETHZ Landscape Architecture](https://girot.arch.ethz.ch/)
 * [Benedikt Groß](http://benedikt-gross.de/)
