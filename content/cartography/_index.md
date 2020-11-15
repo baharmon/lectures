@@ -66,7 +66,6 @@ But what about **expression**?
 
 {{< slide background-iframe="https://demographics.virginia.edu/DotMap/" >}}
 
-
 ---
 
 ## [Atlas of Inequality](https://inequality.media.mit.edu/)
@@ -78,8 +77,20 @@ But what about **expression**?
 
 ---
 
-# Choropleth Maps
+# Cluster Maps
 
+---
+
+## [Police Brutality at Black Lives Matter Protests](https://blmprotests.forensic-architecture.org/)
+### [Forensic Architecture](https://forensic-architecture.org/)
+
+---
+
+{{< slide background-iframe="https://blmprotests.forensic-architecture.org/" >}}
+
+---
+
+# Choropleth Maps
 
 ---
 

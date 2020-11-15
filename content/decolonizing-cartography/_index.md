@@ -179,13 +179,7 @@ Imagery: Google Earth & Maxar Technologies
 
 ---
 
-# Cartography in the Western Tradition
-
-* from cavalier view to scientific cartography
-
----
-
-# Other Cartographic Traditions
+# Alternative Cartographies
 
 ---
 
@@ -197,16 +191,6 @@ Imagery: Google Earth & Maxar Technologies
 {{< slide background-image="crown-prince-islands.jpg" >}}
 
 ---
-
-## []()
-###
-
----
-
-{{< slide background-image="" >}}
-
----
-
 
 ## Embodied Cartography
 
