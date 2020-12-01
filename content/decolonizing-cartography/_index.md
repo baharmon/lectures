@@ -249,3 +249,4 @@ Media: wood
 * Busquets et al., *Urban Grids: Handbook for Regular City Design*, 2020
 * Marinella Pasquinucci, *[Centuriation and Roman Land Surveying (Republic Through Empire)](https://doi.org/10.1007/978-1-4419-0465-2_1443)*, 2014
 * Michele Fasolo, *[Practices and Techniques of Roman Centuriation](https://doi.org/10.1007/978-3-319-51726-1_3392-1)*, 2019
+* Andrew Sluyter, *[Death on the Middle Passage: A Cartographic Approach to the Atlantic Slave Trade](https://journals.openedition.org/slaveries/3358)*, 2020
