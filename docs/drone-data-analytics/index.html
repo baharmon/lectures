@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Drone Data Analytics</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="multispectral-drone-data-analytics">Multispectral Drone Data Analytics</h1>
+<p>Estimating the Carbon Stock of a Designed Meadow Through Time Series Analysis</p>
+<h2 id="brendan-harmonhttpsbaharmongithubio"><a href="https://baharmon.github.io/">Brendan Harmon</a></h2>
+<img height="50px" src="lsu-coad-logo.png">
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="drone-data-analytics-1.png">
+  
+</section>
+<!--
+## Research Questions
+
+see Sorenson et al.
+
+---
+
+-->
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="firefly-takeoff.jpg">
+  
+<h2 id="cajun-prairie-wildflower-meadow-surveys">Cajun Prairie Wildflower Meadow Surveys</h2>
+<h3 id="lsu-hilltop-arboretum">LSU Hilltop Arboretum</h3>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-wildflowers-3.jpg">
+  
+<h2 id="coastal-tallgrass-prairie-ecosystem">Coastal Tallgrass Prairie Ecosystem</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="firefly.jpg">
+  
+<h2 id="drone-with-multispectral-sensor">Drone with Multispectral Sensor</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ground-control-station.jpg">
+  
+<h2 id="ground-control-station">Ground Control Station</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="gcp.jpg">
+  
+<h2 id="ground-control-points">Ground Control Points</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="quadrat-1.jpg">
+  
+<h2 id="biomass-survey">Biomass Survey</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="soil-core.jpg">
+  
+<h2 id="soil-cores">Soil Cores</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="metashape.png">
+  
+<h2 id="photogrammetry-in-metashape">Photogrammetry in Metashape</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="grass-python-scripting.png">
+  
+<h2 id="time-series-analysis-in-grass-gis">Time Series Analysis in GRASS GIS</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="statistics-with-python.png">
+  
+<h2 id="data-science-with-python">Data Science with Python</h2>
+</section><section>
+<h1 id="multispectral-imagery-time-series">Multispectral Imagery Time Series</h1>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_03_19.png">
+  
+<h2 id="2020-03-19">2020-03-19</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_04_25.png">
+  
+<h2 id="2020-04-25">2020-04-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_06_01.png">
+  
+<h2 id="2020-06-01">2020-06-01</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_06_30.png">
+  
+<h2 id="2020-06-30">2020-06-30</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_08_03.png">
+  
+<h2 id="2020-08-03">2020-08-03</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_08_29.png">
+  
+<h2 id="2020-08-29">2020-08-29</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_09_27.png">
+  
+<h2 id="2020-09-27">2020-09-27</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_10_25.png">
+  
+<h2 id="2020-10-25">2020-10-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2021_01_24.png">
+  
+<h2 id="2021-01-24">2021-01-24</h2>
+</section><section>
+<h1 id="volume-time-series">Volume Time Series</h1>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_03_19.png">
+  
+<h2 id="2020-03-19-1">2020-03-19</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_04_25.png">
+  
+<h2 id="2020-04-25-1">2020-04-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_06_01.png">
+  
+<h2 id="2020-06-01-1">2020-06-01</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_06_30.png">
+  
+<h2 id="2020-06-30-1">2020-06-30</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_08_03.png">
+  
+<h2 id="2020-08-03-1">2020-08-03</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_08_29.png">
+  
+<h2 id="2020-08-29-1">2020-08-29</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_09_27.png">
+  
+<h2 id="2020-09-27-1">2020-09-27</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2020_10_25.png">
+  
+<h2 id="2020-10-25-1">2020-10-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="volume_2021_01_24.png">
+  
+<h2 id="2021-01-24-1">2021-01-24</h2>
+</section><section>
+<h1 id="annual-statistics">Annual Statistics</h1>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="maximum_volume_2020.png">
+  
+<h2 id="maximum-volume-2020">Maximum Volume 2020</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="biomass_2020.png">
+  
+<h2 id="biomass-2020">Biomass 2020</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="carbon_2020.png">
+  
+<h2 id="carbon-2020">Carbon 2020</h2>
+</section><section>
+<h2 id="volume-2020-2021">Volume 2020-2021</h2>
+<p><img src="volume-plot-2020.png" alt="Volume Plot 2020-2021"></p>
+</section><section>
+<h2 id="maximum-volume-2020-1">Maximum Volume 2020</h2>
+<ul>
+<li>4033 $m^3$</li>
+</ul>
+</section><section>
+<h2 id="biomass-2020-----add-equation---">Biomass 2020  <!-- add equation --></h2>
+<ul>
+<li>Biomass: 15 $kgm^{-2}$</li>
+<li>Total biomass: 69619 $kg$</li>
+</ul>
+</section><section>
+<h2 id="carbon-2020-----add-equation---">Carbon 2020  <!-- add equation --></h2>
+<ul>
+<li>Above-ground carbon stock: 2900 $kgC$</li>
+<li>Below-ground carbon stock: 29820 $kgC$ <!-- soil organic carbon --></li>
+<li>Carbon stock: 32721 $kgC$</li>
+<li>Carbon pool: 7047 $gCm^{-2}$</li>
+</ul>
+</section><section>
+<h1 id="research-questions">Research Questions</h1>
+<ul>
+<li>How can these analytics inform the planting and management of the meadow?</li>
+<li>What is the carbon pool of the meadow?</li>
+<li>How much will the carbon pool will increase as the meadow matures?</li>
+<li>Can designed meadows be effective stores of carbon?</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="matrice.jpg">
+  
+<h1 id="future-work">Future Work</h1>
+<ul>
+<li>5 years of drone surveys</li>
+<li>New drone</li>
+<li>New sensors</li>
+<li>New ground control points</li>
+<li>Maps for planting and management</li>
+</ul>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>

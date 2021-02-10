@@ -12,3 +12,4 @@ outputs = ["Reveal"]
 * [<i class="ms ms-action-camera"></i>](https://youtu.be/_cqwgFKCRyU) | [<i class="ms ms-txt"></i> Generative Design](/lectures/generative-design/)
 * [<i class="ms ms-txt"></i> Research 2020](/lectures/research-2020/)
 * [<i class="ms ms-txt"></i> Technology](/lectures/technology/)
+* [<i class="ms ms-txt"></i> Drone Data Analytics](/lectures/drone-data-analytics/)

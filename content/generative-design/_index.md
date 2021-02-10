@@ -337,3 +337,10 @@ the mass customization of the environment.
 * [ETHZ dfab](https://dfab.ch/)
 * [ETHZ Landscape Architecture](https://girot.arch.ethz.ch/)
 * [Benedikt Groß](http://benedikt-gross.de/)
+
+<!--
+GGN, City Center DC
+https://www.ggnltd.com/citycenterdc
+Land Collective, Pennovation Works at The University of Pennsylvania
+https://land-collective.com/projects/the-university-of-pennsylvania-pennovation-works/
+-->
