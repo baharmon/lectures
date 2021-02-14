@@ -19,7 +19,8 @@
   
 
     <section><h1 id="multispectral-drone-data-analytics">Multispectral Drone Data Analytics</h1>
-<p>Estimating the Carbon Stock of a Designed Meadow Through Time Series Analysis</p>
+<p>Estimating the Carbon Stock of a Designed Meadow<br>
+Through Time Series Analysis</p>
 <h2 id="brendan-harmonhttpsbaharmongithubio"><a href="https://baharmon.github.io/">Brendan Harmon</a></h2>
 <img height="50px" src="lsu-coad-logo.png">
 </section>
@@ -28,20 +29,20 @@
       data-background-image="drone-data-analytics-1.png">
   
 </section>
-<!--
-## Research Questions
-
-see Sorenson et al.
-
----
-
--->
 
 <section data-noprocess data-shortcode-slide
       data-background-image="firefly-takeoff.jpg">
   
 <h2 id="cajun-prairie-wildflower-meadow-surveys">Cajun Prairie Wildflower Meadow Surveys</h2>
 <h3 id="lsu-hilltop-arboretum">LSU Hilltop Arboretum</h3>
+</section><section>
+<h1 id="research-questions">Research Questions</h1>
+<ul>
+<li>What is the carbon pool of the meadow?</li>
+<li>How will the carbon pool change as the meadow matures?</li>
+<li>Can designed meadows be effective stores of carbon?</li>
+<li>How can drone data analytics inform management?</li>
+</ul>
 </section>
 
 <section data-noprocess data-shortcode-slide
@@ -154,6 +155,14 @@ see Sorenson et al.
 <h2 id="2021-01-24">2021-01-24</h2>
 </section><section>
 <h1 id="volume-time-series">Volume Time Series</h1>
+<h2 id="-v--x-y-z---z_0-">$$ V = x y (z - z_0) $$</h2>
+<ul>
+<li>$V$ = volume $(m^3)$</li>
+<li>$x$ = east-west resolution $(m)$</li>
+<li>$y$ = north-south resolution $(m)$</li>
+<li>$z$ = elevation $(m)$</li>
+<li>$z_0$ = bare ground elevation $(m)$</li>
+</ul>
 </section>
 
 <section data-noprocess data-shortcode-slide
@@ -216,12 +225,33 @@ see Sorenson et al.
       data-background-image="maximum_volume_2020.png">
   
 <h2 id="maximum-volume-2020">Maximum Volume 2020</h2>
+</section><section>
+<h2 id="biomass">Biomass</h2>
+<h3 id="-b--fracv-rho_s--v-rho_rx-y-">$$ B = \frac{V \rho_s + V \rho_r}{x y} $$</h3>
+<ul>
+<li>$B$ = biomass density $(kg / m^{2})$</li>
+<li>$V$ = volume $(m^3)$</li>
+<li>$\rho_s$ = shoot bulk density $(kg / m^{3})$</li>
+<li>$\rho_r$ = root bulk density $(kg / m^{3})$</li>
+<li>$x$ = east-west resolution $(m)$</li>
+<li>$y$ = north-south resolution $(m)$</li>
+</ul>
 </section>
 
 <section data-noprocess data-shortcode-slide
       data-background-image="biomass_2020.png">
   
 <h2 id="biomass-2020">Biomass 2020</h2>
+</section><section>
+<h2 id="carbon">Carbon</h2>
+<h3 id="-c--b-c_f--x-y-">$$ C = B C_f  x y $$</h3>
+<ul>
+<li>$C$ = carbon $(kg C)$</li>
+<li>$B$ = biomass density $(kg / m^{2})$</li>
+<li>$Cf$ = carbon fraction $(C$%$)$</li>
+<li>$x$ = east-west resolution $(m)$</li>
+<li>$y$ = north-south resolution $(m)$</li>
+</ul>
 </section>
 
 <section data-noprocess data-shortcode-slide
@@ -234,29 +264,21 @@ see Sorenson et al.
 </section><section>
 <h2 id="maximum-volume-2020-1">Maximum Volume 2020</h2>
 <ul>
-<li>4033 $m^3$</li>
+<li>Maximum volume: 4,033 $m^3$</li>
 </ul>
 </section><section>
 <h2 id="biomass-2020-----add-equation---">Biomass 2020  <!-- add equation --></h2>
 <ul>
-<li>Biomass: 15 $kgm^{-2}$</li>
-<li>Total biomass: 69619 $kg$</li>
+<li>Biomass density: 15 $kg/m^{2}$</li>
+<li>Total biomass: 69,619 $kg$</li>
 </ul>
 </section><section>
 <h2 id="carbon-2020-----add-equation---">Carbon 2020  <!-- add equation --></h2>
 <ul>
-<li>Above-ground carbon stock: 2900 $kgC$</li>
-<li>Below-ground carbon stock: 29820 $kgC$ <!-- soil organic carbon --></li>
-<li>Carbon stock: 32721 $kgC$</li>
-<li>Carbon pool: 7047 $gCm^{-2}$</li>
-</ul>
-</section><section>
-<h1 id="research-questions">Research Questions</h1>
-<ul>
-<li>How can these analytics inform the planting and management of the meadow?</li>
-<li>What is the carbon pool of the meadow?</li>
-<li>How much will the carbon pool will increase as the meadow matures?</li>
-<li>Can designed meadows be effective stores of carbon?</li>
+<li>Aboveground carbon stock: 2,900 $kgC$</li>
+<li>Belowground carbon stock: 29,820 $kgC$ <!-- soil organic carbon --></li>
+<li>Carbon stock: 32,721 $kgC$</li>
+<li>Carbon pool: 7,047 $gC/m^{2}$</li>
 </ul>
 </section>
 
@@ -266,10 +288,11 @@ see Sorenson et al.
 <h1 id="future-work">Future Work</h1>
 <ul>
 <li>5 years of drone surveys</li>
+<li>Maps for seeding &amp; management</li>
+<li>Analysis of rainfall &amp; temperature</li>
+<li>New ground control points</li>
 <li>New drone</li>
 <li>New sensors</li>
-<li>New ground control points</li>
-<li>Maps for planting and management</li>
 </ul>
 </section>
 

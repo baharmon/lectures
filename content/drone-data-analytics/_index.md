@@ -4,7 +4,8 @@ outputs = ["Reveal"]
 +++
 
 # Multispectral Drone Data Analytics
-Estimating the Carbon Stock of a Designed Meadow Through Time Series Analysis
+Estimating the Carbon Stock of a Designed Meadow \
+Through Time Series Analysis
 
 ## [Brendan Harmon](https://baharmon.github.io/)
 
@@ -16,18 +17,17 @@ Estimating the Carbon Stock of a Designed Meadow Through Time Series Analysis
 
 ---
 
-<!--
-## Research Questions
-
-see Sorenson et al.
-
----
-
--->
-
 {{< slide background-image="firefly-takeoff.jpg" >}}
 ## Cajun Prairie Wildflower Meadow Surveys
 ### LSU Hilltop Arboretum
+
+---
+
+# Research Questions
+* What is the carbon pool of the meadow?
+* How will the carbon pool change as the meadow matures?
+* Can designed meadows be effective stores of carbon?
+* How can drone data analytics inform management?
 
 ---
 
@@ -127,6 +127,15 @@ see Sorenson et al.
 
 # Volume Time Series
 
+## $$ V = x y (z - z_0) $$
+
+* $V$ = volume $(m^3)$
+* $x$ = east-west resolution $(m)$
+* $y$ = north-south resolution $(m)$
+* $z$ = elevation $(m)$
+* $z_0$ = bare ground elevation $(m)$
+
+
 ---
 
 {{< slide background-image="volume_2020_03_19.png" >}}
@@ -183,8 +192,33 @@ see Sorenson et al.
 
 ---
 
+## Biomass
+
+### $$ B = \frac{V \rho_s + V \rho_r}{x y} $$
+
+* $B$ = biomass density $(kg / m^{2})$
+* $V$ = volume $(m^3)$
+* $\rho_s$ = shoot bulk density $(kg / m^{3})$
+* $\rho_r$ = root bulk density $(kg / m^{3})$
+* $x$ = east-west resolution $(m)$
+* $y$ = north-south resolution $(m)$
+
+---
+
 {{< slide background-image="biomass_2020.png" >}}
 ## Biomass 2020
+
+---
+
+## Carbon
+
+### $$ C = B C_f  x y $$
+
+* $C$ = carbon $(kg C)$
+* $B$ = biomass density $(kg / m^{2})$
+* $Cf$ = carbon fraction $(C$\%$)$
+* $x$ = east-west resolution $(m)$
+* $y$ = north-south resolution $(m)$
 
 ---
 
@@ -199,29 +233,21 @@ see Sorenson et al.
 ---
 
 ## Maximum Volume 2020
-* 4033 $m^3$
+* Maximum volume: 4,033 $m^3$
 
 ---
 
 ## Biomass 2020  <!-- add equation -->
-* Biomass: 15 $kgm^{-2}$
-* Total biomass: 69619 $kg$
+* Biomass density: 15 $kg/m^{2}$
+* Total biomass: 69,619 $kg$
 
 ---
 
 ## Carbon 2020  <!-- add equation -->
-* Above-ground carbon stock: 2900 $kgC$
-* Below-ground carbon stock: 29820 $kgC$ <!-- soil organic carbon -->
-* Carbon stock: 32721 $kgC$
-* Carbon pool: 7047 $gCm^{-2}$
-
----
-
-# Research Questions
-* How can these analytics inform the planting and management of the meadow?
-* What is the carbon pool of the meadow?
-* How much will the carbon pool will increase as the meadow matures?
-* Can designed meadows be effective stores of carbon?
+* Aboveground carbon stock: 2,900 $kgC$
+* Belowground carbon stock: 29,820 $kgC$ <!-- soil organic carbon -->
+* Carbon stock: 32,721 $kgC$
+* Carbon pool: 7,047 $gC/m^{2}$
 
 ---
 
@@ -229,7 +255,8 @@ see Sorenson et al.
 
 # Future Work
 * 5 years of drone surveys
+* Maps for seeding & management
+* Analysis of rainfall & temperature
+* New ground control points
 * New drone
 * New sensors
-* New ground control points
-* Maps for planting and management
