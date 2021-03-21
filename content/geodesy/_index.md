@@ -108,6 +108,18 @@ A map projection transforms a globe into a planar map that can be measured.
 
 ---
 
+{{< slide background-image="gott-azimuthal-equidistant.jpg" >}}
+
+# Two-sided Azimuthal Polar Projections
+Gott, Goldberg, & Vanderbei, 2021.
+[Flat Maps that improve on the Winkel Tripel](https://arxiv.org/abs/2102.08176v1).
+
+---
+
+{{< slide background-iframe="https://player.vimeo.com/video/509019414" >}}
+
+---
+
 # Universal Transverse Mercator
 
 The Universal Transverse Mercator (UTM)
@@ -166,6 +178,7 @@ To reduce distortion, many states have multiple zones.
 * [Cameron Beccario](https://earth.nullschool.net/)
 * [XKCD](https://xkcd.com/)
 * [Jason Davies](https://www.jasondavies.com/)
+* [Gott, Goldberg, & Vanderbei](https://arxiv.org/abs/2102.08176v1)
 * [NGA Office of Geomatics](https://earth-info.nga.mil/GandG/update/index.php)
 * [National Geodetic Survey](https://www.ngs.noaa.gov/SPCS/index.shtml)
 * [Natural Earth Data](https://www.naturalearthdata.com/)

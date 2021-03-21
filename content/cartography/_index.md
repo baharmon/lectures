@@ -362,6 +362,15 @@ Situationist International
 
 ---
 
+## [An Ocean of Books](https://experiments.withgoogle.com/ocean-of-books)
+### [Gael Hugo](http://onemorestud.io/)
+
+---
+
+{{< slide background-iframe="https://artsexperiments.withgoogle.com/ocean-of-books?latitude=-43.2000&longitude=-2.5000&zoom=4.40" >}}
+
+---
+
 # Phenomenological Maps
 
 ---
@@ -390,6 +399,15 @@ Situationist International
 ---
 
 {{< slide background-iframe="http://roberthodgin.com/project/meander" >}}
+
+---
+
+## [Land Lines](https://lines.chromeexperiments.com/)
+### [Zach Lieberman](http://zach.li/) & [Google Data Arts Team](https://experiments.withgoogle.com/)
+
+---
+
+{{< slide background-iframe="https://lines.chromeexperiments.com/" >}}
 
 ---
 
@@ -429,18 +447,14 @@ Situationist International
 * [Observatory for Economic Complexity](https://oec.world/)
 * [City Lab](https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/?srnd=citylab-maplab)
 * [ETHZ Landscape Architecture](https://girot.arch.ethz.ch/), [Draw a map to get lost](https://girot.arch.ethz.ch/events-conferences/fs2020-topology-draw-a-map-to-get-lost-2)
+
+---
+
 * [Asger Jorn, Mémoires](https://www.metmuseum.org/art/collection/search/727492)
+* [Gael Hugo, An Ocean of Books](https://experiments.withgoogle.com/ocean-of-books)
 * [Kate Mclean, Sensory Maps](https://sensorymaps.com/)
 * [Robert Thodgin](http://roberthodgin.com/project/meander)
+* [Zach Lieberman](http://zach.li/)
+* [Google Data Arts Team](https://experiments.withgoogle.com/)
 * [Color Brewer](http://colorbrewer2.org/)
 * [IWantHue](http://tools.medialab.sciences-po.fr/iwanthue/)
-
-<!--
-ADD:
-Zach Lieberman & Google Data Arts Team, Land Lines
-https://www.awwwards.com/sites/land-lines
-
-https://phys.org/news/2021-02-astrophysicists-re-imagine-world-distorted-radically.html
-
-https://www.astro.princeton.edu/universe/
--->
