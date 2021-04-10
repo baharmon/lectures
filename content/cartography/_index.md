@@ -113,6 +113,19 @@ Try making your own at https://trends.google.com/
 
 ---
 
+## [New Politics of Care](http://newpoliticsofcare.net/)
+### [Columbia Center for Spatial Research](https://c4sr.columbia.edu/)
+
+---
+
+{{< slide background-iframe="http://newpoliticsofcare.net/vulnerabilities.html" >}}
+
+---
+
+{{< slide background-iframe="http://newpoliticsofcare.net/vaccine.html" >}}
+
+---
+
 # Chorological Maps
 
 ---
@@ -429,6 +442,7 @@ Situationist International
 * [Racial Dot Map](https://demographics.virginia.edu/DotMap/)
 * [Atlas of Inequality](https://inequality.media.mit.edu/)
 * [Kieran Healy](https://kieranhealy.org/), [2012 US Election Results](http://vissoc.co/maps.html#maps)
+* [Columbia Center for Spatial Research](https://c4sr.columbia.edu/), [New Politics of Care](http://newpoliticsofcare.net/)
 * [European Atlas of Forest Tree Species](https://forest.jrc.ec.europa.eu/en/european-atlas/)
 * [Library of Congress](https://www.loc.gov/item/99463789/)
 * [Atlas for the New Green Deal](https://mcharg.upenn.edu/2100-project-atlas-green-new-deal)

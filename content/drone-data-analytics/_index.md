@@ -32,8 +32,8 @@ Through Time Series Analysis
 ---
 
 {{< slide background-image="hilltop-wildflowers-3.jpg" >}}
-
 ## Coastal Tallgrass Prairie Ecosystem
+
 ---
 
 {{< slide background-image="firefly.jpg" >}}

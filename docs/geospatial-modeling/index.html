@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Geospatial Modeling</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    
+<section data-noprocess data-shortcode-slide
+      data-background-image="manhattan.png">
+  
+<h1 id="geospatial-modeling">Geospatial Modeling</h1>
+<p>Brendan Harmon</p>
+<img height="50px" src="lsu-coad-logo.png">
+</section><section>
+<h1 id="paradigms-of-science">Paradigms of Science</h1>
+<ul>
+<li>Empirical</li>
+<li>Theoretical</li>
+<li>Computational</li>
+<li>Data</li>
+</ul>
+</section><section>
+<h1 id="geospatial-modeling--analysis">Geospatial Modeling &amp; Analysis</h1>
+<ul>
+<li>Geomorphometry</li>
+<li>Ecology</li>
+<li>Etc&hellip;</li>
+</ul>
+</section><section>
+<h1 id="geospatial-simulation">Geospatial Simulation</h1>
+<ul>
+<li>Urbanization</li>
+<li>Hydrology</li>
+<li>Ecological corridors</li>
+<li>Etc&hellip;</li>
+</ul>
+</section><section>
+<h1 id="geomorphometry">Geomorphometry</h1>
+<p>Quantitative analysis of the earth&rsquo;s surface</p>
+</section><section>
+<h2 id="lidar">Lidar</h2>
+<p><strong>Location:</strong> New Orleans, Louisiana</p>
+<p><strong>Dataset:</strong> <a href="https://coast.noaa.gov/htdata/lidar2_z/geoid12b/data/6350/">U.S. Army Corps of Engineers 2012 Lidar Survey of New Orleans</a></p>
+<p><strong>Software:</strong> GRASS GIS, Rhino, RhinoTerrain, &amp; Thea Render</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="new-orleans.png">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="https://sketchfab.com/models/beafaa4e67874401a20e6a9356764702/embed?autostart=1&amp;amp;ui_controls=1&amp;amp;ui_infos=1&amp;amp;ui_inspector=1&amp;amp;ui_stop=1&amp;amp;ui_watermark=1&amp;amp;ui_watermark_link=1">
+  
+</section><section>
+<h2 id="laser-scanning">Laser Scanning</h2>
+<p><strong>Location:</strong> <a href="https://skfb.ly/6VW7w">LSU Art &amp; Design Quad</a>, Baton Rouge, LA</p>
+<p><strong>Author:</strong> <a href="https://baharmon.github.io/">Brendan Harmon</a> et al.</p>
+<p><strong>System:</strong> Faro Focus Laser Scanner</p>
+<p><strong>Software:</strong> CloudCompare</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="https://sketchfab.com/models/18e50ba68fc647fea58134bdff26c19a/embed?autostart=1&amp;amp;ui_controls=1&amp;amp;ui_infos=1&amp;amp;ui_inspector=1&amp;amp;ui_stop=1&amp;amp;ui_watermark=1&amp;amp;ui_watermark_link=1">
+  
+</section><section>
+<h2 id="drone-photogrammetry">Drone Photogrammetry</h2>
+<p><strong>Location:</strong> Lake Wheeler, Raleigh, NC</p>
+<p><strong>Author:</strong> Justyna Jeziorska, <a href="https://geospatial.ncsu.edu/geoforall/">NCSU GeoForAll Lab</a></p>
+<p><strong>System:</strong> UX5 Drone</p>
+<p><strong>Software:</strong> Metashape</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="https://sketchfab.com/models/75a5bbc788304607ab25c368e5a6f2ec/embed?autostart=1">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="elevation.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="digital-elevation-model">Digital Elevation Model</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="slope.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="slope">Slope</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="geomorphons-legend.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="geomorphonshttpsdoiorg101016jgeomorph201211005"><a href="https://doi.org/10.1016/j.geomorph.2012.11.005"><strong>Geomorphons</strong></a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="geomorphons.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="geomorphons">Geomorphons</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ridges.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="geomorphons-ridges">Geomorphons: Ridges</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="convergence.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="topographic-convergence">Topographic Convergence</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ridgelines.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+<h2 id="topographic-convergence-ridges">Topographic Convergence: Ridges</h2>
+</section><section>
+<h1 id="ecological-analytics">Ecological Analytics</h1>
+</section><section>
+<h2 id="multispectral-drone-photogrammetry">Multispectral Drone Photogrammetry</h2>
+<p><strong>Location:</strong> Hilltop Arboretum, Baton Rouge, LA</p>
+<p><strong>Author:</strong> Brendan Harmon</p>
+<p><strong>System:</strong> FireFLY Pro with Micasense RedEdge</p>
+<p><strong>Software:</strong> Metashape, GRASS GIS, Python</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-wildflowers.jpg">
+  
+<h2 id="coastal-tallgrass-prairie-ecosystem">Coastal Tallgrass Prairie Ecosystem</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="firefly-takeoff.jpg">
+  
+<h2 id="aerial-survey">Aerial Survey</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="drone-data-analytics.png">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-point-cloud.jpg">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_03_19.png">
+  
+<h2 id="2020-03-19">2020-03-19</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_04_25.png">
+  
+<h2 id="2020-04-25">2020-04-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_06_01.png">
+  
+<h2 id="2020-06-01">2020-06-01</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_06_30.png">
+  
+<h2 id="2020-06-30">2020-06-30</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_08_03.png">
+  
+<h2 id="2020-08-03">2020-08-03</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_08_29.png">
+  
+<h2 id="2020-08-29">2020-08-29</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_09_27.png">
+  
+<h2 id="2020-09-27">2020-09-27</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2020_10_25.png">
+  
+<h2 id="2020-10-25">2020-10-25</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="multispectral_2021_01_24.png">
+  
+<h2 id="2021-01-24">2021-01-24</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="biomass-2020.png">
+  
+<h2 id="biomass-2020">Biomass 2020</h2>
+</section><section>
+<h2 id="volume-2020-2021">Volume 2020-2021</h2>
+<p><img src="volume-plot-2020.png" alt="Volume Plot 2020-2021"></p>
+</section><section>
+<h2 id="carbon-2020">Carbon 2020</h2>
+<ul>
+<li>Aboveground carbon stock: 2,900 $kgC$</li>
+<li>Belowground carbon stock: 29,820 $kgC$</li>
+<li>Carbon stock: 32,721 $kgC$</li>
+<li>Carbon pool: 7,047 $gC/m^{2}$</li>
+</ul>
+</section><section>
+<h2 id="research-questions">Research Questions</h2>
+<ul>
+<li>What is the carbon pool of the meadow?</li>
+<li>How will the carbon pool change as the meadow matures?</li>
+<li>Can designed meadows be effective stores of carbon?</li>
+<li>How can drone data analytics inform management?</li>
+</ul>
+</section><section>
+<h1 id="urban-growth-simulation">Urban Growth Simulation</h1>
+</section><section>
+<h2 id="futureshttpscnrncsuedugeospatialresearchfutures"><a href="https://cnr.ncsu.edu/geospatial/research/futures/">FUTURES</a></h2>
+<img height="50px" src="ncsu-logo.png">
+<img height="50px" src="ncsu-cga-logo.png">
+<p>The <strong><a href="https://cnr.ncsu.edu/geospatial/research/futures/">FUTure Urban-Regional Environment Simulation (FUTURES)</a></strong>
+is regional scale model for simulating the conversion of rural to urban land
+based on a potential submodel, per capita demand submodel,
+and a patch growing algorithm.</p>
+</section><section>
+<h2 id="futures">FUTURES</h2>
+<table>
+<thead>
+<tr>
+<th>Submodel</th>
+<th>Predictors</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Development pressure</td>
+<td>Protected areas</td>
+</tr>
+<tr>
+<td></td>
+<td>Slope</td>
+</tr>
+<tr>
+<td></td>
+<td>Roads</td>
+</tr>
+<tr>
+<td></td>
+<td>Water</td>
+</tr>
+<tr>
+<td></td>
+<td>Forest</td>
+</tr>
+<tr>
+<td></td>
+<td>City center</td>
+</tr>
+<tr>
+<td>Demand</td>
+<td>Population statistics</td>
+</tr>
+<tr>
+<td>Patch growing algorithm</td>
+<td>Historic urbanization</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="futures-baseline.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="futures-sprawl.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="futures-infill.png"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="baseline-2017-2042.gif"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+</section><section>
+<h2 id="futures-1">FUTURES</h2>
+<ul>
+<li>Where is growth happening?</li>
+<li>Where is growth predicted?</li>
+<li>How should we rethink development?</li>
+</ul>
+</section><section>
+<h1 id="hydrological-simulation">Hydrological Simulation</h1>
+</section><section>
+<h2 id="simwehttpsgrassosgeoorggrass78manualsrsimwaterhtml"><a href="https://grass.osgeo.org/grass78/manuals/r.sim.water.html">SIMWE</a></h2>
+<p>The Simulation of Water Erosion <strong>(SIMWE)</strong>
+simulates shallow flows of water and sediment over landscapes.</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="discharge.gif">
+  
+<h2 id="shallow-water-flow-discharge">Shallow Water Flow Discharge</h2>
+<h2 id="m3s">$$(m^3/s)$$</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ndvi.png">
+  
+<h2 id="normalized-difference-vegetation-index-ndvi">Normalized Difference Vegetation Index (NDVI)</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="discharge-with-ndvi.png">
+  
+<h2 id="shallow-water-flow-discharge-with-landcover-from-ndvi">Shallow Water Flow Discharge with Landcover from NDVI</h2>
+<h2 id="m3s-1">$$(m^3/s)$$</h2>
+</section><section>
+<h1 id="ecological-corridor-simulation">Ecological Corridor Simulation</h1>
+</section><section>
+<h2 id="lscorridorshttpsgithubcomleeclabls_corridors"><a href="https://github.com/LEEClab/LS_CORRIDORS">LSCorridors</a></h2>
+<p><strong>Spatial Ecology and Conservation Lab (LEEC), Sao Paulo State University</strong></p>
+<p>LandScape Corridors (LSCorridors)
+simulates multiple functional ecological corridors
+based on species movement and landscape connectivity.
+<em><a href="https://doi.org/10.1111/2041-210X.12750">https://doi.org/10.1111/2041-210X.12750</a></em></p>
+</section><section>
+<h1 id="giant-panda-habitat-corridors">Giant Panda Habitat Corridors</h1>
+<p><strong>Location:</strong> Sichuan, China</p>
+<p><strong>Team:</strong> Andrew Wright, Tanvi Shah, &amp; Brendan Harmon</p>
+<p><strong>Software:</strong> GRASS GIS &amp; LSCorridors</p>
+<p><strong>Research Question:</strong> What land needs to be protected to ensure the long-term survival of Giant Pandas?</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="gpnp-1.jpg"
+      data-background-repeat="no-repeat"
+      data-background-size="contain">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="gpnp-2.jpg">
+  
+</section><section>
+<h1 id="software">Software</h1>
+<table>
+<thead>
+<tr>
+<th>Program</th>
+<th>Applications</th>
+<th>Open Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://qgis.org/">QGIS</a></td>
+<td>GIS</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><a href="https://grass.osgeo.org/">GRASS GIS</a></td>
+<td>GIS &amp; remote sensing</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><a href="http://www.saga-gis.org/">SAGA GIS</a></td>
+<td>GIS</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><a href="https://www.esri.com/">ArcGIS</a></td>
+<td>GIS</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://clarklabs.org/">TerrSet</a></td>
+<td>GIS &amp; remote sensing</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.hexagongeospatial.com/products/power-portfolio/erdas-imagine">ERDAS Imagine</a></td>
+<td>remote sensing</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.agisoft.com/">Metashape</a></td>
+<td>photogrammetry</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.pix4d.com/">Pix4D</a></td>
+<td>photogrammetry</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.google.com/earth/">Google Earth</a></td>
+<td>virtual globe</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://leafletjs.com/">Leaflet</a></td>
+<td>web mapping</td>
+<td>✔</td>
+</tr>
+<tr>
+<td><a href="mapbox.com">Mapbox</a></td>
+<td>web mapping</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section><section>
+<h1 id="generative-design">Generative Design</h1>
+<p>Integrate geospatial modeling into the design process with Grasshopper</p>
+<ul>
+<li>Terrain modeling &amp; grading with <a href="https://www.food4rhino.com/app/docofossor">Docofossor</a></li>
+<li>Terrain modeling with <a href="https://www.food4rhino.com/app/bison">Bison</a></li>
+<li>Terrain modeling with <a href="https://www.rhinoterrain.com/">RhinoTerrain</a></li>
+<li>Vector mapping with <a href="http://www.synthetic.space/synthetic/2443/">Mosquito</a></li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="docofossor.png">
+  
+<h2 id="docofossor">Docofossor</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="rhinoterrain.png">
+  
+<h2 id="rhinoterrain">RhinoTerrain</h2>
+</section><section>
+<h1 id="learn-more">Learn More</h1>
+<ul>
+<li><a href="https://ncsu-geoforall-lab.github.io/geospatial-modeling-course/"><strong>Geospatial Modeling and Analysis</strong></a>, Helena Mitasova, NCSU</li>
+<li><a href="https://baharmon.github.io/gis-for-designers"><strong>GIS for Designers</strong></a>, Brendan Harmon, LSU</li>
+<li><a href="https://www.youtube.com/c/HansvanderKwast/"><strong>QGIS for Hydrological Applications</strong></a>, Hans van der Kwast, IHE Delft</li>
+</ul>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>
