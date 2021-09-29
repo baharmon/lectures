@@ -14,3 +14,4 @@ outputs = ["Reveal"]
 * [<i class="ms ms-txt"></i> Technology](/lectures/technology/)
 * [<i class="ms ms-txt"></i> Drone Data Analytics](/lectures/drone-data-analytics/)
 * [<i class="ms ms-txt"></i> Geospatial Modeling](/lectures/geospatial-modeling/)
+* [<i class="ms ms-txt"></i> Rosedown](/lectures/rosedown/)
