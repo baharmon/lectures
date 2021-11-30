@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Point Clouds</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    
+<section data-noprocess data-shortcode-slide
+      data-background-image="landscape.jpg">
+  
+<h1 id="point-clouds">Point Clouds</h1>
+<h2 id="brendan-harmon">Brendan Harmon</h2>
+<img height="50px" src="lsu-coad-logo.png">
+</section><section>
+<h1 id="point-clouds-1">Point Clouds</h1>
+<p>Sets of x, y, and z coordinates</p>
+</section><section>
+<h2 id="point-cloud-data-structure">Point Cloud Data Structure</h2>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>Y</th>
+<th>Z</th>
+<th>R</th>
+<th>G</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-1.38539982</td>
+<td>-2.95930004</td>
+<td>-8.80980003</td>
+<td>53</td>
+<td>41</td>
+<td>45</td>
+</tr>
+<tr>
+<td>-1.08609962</td>
+<td>-2.85930014</td>
+<td>-8.68869996</td>
+<td>74</td>
+<td>45</td>
+<td>40</td>
+</tr>
+<tr>
+<td>-1.30480003</td>
+<td>-2.65850019</td>
+<td>-8.70860004</td>
+<td>16</td>
+<td>8</td>
+<td>7</td>
+</tr>
+<tr>
+<td>-0.80039978</td>
+<td>-2.58699989</td>
+<td>-8.75689995</td>
+<td>161</td>
+<td>133</td>
+<td>126</td>
+</tr>
+<tr>
+<td>-0.82590008</td>
+<td>-2.53049994</td>
+<td>-8.19280005</td>
+<td>151</td>
+<td>137</td>
+<td>136</td>
+</tr>
+<tr>
+<td>-0.35680008</td>
+<td>-2.37580013</td>
+<td>-8.59280002</td>
+<td>18</td>
+<td>17</td>
+<td>18</td>
+</tr>
+<tr>
+<td>-0.35239983</td>
+<td>-2.40630007</td>
+<td>-8.21350002</td>
+<td>123</td>
+<td>62</td>
+<td>48</td>
+</tr>
+<tr>
+<td>-0.69639969</td>
+<td>-2.26340008</td>
+<td>-8.67620003</td>
+<td>26</td>
+<td>24</td>
+<td>22</td>
+</tr>
+<tr>
+<td>-0.70779991</td>
+<td>-2.26650000</td>
+<td>-8.07910001</td>
+<td>49</td>
+<td>57</td>
+<td>69</td>
+</tr>
+<tr>
+<td>-0.20359993</td>
+<td>-2.04750013</td>
+<td>-8.65110004</td>
+<td>42</td>
+<td>41</td>
+<td>49</td>
+</tr>
+<tr>
+<td>0.29399967</td>
+<td>-1.95119953</td>
+<td>-8.60870004</td>
+<td>53</td>
+<td>65</td>
+<td>91</td>
+</tr>
+<tr>
+<td>0.37310028</td>
+<td>-1.43799973</td>
+<td>-8.64540005</td>
+<td>122</td>
+<td>89</td>
+<td>76</td>
+</tr>
+<tr>
+<td>-0.21290016</td>
+<td>-2.03420019</td>
+<td>-8.16050005</td>
+<td>19</td>
+<td>13</td>
+<td>11</td>
+</tr>
+<tr>
+<td>0.31190014</td>
+<td>-1.92490005</td>
+<td>-8.18309999</td>
+<td>89</td>
+<td>50</td>
+<td>37</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="laser-scanning.jpg">
+  
+<h2 id="laser-scanning">Laser Scanning</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="matrice-1.jpg">
+  
+<h2 id="drone-photogrammetry">Drone Photogrammetry</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="allee-1.png">
+  
+<h2 id="point-cloud-rendering">Point Cloud Rendering</h2>
+<h3 id="alléehttpxyzcctlsuedurosedowncourtyardhtml"><a href="http://xyz.cct.lsu.edu/rosedown/courtyard.html">Allée</a></h3>
+</section><section>
+<h2 id="applications">Applications</h2>
+<ul>
+<li>Map sites</li>
+<li>Document cultural heritage</li>
+<li>Study landscape dynamics</li>
+<li>Creatively model designs</li>
+</ul>
+</section><section>
+<h2 id="documenting-cultural-landscapes">Documenting Cultural Landscapes</h2>
+<h3 id="gotthard-landscapehttpsgirotarchethzchresearchgotthard-landscape-the-unexpected-view"><a href="https://girot.arch.ethz.ch/research/gotthard-landscape-the-unexpected-view">Gotthard Landscape</a></h3>
+<p><a href="https://girot.arch.ethz.ch/">ETHZ Landscape Architecture</a></p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="https://girot.arch.ethz.ch/research/gotthard-landscape-the-unexpected-view">
+  
+</section><section>
+<h2 id="digital-modeling">Digital Modeling</h2>
+<h3 id="decomposing-röntgenplatzhttpsgirotarchethzchcourseselective-courseselective-course-hs2015-decomposing-rontgenplatz"><a href="https://girot.arch.ethz.ch/courses/elective-courses/elective-course-hs2015-decomposing-rontgenplatz">Decomposing Röntgenplatz</a></h3>
+<p><a href="https://girot.arch.ethz.ch/">ETHZ Landscape Architecture</a></p>
+<ul>
+<li><strong>Software:</strong> Cinema 4D with Krakatoa plug-in</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="https://girot.arch.ethz.ch/courses/elective-courses/elective-course-hs2015-decomposing-rontgenplatz">
+  
+</section><section>
+<h2 id="cloudism">Cloudism</h2>
+<blockquote>
+<p>Designers adopting cloudism will step into
+an overwhelmingly convincing simulacra of physical reality, space and time;
+this will enhance their understanding of site,
+and yield a stronger awareness of ambient aspects and cues.</p>
+</blockquote>
+<p><a href="https://doi.org/10.1515/9783035622164-013">Girot 2019</a></p>
+</section><section>
+<h2 id="medium">Medium</h2>
+<ul>
+<li><strong>Point Clouds:</strong> Algorithmically mediated, indexical encodings
+of space and color at a moment in time</li>
+</ul>
+</section><section>
+<h2 id="semiotics">Semiotics</h2>
+<ul>
+<li><strong>Iconic:</strong> Look like what they represent</li>
+<li><strong>Indexical:</strong> Physically and causally connected to what they represent</li>
+<li><strong>Symbolic:</strong> Encoded as data and rendered as signs given meaning by convention</li>
+</ul>
+</section><section>
+<h2 id="characteristics">Characteristics</h2>
+<ul>
+<li><strong>Algorithmic:</strong> Transcribed from photons into bits</li>
+<li><strong>Hyperreal:</strong> Displaces reality with authoritative data</li>
+<li><strong>Contingent Indices:</strong> Depend on what captured</li>
+<li><strong>Contingent Symbols:</strong> Depend on digital processing</li>
+<li><strong>Interactive:</strong> Not just an image, but rather data</li>
+<li><strong>Abstract:</strong> Pointillist in its incompleteness</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="landscape.jpg">
+  
+<h1 id="rosedown-plantation">Rosedown Plantation</h1>
+</section><section>
+<h1 id="rosedown-plantation-1">Rosedown Plantation</h1>
+<h3 id="lsu-landscape-architecture">LSU Landscape Architecture</h3>
+<p><a href="https://xyz.cct.lsu.edu/rosedown/">https://xyz.cct.lsu.edu/rosedown/</a></p>
+</section><section>
+<h2 id="drone-photogrammetry-1">Drone Photogrammetry</h2>
+<ul>
+<li><strong>Drone:</strong> <a href="https://www.dji.com/matrice600-pro">DJI Matrice 600 Pro</a></li>
+<li><strong>Sensor:</strong> <a href="https://www.dji.com/zenmuse-x5">Zenmuse X5</a></li>
+<li><strong>RTK GNSS:</strong> <a href="https://emlid.com/reachrs/">Emlid Reach RS+</a></li>
+<li><strong>Photogrammetry:</strong> <a href="https://www.agisoft.com/">Agisoft Metashape</a></li>
+<li><strong>Point Cloud Processing:</strong> <a href="https://www.danielgm.net/cc/">CloudCompare</a></li>
+<li><strong>Visualization:</strong> <a href="https://github.com/potree/potree/">Potree</a></li>
+</ul>
+</section><section>
+<h2 id="laser-scanning-1">Laser Scanning</h2>
+<ul>
+<li><strong>Scanner:</strong> <a href="https://www.faro.com/en/Products/Hardware/Focus-Laser-Scanners">Faro Focus 3D X330 HDR</a></li>
+<li><strong>Tripod:</strong> <a href="https://www.surveying.com/product/heavy-duty-extra-tall-elevator-tripod/">Seco giant elevating tripod</a></li>
+<li><strong>Point Cloud Registration:</strong> <a href="https://www.faro.com/en/Products/Software/SCENE-Software">Faro Scene</a></li>
+<li><strong>Point Cloud Processing:</strong> <a href="https://www.danielgm.net/cc/">CloudCompare</a></li>
+<li><strong>Visualization:</strong> <a href="https://github.com/potree/potree/">Potree</a></li>
+</ul>
+</section><section>
+<h2 id="scans">Scans</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Feature</th>
+<th>Scans</th>
+<th>Resolution</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Matrice</td>
+<td>Landscape</td>
+<td>1</td>
+<td>2cm</td>
+<td>360,445,708</td>
+</tr>
+<tr>
+<td>Faro Focus</td>
+<td>Interior</td>
+<td>94</td>
+<td>1/16</td>
+<td>771,951,841</td>
+</tr>
+<tr>
+<td></td>
+<td>Dining Room</td>
+<td>7</td>
+<td>1/4</td>
+<td>268,464,534</td>
+</tr>
+<tr>
+<td></td>
+<td>Façade</td>
+<td>27</td>
+<td>1/8</td>
+<td>55,847,608</td>
+</tr>
+<tr>
+<td></td>
+<td>Rockery</td>
+<td>26</td>
+<td>1/8</td>
+<td>47,414,057</td>
+</tr>
+<tr>
+<td></td>
+<td>Milk House</td>
+<td>12</td>
+<td>1/8</td>
+<td>58,657,059</td>
+</tr>
+<tr>
+<td>Both</td>
+<td>Gazebo</td>
+<td>1 + 6</td>
+<td>1/8</td>
+<td>41,176,644</td>
+</tr>
+<tr>
+<td></td>
+<td>Allée</td>
+<td>1 + 130</td>
+<td>1/8</td>
+<td>&gt; 1 billion</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="allee-2.png">
+  
+<h2 id="alléehttpxyzcctlsuedurosedownalleehtml"><a href="http://xyz.cct.lsu.edu/rosedown/allee.html">Allée</a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="rockery-1.jpg">
+  
+<h2 id="rockeryhttpxyzcctlsuedurosedownrockeryhtml"><a href="http://xyz.cct.lsu.edu/rosedown/rockery.html">Rockery</a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="dining-room-1.jpg">
+  
+<h2 id="dining-roomhttpxyzcctlsuedurosedowndining-roomhtml"><a href="http://xyz.cct.lsu.edu/rosedown/dining-room.html">Dining Room</a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="interior-12.jpg">
+  
+<h2 id="slave-staircasehttpxyzcctlsuedurosedowninteriorhtml"><a href="http://xyz.cct.lsu.edu/rosedown/interior.html">Slave Staircase</a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="staircase-section-5.png">
+  
+<h2 id="interpretative-analysis">Interpretative Analysis</h2>
+</section><section>
+<h2 id="documentary">Documentary</h2>
+<ul>
+<li>Evocative</li>
+<li>Complexity</li>
+<li>Temporality</li>
+<li>Spatial narratives</li>
+<li>Emotional narratives</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-2020.png">
+  
+<h1 id="hilltop-arboretum">Hilltop Arboretum</h1>
+</section><section>
+<h1 id="hilltop-arboretum-1">Hilltop Arboretum</h1>
+<h3 id="lsu-landscape-architecture-1">LSU Landscape Architecture</h3>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-wildflowers-3.jpg">
+  
+<h2 id="meadow">Meadow</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="firefly-takeoff.jpg">
+  
+<h2 id="drone-time-series">Drone Time Series</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="drone-data-analytics-1.png">
+  
+<!--# Drone Data Analytics-->
+</section><section>
+<h2 id="technology">Technology</h2>
+<ul>
+<li><strong>Drone:</strong> <a href="https://www.birdseyeview.aero/">FireFLY 6 Pro</a></li>
+<li><strong>Sensor:</strong> <a href="https://micasense.com/">Micasense Rededge Multispectral Sensor</a></li>
+<li><strong>Photogrammetry:</strong> <a href="https://www.agisoft.com/">Agisoft Metashape</a></li>
+<li><strong>Geospatial Analysis:</strong> <a href="https://qgis.org/">QGIS</a> &amp; <a href="https://grass.osgeo.org/">GRASS</a></li>
+<li><strong>Programming:</strong> <a href="https://www.python.org/">Python</a></li>
+<li><strong>Visualization:</strong> <a href="https://github.com/potree/potree/">Potree</a></li>
+</ul>
+</section><section>
+<h2 id="fieldwork">Fieldwork</h2>
+<ul>
+<li>Ground control points</li>
+<li>Soil cores</li>
+<li>Biomass quadrats</li>
+</ul>
+</section><section>
+<h2 id="biomass">Biomass</h2>
+<h3 id="-b--fracv-rho_s--v-rho_rx-y-">$$ B = \frac{V \rho_s + V \rho_r}{x y} $$</h3>
+<ul>
+<li>$B$ = biomass density $(kg / m^{2})$</li>
+<li>$V$ = volume $(m^3)$</li>
+<li>$\rho_s$ = shoot bulk density $(kg / m^{3})$</li>
+<li>$\rho_r$ = root bulk density $(kg / m^{3})$</li>
+<li>$x$ = east-west resolution $(m)$</li>
+<li>$y$ = north-south resolution $(m)$</li>
+</ul>
+</section><section>
+<h2 id="carbon">Carbon</h2>
+<h3 id="-c--b-c_f--x-y-">$$ C = B C_f  x y $$</h3>
+<ul>
+<li>$C$ = carbon $(kg C)$</li>
+<li>$B$ = biomass density $(kg / m^{2})$</li>
+<li>$Cf$ = carbon fraction $(C$%$)$</li>
+<li>$x$ = east-west resolution $(m)$</li>
+<li>$y$ = north-south resolution $(m)$</li>
+</ul>
+</section><section>
+<h2 id="spatiotemporal-phenomena">Spatiotemporal Phenomena</h2>
+<ul>
+<li>Landscape structure</li>
+<li>Photosynthetic activity</li>
+<li>Growth and decay of biomass</li>
+<li>Carbon cycling</li>
+</ul>
+</section><section>
+<h2 id="landscape-structure">Landscape Structure</h2>
+<ul>
+<li>Indexicality and iconicity of photography</li>
+<li>Analytic quality of architectural drawings</li>
+<li>Depth and interactivity of 3-dimensional models</li>
+<li>Unique level of detail</li>
+</ul>
+</section><section>
+<h2 id="data-science">Data Science</h2>
+<ul>
+<li>Quantitative data as scatterplot</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-01-24.png">
+  
+<h2 id="january">January</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-06-01.png">
+  
+<h2 id="june">June</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-08-29.png">
+  
+<h2 id="august">August</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-biomass-2020.png">
+  
+<h2 id="peak-biomass">Peak Biomass</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-carbon-2020.png">
+  
+<h2 id="peak-carbon">Peak Carbon</h2>
+</section><section>
+<h2 id="plots">Plots</h2>
+<p><img src="volume-plot-2020.png" alt="Volume Plot 2020-2021"></p>
+</section><section>
+<h1 id="robotics">Robotics</h1>
+<img height="50px" src="lsu-coad-logo.png">
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="grasshopper-snowflake.jpg">
+  
+<h2 id="generative-design">Generative Design</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="3dp-ceramics-2.jpg">
+  
+<h2 id="ceramic-3d-printing">Ceramic 3D Printing</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="3dp-ceramics-3.jpg">
+  
+<h2 id="ceramic-3d-printing-1">Ceramic 3D Printing</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="robotic-inform-1.jpg">
+  
+<h2 id="robotic-3d-printing">Robotic 3D Printing</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="robotic-planting-1.jpg">
+  
+<h2 id="robotic-planting">Robotic Planting</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="3dp-planting.jpg">
+  
+<h2 id="robotic-planting-1">Robotic Planting</h2>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>
