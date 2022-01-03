@@ -5,11 +5,7 @@
     <link>https://baharmon.github.io/lectures/home/</link>
     <description>Recent content in Homes on Lectures</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://baharmon.github.io/lectures/home/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://baharmon.github.io/lectures/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>https://baharmon.github.io/lectures/home/body/</link>
