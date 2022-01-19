@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Landscape Rendering</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="landscape-rendering">Landscape Rendering</h1>
+<p>Brendan Harmon</p>
+<img height="50px" src="lsu-coad-logo.png">
+</section><section>
+<h1 id="techniques">Techniques</h1>
+<ul>
+<li>Drawing &amp; painting</li>
+<li>Photomontage</li>
+<li>3D modeling &amp; rendering</li>
+</ul>
+</section><section>
+<h1 id="drawing">Drawing</h1>
+</section><section>
+<h2 id="drawing-media">Drawing Media</h2>
+<ul>
+<li>Pencil</li>
+<li>Pen</li>
+<li>Charcoal</li>
+<li><a href="https://www.adobe.com/products/illustrator.html">Adobe Illustrator</a></li>
+<li><a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a></li>
+<li><a href="https://inkscape.org/">Inkscape</a></li>
+<li>Etc.</li>
+</ul>
+<!-- Conté, wax, silverpoint, ink brush, etc. -->
+</section><section>
+<h2 id="sarah-simblethttpswwwroyalacademyorgukart-artistsnamesarah-simblet-new-sylvahttpswwwbloomsburycomusnew-sylva-9781526640109"><a href="https://www.royalacademy.org.uk/art-artists/name/sarah-simblet">Sarah Simblet</a>, <em><a href="https://www.bloomsbury.com/us/new-sylva-9781526640109/">New Sylva</a></em></h2>
+<ul>
+<li>Hand-drawn in the field</li>
+<li>Meticulous rendering of light and texture</li>
+<li>Sense of dynamism in stillness</li>
+<li>Conveys the complexity of nature</li>
+<li>Atmospheric</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="sarah-simblet-2.jpg">
+  
+<!-- # [Sarah Simblet](https://www.royalacademy.org.uk/art-artists/name/sarah-simblet), *[New Sylva](https://www.bloomsbury.com/us/new-sylva-9781526640109/)* -->
+</section><section>
+<h2 id="imghttpimg-pluscom-rail-corridor-singaporehttpimg-pluscomrail-corridor-singapore-2"><a href="http://img-plus.com/">img+</a>, <em><a href="http://img-plus.com/rail-corridor-singapore-2/">Rail Corridor, Singapore</a></em></h2>
+<ul>
+<li>Digital illustration</li>
+<li>Abstract, yet highly legible</li>
+<li>Painterly texture</li>
+<li>Evocative atmosphere</li>
+<li>Vegetation as patterning</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-rail-corridor-1.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[Rail Corridor, Singapore](http://img-plus.com/rail-corridor-singapore-2/)* -->
+</section><section>
+<h2 id="miralles-tagliabue-embthttpwwwmirallestagliabuecom-unazuki-meditation-pavilionhttpwwwmirallestagliabuecomprojectunazuki-meditation-pavilion"><a href="http://www.mirallestagliabue.com/">Miralles Tagliabue EMBT</a>, <em><a href="http://www.mirallestagliabue.com/project/unazuki-meditation-pavilion/">Unazuki Meditation Pavilion</a></em></h2>
+<ul>
+<li>Concept sketch</li>
+<li>&hellip;to built work</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-iframe="http://www.mirallestagliabue.com/project/unazuki-meditation-pavilion/">
+  
+</section><section>
+<h1 id="photomontage">Photomontage</h1>
+</section><section>
+<h2 id="photomontage-software">Photomontage Software</h2>
+<ul>
+<li><a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a></li>
+</ul>
+</section><section>
+<h2 id="agence-terhttpsagencetercomen-hereweg-wood-parkhttpssponslandnlenprojectswoodpark"><a href="https://agenceter.com/en/">Agence Ter</a>, <em><a href="https://sponsland.nl/en/projects/wood+park/">Hereweg Wood Park</a></em></h2>
+<ul>
+<li>Poor technique</li>
+<li>Looks collaged, while aiming for photorealism</li>
+<li>Distorted scale &amp; perspective</li>
+<li>Inconsistent transparency</li>
+<li>Solid and ghostly people</li>
+<li>Clear and blurry plants</li>
+<li>Half transparent trees</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="agence-ter-wood-park-1.jpg">
+  
+<!-- # [Agence Ter](https://agenceter.com/en/), *[Hereweg Wood Park](https://sponsland.nl/en/projects/wood+park/)* -->
+</section><section>
+<h2 id="imghttpimg-pluscom-barking-riverside-londonhttpimg-pluscombarking-riverside-london-2"><a href="http://img-plus.com/">img+</a>, <em><a href="http://img-plus.com/barking-riverside-london-2/">Barking Riverside, London</a></em></h2>
+<ul>
+<li>Good technique</li>
+<li>Skillful blending of plants into cohesive scene</li>
+<li>Convincing sense of depth</li>
+<li>Some transparent plants blending into the path</li>
+<li>Some spots of inconsistent blurriness</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-barking-riverside-1.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[Barking Riverside, London](http://img-plus.com/barking-riverside-london-2/)* -->
+</section><section>
+<h2 id="lolahttpslolaland-vision-inner-city-groningenhttpslolalandprojectvision-inner-city-groningen"><a href="https://lola.land/">LOLA</a>, <em><a href="https://lola.land/project/vision-inner-city-groningen/">Vision Inner City Groningen</a></em></h2>
+<ul>
+<li>Photorealism vs. illustrated, collaged style</li>
+<li>Photomontaged realism vs. flat bright colors</li>
+<li>Desaturated and oversaturated</li>
+<li>Evokes eclecticism, fun and vibrancy</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="lola-groningen-1.jpg">
+  
+</section><section>
+<h2 id="lolahttpslolaland-metropolitan-forest-madridhttpslolalandprojectmetropolitan-forest-madrid"><a href="https://lola.land/">LOLA</a>, <em><a href="https://lola.land/project/metropolitan-forest-madrid/">Metropolitan Forest Madrid</a></em></h2>
+<ul>
+<li>Atmospheric perspective with halftone overlay</li>
+<li>Halftone shifts color palette, establishes patterning, &amp; blends montaged elements</li>
+<li>Halftone suggests a special quality of light</li>
+<li>Conveys a unique sense of place</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="lola-metropolitan-forest-madrid-1.jpg">
+  
+</section><section>
+<h2 id="lolahttpslolaland-stadhuispromenade-almerehttpslolalandprojectstadhuispromenade-almere"><a href="https://lola.land/">LOLA</a>, <em><a href="https://lola.land/project/stadhuispromenade-almere/">Stadhuispromenade Almere</a></em></h2>
+<ul>
+<li>Rendering of design concept</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="lola-almere-1.jpg">
+  
+</section><section>
+<h1 id="3d-modeling">3D Modeling</h1>
+</section><section>
+<h2 id="3d-modeling-software">3D Modeling Software</h2>
+<ul>
+<li><a href="https://www.rhino3d.com/">Rhino</a></li>
+<li><a href="https://www.sketchup.com/">SketchUp</a></li>
+<li><a href="https://www.autodesk.com/products/3ds-max/overview">3dsMAx</a></li>
+<li><a href="https://www.blender.org/">Blender</a></li>
+<li>Etc.</li>
+</ul>
+</section><section>
+<h1 id="3d-rendering">3D Rendering</h1>
+</section><section>
+<h2 id="3d-rendering-software">3D Rendering Software</h2>
+<ul>
+<li><a href="https://lumion.com/">Lumion</a></li>
+<li><a href="https://enscape3d.com/">Enscape for Rhino</a></li>
+<li><a href="https://www.thearender.com/">Thea for Rhino</a></li>
+<li><a href="https://www.chaos.com/vray/rhino">Vray for Rhino</a></li>
+<li>Etc.</li>
+</ul>
+</section><section>
+<!--
+## 3D Software
+
+
+
+
+
+
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Header 1</th>
+<th>Header 2</th>
+<th>Header 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item 1</td>
+<td>Item 2</td>
+<td>Item 3</td>
+</tr>
+<tr>
+<td>Item 1a</td>
+<td>Item 2a</td>
+<td>Item 3a</td>
+</tr>
+</tbody>
+</table>
+
+
+
+---
+-->
+<h2 id="3d-plant-libraries">3D Plant Libraries</h2>
+<ul>
+<li><a href="http://xfrog.com/">Xfrog</a></li>
+<li><a href="https://store.speedtree.com/">Speedtree</a></li>
+<li>Etc.</li>
+</ul>
+</section><section>
+<h2 id="the-uncanny-valleyhttpsspectrumieeeorgthe-uncanny-valley"><a href="https://spectrum.ieee.org/the-uncanny-valley">The Uncanny Valley</a></h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="mori-uncanny-valley.svg">
+  
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ishiguro-geminoid-1.jpg">
+  
+<h1 id="ishiguro-labhttpsengirlsysesosaka-uacjprobot-geminoid-hi-5httpsflickrphkccrm"><a href="https://eng.irl.sys.es.osaka-u.ac.jp/robot">Ishiguro Lab</a>, <em><a href="https://flic.kr/p/hKcCRm">Geminoid HI-5</a></em></h1>
+
+
+
+<aside class="notes"><p>Hiroshi Ishiguro</p>
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ishiguro-erica-1.jpg">
+  
+<h1 id="ishiguro-labhttpsengirlsysesosaka-uacjprobot-ericahttpsflickrpbp5cwr"><a href="https://eng.irl.sys.es.osaka-u.ac.jp/robot">Ishiguro Lab</a>, <em><a href="https://flic.kr/p/BP5cWR">Erica</a></em></h1>
+</section><section>
+<h2 id="imghttpimg-pluscom-felix-meritis-amsterdamhttpimg-pluscomfelix-meritis"><a href="http://img-plus.com/">img+</a>, <em><a href="http://img-plus.com/felix-meritis/">Felix Meritis, Amsterdam</a></em></h2>
+<ul>
+<li>3D modeled and rendered scene</li>
+<li>Post-processing to populate and furnish scene</li>
+<li>Mix of 3D assets and photomontage</li>
+<li>Stylist variations</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-felix-meritis-1.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-felix-meritis-2.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-felix-meritis-3.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
+</section><section>
+<h2 id="imghttpimg-pluscom-a11-highway-belgiumhttpimg-pluscomhighway-belgium"><a href="http://img-plus.com/">img+</a>, <em><a href="http://img-plus.com/highway-belgium/">A11 Highway, Belgium</a></em></h2>
+<ul>
+<li>Renderings at a range of scales</li>
+<li>Seamless blend of 3D rendering and photomontage</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-highway-1.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-highway-2.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="imgplus-highway-3.jpg">
+  
+<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
+</section><section>
+<h2 id="snøhettahttpssnohettacom-550-madison-garden-nychttpssnohettacomprojects487-550-madison-garden-and-revitalization"><a href="https://snohetta.com/">Snøhetta</a>, <em><a href="https://snohetta.com/projects/487-550-madison-garden-and-revitalization">550 Madison Garden, NYC</a></em></h2>
+<ul>
+<li>Hyperrealistic rendering</li>
+<li>3D modeled and rendered scene with 3D plants</li>
+<li>Photomontaged people that feel flat compared to the scene</li>
+<li>Some of the people are missing their shadows&hellip;</li>
+<li>Snowfall for atmosphere, but the pavement appears dry</li>
+<li>Perspectives &amp; section-perspectives</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="snohetta-550-madison-garden-1.jpg">
+  
+<!-- # [Snøhetta](https://snohetta.com/), *[550 Madison Garden, NYC](https://snohetta.com/projects/487-550-madison-garden-and-revitalization)* -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="snohetta-550-madison-garden-2.jpg">
+  
+<!-- # [Snøhetta](https://snohetta.com/), *[550 Madison Garden, NYC](https://snohetta.com/projects/487-550-madison-garden-and-revitalization)* -->
+</section><section>
+<h2 id="lolahttpslolaland-gasklockan-stockholmhttpslolalandprojectgasklockan"><a href="https://lola.land/">LOLA</a>, <em><a href="https://lola.land/project/gasklockan/">Gasklockan, Stockholm</a></em></h2>
+<ul>
+<li>3D modeled and rendered scene</li>
+<li>Illustrated style for photomontaged people</li>
+<li>Rich, textured planting palette by Piet Oudolf</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="lola-gasklockan-1.jpg">
+  
+</section><section>
+<h2 id="foster--partnershttpswwwfosterandpartnerscom-le-dôme-wineryhttpswwwfosterandpartnerscomprojectsle-dome-winery"><a href="https://www.fosterandpartners.com/">Foster + Partners</a>, <em><a href="https://www.fosterandpartners.com/projects/le-dome-winery/">Le Dôme Winery</a></em></h2>
+<ul>
+<li>Section-elevation</li>
+<li>Cut through 3D model</li>
+<li>Illustrated style using photomontage, textures, and filters</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="foster-le-dome-winery-1.jpg"
+      data-background-size="contain">
+  
+<!-- 
+<section data-noprocess data-shortcode-slide
+      data-background-image="foster-le-dome-winery-1.jpg"
+      data-background-position="50% 85%"
+      data-background-size="contain">
+  
+# [Foster + Partners](https://www.fosterandpartners.com/), *[Le Dôme Winery](https://www.dezeen.com/2021/11/18/foster-partners-le-dome-winery-france/)* -->
+</section><section>
+<h2 id="bbhttpsbplusbnlen-the-connected-core-the-haguehttpsbplusbnlenworkthe-connected-core"><a href="https://bplusb.nl/en/">B+B</a>, <em><a href="https://bplusb.nl/en/work/the-connected-core/">The Connected Core: The Hague</a></em></h2>
+<ul>
+<li>Before and after</li>
+<li>Rendering style evokes the historic painting</li>
+<li>Desaturated</li>
+<li>Painterly sky</li>
+<li>Inconsistency of photomontaged people</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="bplusb-hague-1.jpg"
+      data-background-size="contain">
+  
+<!-- # [B+B](https://bplusb.nl/en/), *[The Connected Core: The Hague](https://bplusb.nl/en/work/the-connected-core/)* -->
+</section><section>
+<h2 id="bbhttpsbplusbnlen-locke-eefdehttpsbplusbnlenworklock-eefde"><a href="https://bplusb.nl/en/">B+B</a>, <em><a href="https://bplusb.nl/en/work/lock-eefde/">Locke Eefde</a></em></h2>
+<ul>
+<li>Illustrated style using 3D model, photomontage, &amp; textures</li>
+<li>Composition mixing 2D and 3D elements</li>
+<li>Visual blend of depth and flatness</li>
+<li>Evokes calmness, function, and history</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="bplusb-lock-effde-1.jpg">
+  
+</section><section>
+<h2 id="-"><a href=""></a>, <em><a href=""></a></em></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+</section><section>
+<h2 id="--1"><a href=""></a>, <em><a href=""></a></em></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+</section><section>
+<h2 id="--2"><a href=""></a>, <em><a href=""></a></em></h2>
+<ul>
+<li>&hellip;</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+</section><section>
+<!-- Student Work: Andrew -->
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>
