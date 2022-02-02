@@ -16,3 +16,4 @@ outputs = ["Reveal"]
 * [<i class="ms ms-txt"></i> Geospatial Modeling](/lectures/geospatial-modeling/)
 * [<i class="ms ms-txt"></i> Rosedown](/lectures/rosedown/)
 * [<i class="ms ms-txt"></i> Landscape Renderings](/lectures/landscape-renderings/)
+* [<i class="ms ms-txt"></i> Landscape Diagrams](/lectures/landscape-diagrams/)

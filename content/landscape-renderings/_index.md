@@ -49,8 +49,6 @@ Brendan Harmon
 
 {{< slide background-image="sarah-simblet-2.jpg" >}}
 
-<!-- # [Sarah Simblet](https://www.royalacademy.org.uk/art-artists/name/sarah-simblet), *[New Sylva](https://www.bloomsbury.com/us/new-sylva-9781526640109/)* -->
-
 ---
 
 ## [img+](http://img-plus.com/), *[Rail Corridor, Singapore](http://img-plus.com/rail-corridor-singapore-2/)*
@@ -64,7 +62,6 @@ Brendan Harmon
 ---
 
 {{< slide background-image="imgplus-rail-corridor-1.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[Rail Corridor, Singapore](http://img-plus.com/rail-corridor-singapore-2/)* -->
 
 ---
 
@@ -103,8 +100,6 @@ Brendan Harmon
 
 {{< slide background-image="agence-ter-wood-park-1.jpg" >}}
 
-<!-- # [Agence Ter](https://agenceter.com/en/), *[Hereweg Wood Park](https://sponsland.nl/en/projects/wood+park/)* -->
-
 ---
 
 ## [img+](http://img-plus.com/), *[Barking Riverside, London](http://img-plus.com/barking-riverside-london-2/)*
@@ -118,7 +113,6 @@ Brendan Harmon
 ---
 
 {{< slide background-image="imgplus-barking-riverside-1.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[Barking Riverside, London](http://img-plus.com/barking-riverside-london-2/)* -->
 
 ---
 
@@ -242,17 +236,14 @@ Hiroshi Ishiguro
 ---
 
 {{< slide background-image="imgplus-felix-meritis-1.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
 
 ---
 
 {{< slide background-image="imgplus-felix-meritis-2.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
 
 ---
 
 {{< slide background-image="imgplus-felix-meritis-3.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[Felix Meritis, Amsterdam](http://img-plus.com/felix-meritis/)* -->
 
 ---
 
@@ -264,17 +255,14 @@ Hiroshi Ishiguro
 ---
 
 {{< slide background-image="imgplus-highway-1.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
 
 ---
 
 {{< slide background-image="imgplus-highway-2.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
 
 ---
 
 {{< slide background-image="imgplus-highway-3.jpg" >}}
-<!-- # [img+](http://img-plus.com/), *[A11 Highway, Belgium](http://img-plus.com/highway-belgium/)* -->
 
 ---
 
@@ -290,12 +278,10 @@ Hiroshi Ishiguro
 ---
 
 {{< slide background-image="snohetta-550-madison-garden-1.jpg" >}}
-<!-- # [Snøhetta](https://snohetta.com/), *[550 Madison Garden, NYC](https://snohetta.com/projects/487-550-madison-garden-and-revitalization)* -->
 
 ---
 
 {{< slide background-image="snohetta-550-madison-garden-2.jpg" >}}
-<!-- # [Snøhetta](https://snohetta.com/), *[550 Madison Garden, NYC](https://snohetta.com/projects/487-550-madison-garden-and-revitalization)* -->
 
 ---
 
@@ -321,9 +307,6 @@ Hiroshi Ishiguro
 
 {{< slide background-image="foster-le-dome-winery-1.jpg" background-size="contain" >}}
 
-<!-- {{< slide background-image="foster-le-dome-winery-1.jpg" background-size="contain" background-position="50% 85%" >}}
-# [Foster + Partners](https://www.fosterandpartners.com/), *[Le Dôme Winery](https://www.dezeen.com/2021/11/18/foster-partners-le-dome-winery-france/)* -->
-
 ---
 
 ## [B+B](https://bplusb.nl/en/), *[The Connected Core: The Hague](https://bplusb.nl/en/work/the-connected-core/)*
@@ -337,7 +320,6 @@ Hiroshi Ishiguro
 ---
 
 {{< slide background-image="bplusb-hague-1.jpg" background-size="contain" >}}
-<!-- # [B+B](https://bplusb.nl/en/), *[The Connected Core: The Hague](https://bplusb.nl/en/work/the-connected-core/)* -->
 
 ---
 
@@ -352,7 +334,7 @@ Hiroshi Ishiguro
 
 {{< slide background-image="bplusb-lock-effde-1.jpg" >}}
 
----
+<!-- ---
 
 ## [](), *[]()*
 
@@ -382,7 +364,7 @@ Hiroshi Ishiguro
 
 {{< slide background-image="" >}}
 
----
+--- -->
 
 
 <!-- Student Work: Andrew -->
