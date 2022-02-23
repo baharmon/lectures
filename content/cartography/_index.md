@@ -59,12 +59,19 @@ But what about **expression**?
 
 ---
 
-## [Racial Dot Map](https://demographics.virginia.edu/DotMap/)
-### [UVA Cooper Center, Demographics Research Group](https://demographics.coopercenter.org/)
+## [Racial Dot Map 2020](https://demographics.virginia.edu/DotMap/)
+### ESRI Demographics Team
+
+<!-- ## [Racial Dot Map](https://demographics.virginia.edu/DotMap/) -->
+{{% note %}}
+Original Racial Dot Map 2010 by
+[UVA Cooper Center, Demographics Research Group](https://demographics.coopercenter.org/)
+{{% /note %}}
 
 ---
 
-{{< slide background-iframe="https://demographics.virginia.edu/DotMap/" >}}
+{{< slide background-iframe="https://www.arcgis.com/apps/mapviewer/index.html?webmap=30d2e10d4d694b3eb4dc4d2e58dbb5a5" >}}
+<!-- {{< slide background-iframe="https://demographics.virginia.edu/DotMap/" >}} -->
 
 ---
 
@@ -329,7 +336,7 @@ First designed by Harry Beck, 1931
 
 ---
 
-## [Observatory for Economic Complexity](https://oec.world/)
+<!-- ## [Observatory for Economic Complexity](https://oec.world/)
 ### Datawheel & MIT Collective Learning
 
 ---
@@ -340,11 +347,15 @@ First designed by Harry Beck, 1931
 
 {{< slide background-iframe="http://senseable.mit.edu/uw-pilot-study/" >}}
 
+--- -->
+
 ---
 
 # Mental Maps
 
+---
 
+<!--
 ---
 
 ## [How 2020 Remapped Your Worlds](https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/?srnd=citylab-maplab)
@@ -354,14 +365,14 @@ First designed by Harry Beck, 1931
 
 {{< slide background-iframe="https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/?srnd=citylab-maplab" >}}
 
----
+--- -->
 
-## [Draw a map to get lost](https://girot.arch.ethz.ch/events-conferences/fs2020-topology-draw-a-map-to-get-lost-2)
+<!-- ## [Draw a map to get lost](https://girot.arch.ethz.ch/events-conferences/fs2020-topology-draw-a-map-to-get-lost-2)
 ### [ETHZ Landscape Architecture](https://girot.arch.ethz.ch/)
 
 ---
 
-{{< slide background-iframe="https://girot.arch.ethz.ch/events-conferences/fs2020-topology-draw-a-map-to-get-lost-2" >}}
+{{< slide background-iframe="https://girot.arch.ethz.ch/events-conferences/fs2020-topology-draw-a-map-to-get-lost-2" >}} -->
 
 ---
 
@@ -378,9 +389,7 @@ Situationist International
 ## [An Ocean of Books](https://experiments.withgoogle.com/ocean-of-books)
 ### [Gael Hugo](http://onemorestud.io/)
 
----
-
-{{< slide background-iframe="https://artsexperiments.withgoogle.com/ocean-of-books?latitude=-43.2000&longitude=-2.5000&zoom=4.40" >}}
+[Link](https://artsexperiments.withgoogle.com/ocean-of-books?latitude=-43.2000&longitude=-2.5000&zoom=4.40)
 
 ---
 
@@ -433,6 +442,61 @@ Situationist International
 ---
 
 {{< slide background-iframe="http://tools.medialab.sciences-po.fr/iwanthue/" >}}
+
+---
+
+# How to Make Maps
+
+* Virtual Globes
+* Geographic Information Systems
+* Geospatial Programming
+* Web Mapping
+
+---
+
+# Virtual Globes
+
+* [Google Earth](https://earth.google.com/)
+* [NASA World Wind](https://worldwind.arc.nasa.gov/)
+* etc...
+
+---
+
+# Geographic Information Systems
+
+* [<i class="ms ms-qgis"></i> QGIS](https://qgis.org/)
+* [<i class="ms ms-grass-gis"></i> GRASS GIS](https://grass.osgeo.org/)
+* [<i class="ms ms-shp"></i> ArcGIS](https://www.esri.com/)
+* [WhiteBoxTools](https://www.whiteboxgeo.com/)
+* [TerrSet](https://clarklabs.org/terrset/)
+* [SAGA](https://saga-gis.sourceforge.io/en/index.html)
+* etc...
+
+---
+
+# Web Mapping
+
+* [Leaflet](https://leafletjs.com/)
+* [Mapbox](https://www.mapbox.com/)
+* [Google My Maps](https://mymaps.google.com/)
+* [ArcGIS Online](https://www.arcgis.com/index.html)
+* etc...
+
+---
+
+# Tutorials
+
+* Brendan Harmon, [**GIS for Designers**](https://baharmon.github.io/gis-for-designers)
+* Hans van der Kwast, [**QGIS for Hydrological Applications**](https://www.youtube.com/c/HansvanderKwast)
+* Sutton et al., [A Gentle Introduction to GIS](https://docs.qgis.org/3.16/en/docs/gentle_gis_introduction/index.html)
+
+---
+
+# Books
+
+* Kurt Menke, [**Discover QGIS**](https://locatepress.com/book/dq3)
+* Anita Graser & Gretchen Peterson, [**QGIS Map Design**](https://locatepress.com/book/qmd2)
+* Hans van der Kwast & Kurt Menke, [**QGIS for Hydrological Applications**](https://locatepress.com/book/hyd)
 
 ---
 
