@@ -44,7 +44,7 @@ The point cloud is an index, a trace of its subject, a record of light as a spac
 # Indexicality
 **Indices** are physically and causally connected to what they represent
 {{< note >}}
-In Peirce’s semiotics an index is a sign that is physically or causally connected to what it represents. Indices “show something about things, on account of their being physically connected with them”. As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Indices are a trace of the real. As a trace, indices have an inherent authenticity, a claim to truth. Point clouds are indexical because they are physically and causally connected by pulses of light to what they represent. Point clouds’ indexicality, their truth claim, seems so authoritative as to be hyperreal, displacing reality – they are used as definitive records, as evidence, as substitutes for things lost, and to fabricate replicas.
+In Peirce's semiotics an index is a sign that is physically or causally connected to what it represents. Indices "show something about things, on account of their being physically connected with them". As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Indices are a trace of the real. As a trace, indices have an inherent authenticity, a claim to truth. Point clouds are indexical because they are physically and causally connected by pulses of light to what they represent. Point clouds' indexicality, their truth claim, seems so authoritative as to be hyperreal, displacing reality – they are used as definitive records, as evidence, as substitutes for things lost, and to fabricate replicas.
 {{< /note >}}
 
 ---
@@ -69,7 +69,7 @@ An icon is mimetic, a likeness. Point clouds are iconic because they look like w
 ## Hyperreality
 ### [Rockery](https://xyz.cct.lsu.edu/data/rosedown/rockery.html)
 {{< note >}}
-What does it mean to “step into an overwhelmingly convincing simulacrum of physical reality, space and time” (Girot 2019)? Will hyperreal simulacra really enhance landscape architects’ “understanding of site, and yield a stronger awareness of ambient aspects and cues” (Girot 2019)? Rather, if “[s]imilitude is a dream and must remain one, in order for a modicum of illusion and a stage for the imaginary to exist” (Baudrillard 1994), then point clouds, as a hyperreal simulacra, seem to usher an aesthetic crisis of creativity, an “end of the imaginary” (Baudrillard 1994).
+What does it mean to "step into an overwhelmingly convincing simulacrum of physical reality, space and time?" (Girot) Will hyperreal simulacra really enhance landscape architects' "understanding of site, and yield a stronger awareness of ambient aspects and cues?" (Girot) Rather, if "[s]imilitude is a dream and must remain one, in order for a modicum of illusion and a stage for the imaginary to exist" (Baudrillard 1994), then point clouds, as a hyperreal simulacra, seem to usher an aesthetic crisis of creativity, an "end of the imaginary" (Baudrillard 1994).
 {{< /note >}}
 
 ---
@@ -164,14 +164,14 @@ As a medium, point clouds can capture and represent change over time in unique w
 
 ---
 
-{{< slide background-image="staircase.jpg" background-size="contain" >}}
+<!-- {{< slide background-image="staircase.jpg" background-size="contain" >}}
 ## Analytic Exploration
 ### [Staircase](https://xyz.cct.lsu.edu/data/rosedown/interior.html)
 {{< note >}}
 A transect through the point cloud reveals indexical detail – close examination of the slave staircase reveals the imprint of enslaved footsteps, worn in the wood, an index of their presence and toil. Despite the erasure of the enslaved people’s quarters and community, the point cloud still reveals marks of their presence and evokes their labor.
 {{< /note >}}
 
----
+--- -->
 
 {{< slide background-image="allee.jpg" >}}
 ## Phenomena & Ephemera
@@ -186,7 +186,7 @@ The point cloud of Rosedown captures the complexity and temporality of landscape
 ## Time Series
 ### [January](https://xyz.cct.lsu.edu/data/hilltop/meadow.html)
 {{< note >}}
-A time series of point clouds can be collected by repeatedly surveying a site with lidar or photogrammetry. Time series enable change over time to be analyzed visually and quantitatively. Change over time can be represented through a sequence of iconic, yet analytic point cloud renderings such as transects, each representing a discrete event in time.
+A time series of point clouds can be collected by repeatedly surveying a site with lidar or photogrammetry. Change over time can be represented visually through a sequence of iconic, yet analytic point cloud renderings such as transects, each representing a discrete event in time.
 {{< /note >}}
 
 ---
@@ -207,7 +207,7 @@ A time series of point clouds can be collected by repeatedly surveying a site wi
 ## Time Series
 ### [Biomass](https://xyz.cct.lsu.edu/data/hilltop/meadow.html)
 {{< note >}}
-Time series of point clouds can also be numerically analyzed to study spatiotemporal phenomena. Thus change over time can also be represented quantitatively with numerical analyses of spatiotemporal phenomena rendered as three-dimensional scatter plots. Three-dimensional scatter plots are another type of point cloud – sets of x, y, and z coordinates generated by numerical analysis that represent data spatially.
+Time series of point clouds can also be numerically analyzed to study spatiotemporal phenomena. Analyses can be rendered as three-dimensional scatter plots, another type of point cloud.
 {{< /note >}}
 
 ---
@@ -216,7 +216,7 @@ Time series of point clouds can also be numerically analyzed to study spatiotemp
 ## Time Series
 ### [Carbon](https://xyz.cct.lsu.edu/data/hilltop/meadow.html)
 {{< note >}}
-These scatterplots are purely conceptual indices whose perceptual links to the landscape have disappeared. Despite their intensive algorithmic processing, they still retain indexical links to the landscape as data that record traces of its processes. They represent a trace of an idea such as the process of growth and senescence or the flux of carbon, rather than the look and physical structure of the landscape. By modeling scatter plots as point clouds, abstract data visualizations can be combined with reductive, yet iconic graphics to form a composition in a single medium.
+These scatterplots are purely conceptual indices whose perceptual links to the landscape have disappeared. Despite their intensive algorithmic processing, they still retain indexical links to the landscape as data that record traces of its processes. They represent a trace of an idea such as fluxes of carbon, rather than the look and physical structure of the landscape. By modeling scatter plots as point clouds, abstract data visualizations can be combined with reductive, yet iconic graphics to form a composition in a single medium.
 {{< /note >}}
 
 ---
