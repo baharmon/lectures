@@ -44,7 +44,7 @@ The point cloud is an index, a trace of its subject, a record of light as a spac
 # Indexicality
 **Indices** are physically and causally connected to what they represent
 {{< note >}}
-In Peirce's semiotics an index is a sign that is physically or causally connected to what it represents. Indices "show something about things, on account of their being physically connected with them". As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Indices are a trace of the real. As a trace, indices have an inherent authenticity, a claim to truth. Point clouds are indexical because they are physically and causally connected by pulses of light to what they represent. Point clouds' indexicality, their truth claim, seems so authoritative as to be hyperreal, displacing reality – they are used as definitive records, as evidence, as substitutes for things lost, and to fabricate replicas.
+In Peirce's semiotics an index is a sign that is physically or causally connected to what it represents. As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Point clouds are indexical because they are physically and causally connected by pulses of light to what they represent.
 {{< /note >}}
 
 ---
@@ -60,7 +60,7 @@ In Peirce's semiotics an index is a sign that is physically or causally connecte
 # Iconicity
 **Icons** look like what they represent
 {{< note >}}
-An icon is mimetic, a likeness. Point clouds are iconic because they look like what they represent. Their iconic nature is unique because of their fidelity, inherent three dimensionality, and resulting immersivity. Point clouds have an indexical link to the scene captured that imbues them a greater sense of authenticity and fidelity and grounds their iconic claim to faithfully represent reality.
+Point clouds are iconic because they look like what they represent. Their iconic nature is unique because of their fidelity, inherent three dimensionality, and resulting immersivity. Their indexical link to the scene captured imbues them with a authenticity that grounds their iconic claim to faithfully represent reality.
 {{< /note >}}
 
 ---
@@ -69,7 +69,7 @@ An icon is mimetic, a likeness. Point clouds are iconic because they look like w
 ## Hyperreality
 ### [Rockery](https://xyz.cct.lsu.edu/data/rosedown/rockery.html)
 {{< note >}}
-What does it mean to "step into an overwhelmingly convincing simulacrum of physical reality, space and time?" (Girot) Will hyperreal simulacra really enhance landscape architects' "understanding of site, and yield a stronger awareness of ambient aspects and cues?" (Girot) Rather, if "[s]imilitude is a dream and must remain one, in order for a modicum of illusion and a stage for the imaginary to exist" (Baudrillard 1994), then point clouds, as a hyperreal simulacra, seem to usher an aesthetic crisis of creativity, an "end of the imaginary" (Baudrillard 1994).
+Point clouds' indexicality, their truth claim, seems so authoritative as to be hyperreal, displacing reality – they are used as definitive records, as evidence, as substitutes for things lost, and to fabricate replicas. What does it mean to "step into an overwhelmingly convincing simulacrum of physical reality, space and time?" (Girot) Will hyperreal simulacra really enhance landscape architects' "understanding of site, and yield a stronger awareness of ambient aspects and cues?" (Girot) Or will these simulacra usher in an aesthetic crisis of creativity, an "end of the imaginary" (Baudrillard 1994)?
 {{< /note >}}
 
 ---
