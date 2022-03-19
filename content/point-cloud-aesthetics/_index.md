@@ -36,7 +36,7 @@ and yield a stronger awareness of ambient aspects and cues.
 are algorithmically mediated, indexical encodings
 of space and color at an instance in time
 {{< note >}}
-The point cloud is an index, a trace of its subject, a record of light as a space, contingent on framing and chance. It can be immediately legible, an iconic rendering of the scene. As the result of an algorithm encoded as numeric data, the point cloud is also a collection of symbols. The indexical, iconic, symbolic, and contingent nature of the point cloud give it meaning – connecting it to the scene, author, and algorithms. They are the foundation for aesthetic expression in this emerging medium.
+A point cloud is an index; it is a trace of its subject, a record of light as a space. It can also be iconic, an immediately legible rendering of a scene. As the result of an algorithm encoded as numeric data, the point cloud is also a collection of symbols. It is contingent on framing and chance. The indexical, iconic, symbolic, and contingent nature of the point cloud give it meaning – connecting it to the scene, author, and algorithms. They are the foundation for aesthetic expression in this emerging medium.
 {{< /note >}}
 
 ---
@@ -44,7 +44,7 @@ The point cloud is an index, a trace of its subject, a record of light as a spac
 # Indexicality
 **Indices** are physically and causally connected to what they represent
 {{< note >}}
-In Peirce's semiotics an index is a sign that is physically or causally connected to what it represents. As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Point clouds are indexical because they are physically and causally connected by pulses of light to what they represent.
+In Peirce's semiotics an index is a sign that is physically or causally connected to what it represents. As its physical imprint, a footprint is an index for a foot. Smoke is an index for a fire; if you see smoke, then you know that it has been caused by a fire. A photograph, as a record of light captured on photographic film or a digital image sensor, is an index that is both physically and causally connected by rays of light to the scene that it represents. Point clouds, like photographs, are indexical because they are physically and causally connected by pulses of light to what they represent.
 {{< /note >}}
 
 ---
@@ -96,7 +96,7 @@ Symbols are signs given meaning only by conventional standards. While the scene 
 ## Algorithmic Mediation
 <!-- Diagram of perceptual and conceptual indices -->
 {{< note >}}
-The transcription of photons into bits, rather than irrevocably converting an index into a symbol, algorithmically mediates meaning. The point cloud remains a pure perceptual index of the referent, while as a conceptual index it becomes symbolically mediated by algorithms. The conceptual index – the trace of ideas – becomes a mark not only of the scene, but also of the author and the algorithms. A mark to be decoded and interpreted.
+The transcription of photons into bits algorithmically mediates meaning. The point cloud remains a pure perceptual index of the referent, while as a conceptual index it becomes symbolically mediated by algorithms. The conceptual index - the trace of ideas – becomes a mark not only of the scene, but also of the author and the algorithms. A mark to be decoded and interpreted.
 {{< /note >}}
 
 ---
@@ -105,7 +105,7 @@ The transcription of photons into bits, rather than irrevocably converting an in
 
 The **contingent** is subject to change and chance
 {{< note >}}
-In its uncertainty, the contingent connotes the freedom of possibility and thus the potential for creativity. When the shutter of a camera opens and closes or when laser pulses trace the contours of a scene, what is captured is contingent upon atmospheric conditions, the play of the light and shadow, gusts of wind, the fall of rain, and chance passersby.
+In its uncertainty, the contingent connotes the freedom of possibility and thus the potential for creativity. When laser pulses trace the contours of a scene, what is captured is contingent upon atmospheric conditions, the play of the light and shadow, gusts of wind, the fall of rain, and chance passersby.
 {{< /note >}}
 
 ---
@@ -114,7 +114,7 @@ In its uncertainty, the contingent connotes the freedom of possibility and thus 
 ## Contingent Indices
 ### [Rockery](https://xyz.cct.lsu.edu/data/rosedown/rockery.html)
 {{< note >}}
-As indices, point clouds are contingent on what happened to be captured, their meaning relying in part on the accidental. As icons, point clouds’ meanings are contingent upon aesthetic choices and artistic interpretations in response to the dialectic of hyperrealism and abstraction.
+As indices, point clouds are contingent on what happened to be captured, their meaning relying in part on the accidental.
 {{< /note >}}
 
 ---
@@ -123,7 +123,7 @@ As indices, point clouds are contingent on what happened to be captured, their m
 ## Contingent Icons
 ### [Dining Room](https://xyz.cct.lsu.edu/data/rosedown/dining-room.html)
 {{< note >}}
-As icons, point clouds’ meanings are contingent upon aesthetic choices and artistic interpretations in response to the dialectic of hyperrealism and abstraction.
+As icons, the meanings of point clouds are contingent upon aesthetic choices and artistic interpretations.
 {{< /note >}}
 
 ---
