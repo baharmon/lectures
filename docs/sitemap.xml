@@ -1,82 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://baharmon.github.io/lectures/cartography/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/cartography/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/decolonizing-cartography/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/decolonizing-cartography/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/drone-data-analytics/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/drone-data-analytics/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/generative-design/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/generative-design/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geodesy/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geodesy/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geospatial-modeling/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geospatial-modeling/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/home/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/home/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-diagrams/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-diagrams/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-renderings/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-renderings/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/notes/</loc>
     <priority>0</priority>
+<<<<<<< HEAD
   </url>
   
   <url>
@@ -96,83 +60,53 @@
   </url>
   
   <url>
+=======
+  </url><url>
+    <loc>https://baharmon.github.io/lectures/point-cloud-aesthetics/body/</loc>
+  </url><url>
+    <loc>https://baharmon.github.io/lectures/point-cloud-aesthetics/conclusion/</loc>
+  </url><url>
+>>>>>>> 2cf2f5266f4ccb7f11dfd50bfe9867dc916667db
     <loc>https://baharmon.github.io/lectures/research-2020/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/research-2020/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/technology/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/technology/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/template/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/template/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/vr/body/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/vr/conclusion/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geodesy/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/cartography/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/decolonizing-cartography/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/drone-data-analytics/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/technology/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/generative-design/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/geospatial-modeling/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/home/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-diagrams/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/landscape-renderings/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/</loc>
+<<<<<<< HEAD
   </url>
   
   <url>
@@ -184,27 +118,21 @@
   </url>
   
   <url>
+=======
+  </url><url>
+    <loc>https://baharmon.github.io/lectures/point-cloud-aesthetics/</loc>
+  </url><url>
+>>>>>>> 2cf2f5266f4ccb7f11dfd50bfe9867dc916667db
     <loc>https://baharmon.github.io/lectures/point-clouds-2021/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/research-2020/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/rosedown/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/template/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://baharmon.github.io/lectures/vr/</loc>
   </url>
-  
 </urlset>
