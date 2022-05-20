@@ -15,7 +15,8 @@ outputs = ["Reveal"]
 
 {{< slide id="research" >}}
 
-* [<i class="ms ms-txt"></i> Point Cloud Aesthetics](/lectures/point-cloud-aesthetics/)
+* [<i class="ms ms-txt"></i> Point Cloud Aesthetics 2022](/lectures/point-cloud-aesthetics-2022/)
+* [<i class="ms ms-txt"></i> Point Cloud Aesthetics 2021](/lectures/point-cloud-aesthetics-2021/)
 * [<i class="ms ms-txt"></i> Drone Data Analytics](/lectures/drone-data-analytics/)
 * [<i class="ms ms-txt"></i> Rosedown](/lectures/rosedown/)
 
