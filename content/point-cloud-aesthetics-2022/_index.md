@@ -40,7 +40,7 @@ Photograph: a record of light.
 
 ---
 
-{{< slide background-image="staircase-detail.png" >}}
+{{< slide background-image="staircase.jpg" >}}
 ## Index of an Index
 ### [**Rosedown Plantation**, Slave Staircase](https://xyz.cct.lsu.edu/data/rosedown/interior.html)
 {{< note >}}
@@ -50,7 +50,7 @@ Photograph: a record of light.
 
 ## Perceptual Index
 **Perceptual Indices** are traces of objects
-<img src="transect-2020-01-24.png" width="900"><br>
+<img src="transect-2020-01-24.jpg" width="900"><br>
 [**Hilltop Arboretum**, January 24, 2020](https://xyz.cct.lsu.edu/data/hilltop/meadow.html)
 {{< note >}}
 {{< /note >}}
@@ -59,7 +59,7 @@ Photograph: a record of light.
 
 ## Conceptual Index
 **Conceptual Indices** are traces of ideas
-<img src="transect-biomass-2020.png" width="900"><br>
+<img src="transect-biomass-2020.jpg" width="900"><br>
 [**Hilltop Arboretum**, net annual biomass](https://xyz.cct.lsu.edu/data/hilltop/meadow.html)
 {{< note >}}
 Algorithmically mediated...
@@ -77,7 +77,7 @@ and rendered as signs given meaning by convention
 
 ---
 
-{{< slide background-image="wallpaper.png" >}}
+{{< slide background-image="wallpaper.jpg" >}}
 ## Perceptual Symbolism
 ### [**Rosedown Plantation**, Wallpaper](https://xyz.cct.lsu.edu/data/rosedown/interior.html)
 {{< note >}}
@@ -116,13 +116,12 @@ Algorithmic: Transcribed from photons into bits
 
 ---
 
-{{< slide background-image="rockery-dark.jpg" >}}
+{{< slide background-image="landscape-plan.jpg" >}}
 ## Hyperreal Icons
 ### **Simulacra** displace reality
 {{< note >}}
 An unfaithful representation of a working landscape...
 {{< /note >}}
-
 
 ---
 
