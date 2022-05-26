@@ -17,7 +17,10 @@ outputs = ["Reveal"]
 {{< note >}}
 Hello, my name is Brendan Harmon [and I am Nicholas Serrano]. We are on the faculty at Louisiana State University and today will be sharing some of our ongoing research into the aesthetics of point clouds. This presentation is part of our ongoing research thinking through the aesthetics of point clouds. Many of the examples in this presentation are from a recent project to scan and create a digital model of the Rosedown Plantation in Saint Francisville, Louisiana. We want to thank the National Parks Service and the Louisiana Department of Culture, Recreation, and Tourism for their support of this project.
 {{< /note >}}
-<!-- Animation: Rosedown Landscape -->
+
+---
+
+{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/landscape.mp4" >}}
 
 ---
 
@@ -42,7 +45,6 @@ and yield a stronger awareness of ambient aspects and cues.*
 {{< note >}}
 Christophe Girot proposed that point clouds are a new medium for designing landscape, positing that “designers adopting cloudism will step into an overwhelmingly convincing simulacrum of physical reality, space and time; this will enhance their understanding of site, and yield a stronger awareness of ambient aspects and cues.” We argue that point clouds are unique in their indexicality, iconicity, symbolism, and contingency, and they can be used to represent the dynamic character of landscape in new ways.
 {{< /note >}}
-
 
 ---
 
@@ -75,10 +77,13 @@ Indices are a trace of the real. In Peirce’s semiotics, an index is a sign tha
 {{< slide background-image="staircase.jpg" >}}
 ## Perceptual Index
 ### **Perceptual Indices** are traces of objects
-<!-- ### [**Rosedown Plantation**, Slave Staircase](https://xyz.cct.lsu.edu/data/rosedown/interior.html) -->
 {{< note >}}
 Point clouds, like photographs, are perceptual indicies when they represent traces of the real as immediately legible, iconic renderings of a scene. Close examination of a slave staircase reveals the imprint of footsteps, an index of their toil. Despite the erasure of the enslaved people’s quarters and community, the point cloud still reveals marks of their presence.
 {{< /note >}}
+
+---
+
+{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/staircase.mp4" >}}
 
 ---
 
@@ -90,7 +95,9 @@ Point clouds, like photographs, are perceptual indicies when they represent trac
 Point clouds can also be conceptual indices. We can numerically analyze landscapes through point clouds using remote sensing techniques, temporal aggregation, and map algebra to study spatiotemporal phenomena such as photosynthetic activity, biomass accumulation, and carbon cycling. This data can then be represented through three-dimensional scatterplots overlaid with the transects, thereby rendering quantitative analysis spatially anchored in the point cloud. Despite their intensive algorithmic processing, they still retain indexical links to the landscape as data that record traces of its processes. They represent a trace of an idea such as the process of growth and senescence or the flux of carbon, rather than the look and physical structure of the landscape.
 {{< /note >}}
 
-<!-- Animation: Hilltop Time Series -->
+---
+
+{{< slide background-video="https://xyz.cct.lsu.edu/data/hilltop/hilltop-2020.mp4" >}}
 
 ---
 
@@ -135,6 +142,9 @@ Point clouds have a unique indexical authority in being interactive, three-dimen
 
 ---
 
+{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/allee.mp4" >}}
+
+---
 {{< slide background-image="rockery-dark.jpg" >}}
 ## Contingency
 ### The **contingent** is subject to change and chance
@@ -142,7 +152,9 @@ Point clouds have a unique indexical authority in being interactive, three-dimen
 However, point clouds are imperfect icons with noise, systematic errors, occlusions, and voids. The contingency of point clouds makes them a fundamentally abstract medium, countering their hyperrealism. The resulting image is pointillist with rich aesthetic tension between its hyperreal detail and painterly abstraction.
 {{< /note >}}
 
-<!-- Animation: Rockery -->
+---
+
+{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/rockery.mp4" >}}
 
 ---
 
