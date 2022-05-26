@@ -49,7 +49,7 @@ Christophe Girot proposed that point clouds are a new medium for designing lands
 ---
 
 ## Point Cloud Semiotics
-<img src="point-cloud-semiotics.png" width="900">
+<img src="point-cloud-semiotics.jpg" width="900">
 {{< note >}}
 Today we will be focusing on the semiotics of point clouds as a medium of landscape architecture. As a medium, point clouds are both data structure and subject—the physical environment. The algorithms that generate point clouds simultaneously enable and constrain the creative process.
 {{< /note >}}
@@ -58,7 +58,7 @@ Today we will be focusing on the semiotics of point clouds as a medium of landsc
 
 ## Iconicity
 **Icons** look like what they represent
-<img src="point-cloud-iconicity.png" width="900">
+<img src="point-cloud-iconicity.jpg" width="900">
 {{< note >}}
 An icon is mimetic, a likeness. Point clouds are iconic because they look like what they represent. Unlike photographs, point clouds are not flat; as multi-dimensional data that can be interactively rendered, they have an immersive sense of depth. They have an indexical link to the scene captured that imbues them with authenticity and fidelity to reality.
 {{< /note >}}
@@ -67,7 +67,7 @@ An icon is mimetic, a likeness. Point clouds are iconic because they look like w
 
 ## Indexicality
 **Indices** are physically and causally connected to what they represent
-<img src="point-cloud-indexicality.png" width="900">
+<img src="point-cloud-indexicality.jpg" width="900">
 {{< note >}}
 Indices are a trace of the real. In Peirce’s semiotics, an index is a sign that is physically or causally connected to what it represents. As a trace, independent of other meaning, they have an inherent authenticity. Point clouds are algorithmically mediated, indexical encodings of space and color with unique indexical authority.
 {{< /note >}}
@@ -97,13 +97,13 @@ Point clouds can also be conceptual indices. We can numerically analyze landscap
 
 ---
 
-{{< slide background-video="https://xyz.cct.lsu.edu/data/hilltop/hilltop-2020.mp4" >}}
+{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/hilltop-2020.mp4" >}}
 
 ---
 
 ## Symbolism
 **Symbols** are given meaning by convention
-<img src="point-cloud-symbolism.png" width="900">
+<img src="point-cloud-symbolism.jpg" width="900">
 {{< note >}}
 Symbols are signs whose meaning is read through convention such as words, allegories, or emojis. While the scene captured in a point cloud may have symbolic significance, point clouds are inherently symbolic as algorithmically encoded data.
 {{< /note >}}
@@ -159,7 +159,7 @@ However, point clouds are imperfect icons with noise, systematic errors, occlusi
 ---
 
 ## Enfolding-Unfolding Aesthetics
-<img src="point-cloud-folding.png" width="900"><br>
+<img src="point-cloud-folding.jpg" width="900"><br>
 [Laura Marks](https://www.sfu.ca/~lmarks/), [**Enfoldment & Infinity**](https://mitpress.mit.edu/books/enfoldment-and-infinity)
 {{< note >}}
 Drawing on the Deleuzian concept of the fold, new media scholar Laura Marks has proposed an algorithmic aesthetics of enfolding and unfolding.
@@ -168,7 +168,7 @@ Drawing on the Deleuzian concept of the fold, new media scholar Laura Marks has 
 ---
 
 ## Algorithmic Aesthetics
-<img src="point-cloud-aesthetics.png" width="900">
+<img src="point-cloud-aesthetics.jpg" width="900">
 {{< note >}}
 In this algorithmic aesthetics, infinite possibility coalesces – unfolds –into information and then image. Interpreting an image reveals the multiplicity of information enfolded in the image; interpreting that information in turn reveals infinite possibility. In this semiotic process “[i]mage is an interface to information, and information is an interface to the infinite.” (Marks 2010, 7). This is an aesthetics of abstraction, contingency, time, performance, immanence, and infinity.
 {{< /note >}}
