@@ -20,10 +20,6 @@ Hello, my name is Brendan Harmon [and I am Nicholas Serrano]. We are on the facu
 
 ---
 
-{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/landscape.mp4" >}}
-
----
-
 ## Points Clouds
 **Point Clouds**
 are algorithmically mediated, indexical encodings
@@ -83,10 +79,6 @@ Point clouds, like photographs, are perceptual indicies when they represent trac
 
 ---
 
-{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/staircase.mp4" >}}
-
----
-
 ## Conceptual Index
 **Conceptual Indices** are traces of ideas
 <img src="transect-biomass-2020.jpg" width="900"><br>
@@ -94,10 +86,6 @@ Point clouds, like photographs, are perceptual indicies when they represent trac
 {{< note >}}
 Point clouds can also be conceptual indices. We can numerically analyze landscapes through point clouds using remote sensing techniques, temporal aggregation, and map algebra to study spatiotemporal phenomena such as photosynthetic activity, biomass accumulation, and carbon cycling. This data can then be represented through three-dimensional scatterplots overlaid with the transects, thereby rendering quantitative analysis spatially anchored in the point cloud. Despite their intensive algorithmic processing, they still retain indexical links to the landscape as data that record traces of its processes. They represent a trace of an idea such as the process of growth and senescence or the flux of carbon, rather than the look and physical structure of the landscape.
 {{< /note >}}
-
----
-
-{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/hilltop-2020.mp4" >}}
 
 ---
 
@@ -142,9 +130,6 @@ Point clouds have a unique indexical authority in being interactive, three-dimen
 
 ---
 
-{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/allee.mp4" >}}
-
----
 {{< slide background-image="rockery-dark.jpg" >}}
 ## Contingency
 ### The **contingent** is subject to change and chance
@@ -154,9 +139,6 @@ However, point clouds are imperfect icons with noise, systematic errors, occlusi
 
 ---
 
-{{< slide background-video="https://xyz.cct.lsu.edu/data/rosedown/rockery.mp4" >}}
-
----
 
 ## Enfolding-Unfolding Aesthetics
 <img src="point-cloud-folding.jpg" width="900"><br>
