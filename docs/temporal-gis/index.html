@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Temporal GIS for Drone Data</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="temporal-gis">Temporal GIS</h1>
+<h3 id="for-drone-data">for Drone Data</h3>
+<p>Brendan Harmon</p>
+<img height="50px" src="lsu-coad-logo.png" alt="lsu college of art and design logo">
+</section><section>
+<h1 id="temporal-framework-for-gis">Temporal Framework for GIS</h1>
+<ul>
+<li>Database for time series of spatial data</li>
+<li>Temporal datasets, processing, visualization, and conversion</li>
+<li>Implemented in <a href="https://grass.osgeo.org/">GRASS GIS</a></li>
+</ul>
+<p><img src="grass-logo-s.jpg" alt="GRASS GIS Logo"></p>
+</section><section>
+<h1 id="space-time-datasets">Space Time Datasets</h1>
+<ul>
+<li>A collection of maps representing spatial data at different instances in time</li>
+<li>Maps are assigned timestamps and registered in a database with temporal metadata</li>
+<li>Support for vector, raster, 3D vector, &amp; 3D raster maps</li>
+</ul>
+</section><section>
+<h1 id="temporal-processing">Temporal Processing</h1>
+<ul>
+<li>Gap filling</li>
+<li>Aggregation</li>
+<li>Accumulation</li>
+<li>Algebra</li>
+<li>Queries</li>
+<li>Statistics</li>
+<li>Animation</li>
+<li>etc&hellip;</li>
+</ul>
+</section><section>
+<h1 id="case-study">Case Study</h1>
+<h3 id="hilltop-arboretum-time-series">Hilltop Arboretum Time Series</h3>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-arboretum.jpg">
+  
+<h2 id="hilltop-arboretum">Hilltop Arboretum</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="hilltop-wildflowers-3.jpg">
+  
+<h2 id="cajun-prairie-wildflower-meadow">Cajun Prairie Wildflower Meadow</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="firefly-takeoff.jpg">
+  
+<h2 id="monthly-drone-surveys">Monthly Drone Surveys</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="drone-data-analytics-1.png">
+  
+<!-- ## Drone Data Analytics -->
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="grass-python-scripting.png">
+  
+<h2 id="time-series-analysis">Time Series Analysis</h2>
+</section><section>
+<h2 id="spatiotemporal-data--functions">Spatiotemporal Data &amp; Functions</h2>
+<ul>
+<li>Space time raster dataset</li>
+<li>Temporal aggregation</li>
+<li>Temporal algebra</li>
+</ul>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="statistics-with-python.png">
+  
+<h2 id="monthly-changes-in-biomass">Monthly Changes in Biomass</h2>
+</section><section>
+<h1 id="point-cloud-visualization">Point Cloud Visualization</h1>
+<p><a href="https://xyz.cct.lsu.edu/data/hilltop/arboretum.html">xyz.cct.lsu.edu</a></p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-01-24.png">
+  
+<h2 id="january">January</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-06-01.png">
+  
+<h2 id="june">June</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-2020-08-29.png">
+  
+<h2 id="august">August</h2>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="transect-biomass-2020.png">
+  
+<h2 id="net-annual-biomass">Net Annual Biomass</h2>
+</section><section>
+<h1 id="references">References</h1>
+<ul>
+<li>Gebbert, S. &amp; Pebesma, E. 2014. <em>TGRASS: A temporal GIS for field based environmental modeling</em>. Environmental Modelling &amp; Software 53, 1-12</li>
+<li>Gebbert, S. &amp; Pebesma, E. 2017. <em>The GRASS GIS temporal framework</em>. International Journal of Geographical Information Science 31, 1273-1292</li>
+<li>Gebbert, S., Leppelt, T., &amp; Pebesma, E., 2019. <em>A topology based spatio-temporal map algebra for big data analysis</em>. Data 4, 86.</li>
+</ul>
+</section><section>
+<h1 id="tutorials">Tutorials</h1>
+<ul>
+<li><strong>GRASS GIS Manual,</strong> <a href="https://grass.osgeo.org/grass82/manuals/temporalintro.html">Temporal data processing in GRASS GIS</a></li>
+<li><strong>NCSU Geo For All Lab,</strong> <a href="https://ncsu-geoforall-lab.github.io/grass-temporal-workshop/">Spatio-temporal data handling and visualization in GRASS GIS</a></li>
+<li><strong>NCSU Geo For All Lab,</strong> <a href="http://fatra.cnr.ncsu.edu/temporal-grass-workshop/TGRASS_intro.pdf">Brief introduction to GRASS GIS Temporal Framework</a></li>
+<li><strong>Martin Landa,</strong> <a href="https://training.gismentors.eu/grass-gis-workshop-jena/units/21.html">Jena GRASS GIS Workshop</a></li>
+</ul>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>

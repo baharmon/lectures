@@ -27,6 +27,7 @@ outputs = ["Reveal"]
 * [<i class="ms ms-txt"></i> Cartography](/lectures/cartography/)
 * [<i class="ms ms-txt"></i> Decolonizing Cartography](/lectures/decolonizing-cartography/)
 * [<i class="ms ms-txt"></i> Geospatial Modeling](/lectures/geospatial-modeling/)
+* [<i class="ms ms-txt"></i> Temporal GIS](/lectures/temporal-gis/)
 
 ---
 
