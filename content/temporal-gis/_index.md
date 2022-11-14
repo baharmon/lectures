@@ -93,22 +93,22 @@ Brendan Harmon
 
 ---
 
-{{< slide background-image="transect-2020-01-24.png" >}}
+{{< slide background-image="transect-2020-01-24.jpg" >}}
 ## January
 
 ---
 
-{{< slide background-image="transect-2020-06-01.png" >}}
+{{< slide background-image="transect-2020-06-01.jpg" >}}
 ## June
 
 ---
 
-{{< slide background-image="transect-2020-08-29.png" >}}
+{{< slide background-image="transect-2020-08-29.jpg" >}}
 ## August
 
 ---
 
-{{< slide background-image="transect-biomass-2020.png" >}}
+{{< slide background-image="transect-biomass-2020.jpg" >}}
 ## Net Annual Biomass
 
 ---
