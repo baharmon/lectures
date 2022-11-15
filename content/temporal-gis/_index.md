@@ -66,7 +66,6 @@ Brendan Harmon
 ---
 
 {{< slide background-image="drone-data-analytics-1.png" >}}
-<!-- ## Drone Data Analytics -->
 
 ---
 
@@ -93,22 +92,11 @@ Brendan Harmon
 
 ---
 
-{{< slide background-image="transect-2020-01-24.jpg" >}}
-## January
+{{< slide background-video="https://xyz.cct.lsu.edu/data/hilltop/hilltop-2020.mp4" data-background-video-loop="loop" >}}
 
 ---
 
-{{< slide background-image="transect-2020-06-01.jpg" >}}
-## June
-
----
-
-{{< slide background-image="transect-2020-08-29.jpg" >}}
-## August
-
----
-
-{{< slide background-image="transect-biomass-2020.jpg" >}}
+{{< slide background-image="transect-biomass-2020.jpg" background-size="contain" >}}
 ## Net Annual Biomass
 
 ---
