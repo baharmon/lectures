@@ -7,7 +7,7 @@ outputs = ["Reveal"]
 
 * [Research Presentations](#/research)
 * [GIS for Designers Lectures](#/gis)
-* [Generative Landscape Lectures](#/generative)
+* [Computational Design Lectures](#/computational)
 * [Digital Landscape Lectures](#/digital)
 * [Other...](#/misc)
 
@@ -15,6 +15,7 @@ outputs = ["Reveal"]
 
 {{< slide id="research" >}}
 
+* [<i class="ms ms-txt"></i> Ecological Robotics 2023](/lectures/ecological-robotics-2023/)
 * [<i class="ms ms-txt"></i> Point Cloud Aesthetics 2022](/lectures/point-cloud-aesthetics-2022/)
 * [<i class="ms ms-txt"></i> Point Cloud Aesthetics 2021](/lectures/point-cloud-aesthetics-2021/)
 * [<i class="ms ms-txt"></i> Drone Data Analytics](/lectures/drone-data-analytics/)
@@ -31,8 +32,8 @@ outputs = ["Reveal"]
 
 ---
 
-{{< slide id="generative" >}}
-* [<i class="ms ms-txt"></i> Generative Design](/lectures/generative-design/)
+{{< slide id="computational" >}}
+* [<i class="ms ms-txt"></i> Computational Design](/lectures/generative-design/)
 
 ---
 
