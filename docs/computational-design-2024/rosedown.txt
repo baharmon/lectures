@@ -1,0 +1,30 @@
+
+{{< slide background-image="rosedown-landscape.jpg" >}}
+
+# Rosedown
+
+{{< note >}}
+{{< /note >}}
+
+---
+
+{{< slide background-image="rosedown-rockery.jpg" >}}
+
+{{< note >}}
+{{< /note >}}
+
+---
+
+{{< slide background-image="rosedown-tunnel.jpg" >}}
+
+{{< note >}}
+{{< /note >}}
+
+---
+
+{{< slide background-image="rosedown-staircase.jpg" >}}
+
+{{< note >}}
+{{< /note >}}
+
+---
