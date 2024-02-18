@@ -23,10 +23,10 @@ recently I have been focused on computational design
 - on the creative use of computation in the design process.
 Computational design is design with data,
 with algorithms and simulations.
-This talk will explore three 
-very different applications
+This talk will explore several applications
 of computational design -
 heritage preservation,
+point cloud modeling,
 computational ecology,
 and ecological robotics. 
 {{< /note >}}
@@ -151,6 +151,36 @@ we can record gravesites in immersive detail.
 We are also experimenting with 
 new scanning techniques such as 
 neural radiance fields. 
+{{< /note >}}
+
+---
+
+# Point Clouds
+
+{{< note >}}
+I am also interested in point clouds
+as a new design medium for landscape architecture,
+that is both hyper-detailed, yet also abstract.
+{{< /note >}}
+
+---
+
+{{< slide background-image="gaussian-planting-1.jpg" >}}
+
+# Point Cloud Modeling
+
+{{< note >}}
+I have been experimenting with
+point cloud modeling techniques.
+Complex, detailed scenes can be composited
+by segmenting, transforming, and merging point clouds. 
+Features can be classified and segmented
+either manually or automatically
+with algorithms and machine learning techniques.
+Segmented point clouds can be transformed manually 
+or algorithmically with, for example, Grasshopper.
+Here is a simple example of 
+randomly scattered laser scanned plants.
 {{< /note >}}
 
 ---
