@@ -11,6 +11,14 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/computational-design/body/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-design/conclusion/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/decolonizing-cartography/body/</loc>
   </url>
   
@@ -104,6 +112,10 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/teaching-2024/dev/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/technology/body/</loc>
   </url>
   
@@ -117,6 +129,11 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/template/conclusion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/todo/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -144,7 +161,15 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/computational-design/</loc>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/computational-design-2024/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-ecology-2024/</loc>
   </url>
   
   <url>
@@ -205,6 +230,10 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/teaching-2024/</loc>
   </url>
   
   <url>
