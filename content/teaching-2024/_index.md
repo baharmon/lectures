@@ -281,7 +281,7 @@ programming with Python...
 
 ---
 
-{{< slide background-image="robotic-3dp-3.jpg" >}}
+{{< slide background-image="robotic-3dp.jpg" >}}
 
 # Computational Design
 

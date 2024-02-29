@@ -63,7 +63,7 @@ and
 <a href="http://schorsch.efi.fh-nuernberg.de/data/terrain/EGM/EGM08_25.tif">EGM08_25.tif</a>.
 Then create a new GRASS location from
 <a href="http://schorsch.efi.fh-nuernberg.de/data/terrain/EGM/EGM08_25.prj">EGM08_25.prj</a>.</p>
-<pre><code>g.region n=90:00:00N s=90:00:00S e=360:00:00E w=00:00:00W
+<pre tabindex="0"><code>g.region n=90:00:00N s=90:00:00S e=360:00:00E w=00:00:00W
 r.in.gdal -r input=EGM08_25.tif output=emg
 r.colors map=emg color=viridis
 r.relief input=emg output=relief zscale=500

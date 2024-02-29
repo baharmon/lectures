@@ -19,341 +19,365 @@
   
 
     <section><h1 id="computational-design">Computational Design</h1>
-<p>Brendan Harmon</p>
+<p><a href="https://baharmon.github.io/">Brendan Harmon</a></p>
 <img height="50px" src="lsu-coad-logo.png">
+
+
+
+<aside class="notes">
+Welcome. 
+I am Brendan Harmon,
+an assistant professor 
+of landscape architecture
+at Louisiana State University.
+This lecture is an introduction
+to computational design
+and how it is tranforming the practice 
+of the landscape architecture.
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="snohetta-max-iv-1.jpg">
+      data-background-image="">
   
-<h2 id="snøhetta-max-iv-laboratory-landscape-2016httpssnohettacomprojects70-max-iv-laboratory-landscape"><a href="https://snohetta.com/projects/70-max-iv-laboratory-landscape">Snøhetta, MAX IV Laboratory Landscape, 2016</a></h2>
-<!-- Algorithmically designed and autonomously constructed landscapes
-that are highly functional and have a novel aesthetic with complex forms -->
+<h1 id="computational-design-1">Computational Design</h1>
+
+
+
+<aside class="notes">
+...
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="nervous-system-floraform.gif">
+      data-background-image="">
   
-<h2 id="generative-design">Generative Design</h2>
-<p>Generative design is a creative, algorithmic form finding process
-that enables the rapid generation, analysis, and evaluation
-of many design alternatives.</p>
-<p><a href="https://n-e-r-v-o-u-s.com/projects/sets/floraform/">Nervous System, Floraform</a></p>
-</section>
+<h1 id="algorithms">Algorithms</h1>
+<h3 id="precisely-defined-sets-of-mathematical-or-logical-operations-for-the-performance-of-a-particular-task">“Precisely defined sets of mathematical or logical operations for the performance of a particular task.”</h3>
+<p>“algorithm, n”. In: Oxford English Dictionary Online. Oxford University Press, 2022. url: https:
+//doi.org/10.1093/OED/1019775631.</p>
 
-<section data-noprocess data-shortcode-slide
-      data-background-image="decoi-one-main.jpg">
-  
-<h2 id="decoi-architects-one-main-2011httpwwwdecoi-architectsorg201110onemain"><a href="http://www.decoi-architects.org/2011/10/onemain/">deCOi Architects, One Main, 2011</a></h2>
-<!-- Architecture with an aesthetic of complexity, of curving, flowing forms -->   
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-image="grasshopper-1.jpg">
-  
-<h2 id="demo">Demo</h2>
+
+<aside class="notes">
+Algorithms – 
+“precisely defined sets of mathematical 
+or logical operations for the performance
+of a particular task” – 
+when used creatively in art and design 
+evoke a peculiar aesthetics of infinity. 
+</aside>
 </section><section>
-<h2 id="methods">Methods</h2>
-<ul>
-<li>Generative systems</li>
-<li>Parametric design</li>
-<li>Analysis and optimization</li>
-<li>Families of form</li>
-<li>Mass customization</li>
-<li>Digital fabrication</li>
-<li>Autonomous construction</li>
-</ul>
+
+<div style="width: 100%; height: left; margin: 0 auto; text-align: 10px; padding: 0;">
+    <div class="columns" style="display: flex; gap: 0px; width: 100%; box-sizing: border-box;">
+        
+        
+        
+            <div class="column" style="flex: 0 0 50.00%; padding: 10px; text-align: left; box-sizing: border-box;">
+                <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#66d9ef">as</span> plt
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># create figure</span>
+</span></span><span style="display:flex;"><span>ax <span style="color:#f92672">=</span> plt<span style="color:#f92672">.</span>subplot(projection<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;3d&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># instantiate random number generator</span>
+</span></span><span style="display:flex;"><span>rng <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>default_rng()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># generate random x-, y-, and z-values</span>
+</span></span><span style="display:flex;"><span>n <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>random(n)
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>random(n)
+</span></span><span style="display:flex;"><span>z <span style="color:#f92672">=</span> rng<span style="color:#f92672">.</span>random(n)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># plot points</span>
+</span></span><span style="display:flex;"><span>plot <span style="color:#f92672">=</span> ax<span style="color:#f92672">.</span>scatter(
+</span></span><span style="display:flex;"><span>    x, y, z, 
+</span></span><span style="display:flex;"><span>    c<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;black&#39;</span>, 
+</span></span><span style="display:flex;"><span>    s<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>
+</span></span><span style="display:flex;"><span>    )
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    </span></span></code></pre></div>
+
+            </div>
+        
+            <div class="column" style="flex: 0 0 50.00%; padding: 10px; text-align: left; box-sizing: border-box;">
+                <img src="points.png" alt="Random points">
+            </div>
+        
+    </div>
+</div>
+
+
+
+<aside class="notes">
+...
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="algorithm.png"
+      data-background-size="contain">
+  
+
+
+
+<aside class="notes">
+Grasshopper...
+</aside>
 </section><section>
-<h1 id="generative-systems">Generative Systems</h1>
-<p>Rather than drawing or modeling a form,
-designers write code to algorithmically generate families of forms.</p>
-</section>
+<h1 id="generative-art">Generative Art</h1>
 
-<section data-noprocess data-shortcode-slide
-      data-background-image="grasshopper-2.jpg">
-  
-<!-- visual programming -->
-<!-- add 3DP ceramics -->
+
+
+<aside class="notes">
+Algorithms that model the behavior of natural systems, such as fractals, cellular automata, branching and venation, differential growth, hyphae, slime molds, and flocking, can produce infinite, complex patterns that evolve over time. In generative art, artists use such algorithms as performances that hide, reveal, and transform meaning. As the algorithm runs, step by step, the performance unfolds. Although the code of the algorithm may remain hidden, the artist’s intention is transformed by the algorithm; the artwork’s meaning accumulates through performance. Even when the audience only sees a final resulting image or form – rather than an ongoing animation or performance – the algorithm leaves its mark, traces of its process, of its logic. Algorithms can express infinity through endless performance and the emergence of complexity from simple rules. While works of generative art and computational design are diverse, spanning a wide range of disciplines, media, and themes, there is a common current – the aesthetic of the algorithm. This algorithmic aesthetics of infinity is abstract, non-representational, and performative.
+</aside>
 </section><section>
-<h2 id="parametric-design">Parametric Design</h2>
-<p>Adjust model parameters to explore design alternatives.</p>
+<h1 id="infinite-regenerationhttpswwwinfinitecenter20210127infinite-regeneration"><a href="https://www.infinite.center/2021/01/27/infinite-regeneration/">Infinite Regeneration</a></h1>
+<h2 id="jared-s-tarbell-2021">Jared S. Tarbell, 2021</h2>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="grasshopper-3.jpg">
+      data-background-iframe="https://player.vimeo.com/video/505967885"
+      data-background-size="cover">
   
-<h2 id="design-alternatives">Design Alternatives</h2>
+
+
+
+<aside class="notes">
+Jared Tarbell's Infinite Regeneration
+particles drift endlessly through
+a field of procedural noise,
+evoking the emergence of complexity
+from simple systems.
+</aside>
 </section><section>
-<h2 id="analysis-and-optimization">Analysis and Optimization</h2>
-<ul>
-<li>Structural performance</li>
-<li>Energy efficiency</li>
-<li>Cut and fill</li>
-<li>Water and sediment flows</li>
-<li>Biodiversity</li>
-<li>Etc&hellip;</li>
-</ul>
+<h1 id="pleasant-placeshttpsquayolacompleasant-places"><a href="https://quayola.com/pleasant-places/">Pleasant Places</a></h1>
+<h2 id="quayola-2015">Quayola, 2015</h2>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="icd-itke-research-pavilion-2016-structural-analysis.jpg">
+      data-background-iframe="https://player.vimeo.com/video/834027582">
   
-<h2 id="structural-analysis">Structural Analysis</h2>
-<p><a href="https://www.icd.uni-stuttgart.de/projects/icditke-research-pavilion-2015-16/">ICD/ITKE Research Pavilion 2015-2016</a></p>
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://www.youtube.com/embed/zzoE5Xbnso0?autoplay=1&amp;rel=0">
-  
-<!-- [BUGA Wood Pavilion, Bundesgartenschau Heilbronn, 2019](https://www.icd.uni-stuttgart.de/projects/buga-wood-pavilion-2019/) -->
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-image="grasshopper-4.jpg">
-  
-<h2 id="water-flow">Water Flow</h2>
+
+<aside class="notes">
+In Quayola’s Pleasant Places,
+film footage of a landscape is gradually transformed by algorithms to reveal the sublime in nature. As image analysis, image processing, and audio signal processing algorithms progressively distort the original footage and sound, the landscape becomes more and more abstract with windswept leaves, grasses, and flowers gradually transforming into swirls of color. In its eventual abstraction this video alludes to the impressionist tradition of landscape painting, but as a performance it explores the dynamic nature of sensation, memory, and the environment.
+</aside>
 </section><section>
-<h2 id="families-of-form">Families of Form</h2>
-<p>Generate variations on a theme.</p>
+<h1 id="remains-vallée-de-jouxhttpsquayolacomremains-vallee-de-joux"><a href="https://quayola.com/remains-vallee-de-joux/">Remains: Vallée de Joux</a></h1>
+<h2 id="quayola-2018">Quayola, 2018</h2>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="nervous-system-floraform-1.png">
+      data-background-image="quayola-remains.jpg">
   
-<h2 id="nervous-system-floraform-2014httpsn-e-r-v-o-u-scomprojectssetsfloraform"><a href="https://n-e-r-v-o-u-s.com/projects/sets/floraform/">Nervous System, Floraform, 2014</a></h2>
+
+
+
+<aside class="notes">
+Quayola’s Remains are a series of point cloud renderings of woodland scenes, captured with
+laser scanning and rendered as points. An exploration of light as a medium, these point cloud renderings are both indexical representations of reality and algorithmic abstractions. The imperfections of the technology give rise to a painterly, pointillist aesthetic that evokes the material and immaterial.
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-iframe="https://player.vimeo.com/video/131219751">
+      data-background-image="">
   
-<h2 id="nervous-system-floraform-2014httpsn-e-r-v-o-u-scomprojectssetsfloraform-1"><a href="https://n-e-r-v-o-u-s.com/projects/sets/floraform/">Nervous System, Floraform, 2014</a></h2>
+<h1 id="computational-design-2">Computational Design</h1>
+<h2 id="in-architecture">in Architecture</h2>
+
+
+
+<aside class="notes">
+In computational design this aesthetics of the algorithm is given form in landscape and the built environment. In computational design, designers, rather than drawing or modeling a singular form, write code or compose visual programs that generate form. The designer scripts a creative process, a generative system. By designing algorithms rather than discrete forms, designers can rapidly explore design ideas and generate variations on a theme.
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+<h1 id="endless-wallhttpsgramaziokohlerarchethzchwebeprojekte216html"><a href="https://gramaziokohler.arch.ethz.ch/web/e/projekte/216.html">Endless Wall</a></h1>
+<h2 id="gramazio-kohler-research-2011">Gramazio Kohler Research, 2011</h2>
+
+
+
+<aside class="notes">
+Pioneering work by Gramazio Kohler Research at ETH Zürich explored the creative, aesthetic, and material implications of on-site robotic construction. 
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="gramazio-kohler-endless-wall.jpg">
+  
+
+
+
+<aside class="notes">
+In the Endless Wall, an articulated robotic arm on a mobile base tirelessly performed the Sisyphean task of continually reassembling a brick wall. As a performance, the Endless Wall expressed an algorithmic aesthetics of infinity through its continual cycle of construction and deconstruction. 
+</aside>
 </section><section>
-<h2 id="mass-customization">Mass Customization</h2>
-<p>Create personalized designs with generative systems and digital fabrication</p>
+<h1 id="pahoehoe-beautyhttpsmaeidcomworkspahoehoe-beauty"><a href="https://maeid.com/works/pahoehoe-beauty">Pahoehoe Beauty</a></h1>
+<h2 id="maeid-2018">MAEID, 2018</h2>
+
+
+
+<aside class="notes">
+The interdisciplinary practice MAEID explores the entanglement of technology and nature through creative experiments in robotic biofabrication such as Pahoehoe Beauty, Magic Queen, and Sylva. 
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-iframe="https://n-e-r-v-o-u-s.com/kinematicsHome/">
+      data-background-image="maeid-pahoehoe.jpg">
   
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://n-e-r-v-o-u-s.com/cellCycle/">
-  
+
+
+<aside class="notes">
+In MAEID's Pahoehoe Beauty,
+a landscape is 3D printed with mud.
+With its strange techno-organic aesthetic
+- defined by the biologically-inspired 
+algorithms for dendritic growth and the 
+physics of mud - 
+this work of speculative design
+problematizes binary conceptions
+of technology and nature
+by entangling them in uncanny ways. 
+</aside>
 </section><section>
-<h2 id="digital-fabrication">Digital Fabrication</h2>
-<p>With technologies for digital fabrication
-even complex algorithmically designed forms
-can be built precisely and efficiently.</p>
+<h1 id="sylvahttpsmaeidcomworksslyva"><a href="https://maeid.com/works/slyva">Sylva</a></h1>
+<h2 id="maeid-2021">MAEID, 2021</h2>
+
+
+
+<aside class="notes">
+In MAEID's Sylva, 
+robotic gardeners tend 
+an artificial ecosystem. 
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="maeid-sylva.jpg">
+  
+
+
+
+<aside class="notes">
+The robots, using machine vision to interpret their environment, are programmed to seed, water, or trim the plants. While the plants rely on the robots for care, the robots – acting in response to their environment – only move in response to the plants. This performative installation asks how technology and nature can coexist in symbiosis, exploring themes of empathy, coexistence, non-human subjectivity, and distributed agency.
+</aside>
 </section><section>
-<h2 id="digital-fabrication-technologies">Digital Fabrication Technologies</h2>
-<ul>
-<li>Computer numerical control (CNC)</li>
-<li>Laser cutting</li>
-<li>Plasma cutting</li>
-<li>3D printing</li>
-<li>Robotics</li>
-<li>Autonomous construction</li>
-</ul>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="olivier-van-herpt-ceramics.jpg">
-  
-<h2 id="olivier-van-herpt-3d-printed-ceramics-2012-2020httpoliviervanherptcom"><a href="http://oliviervanherpt.com/">Olivier van Herpt, 3D Printed Ceramics, 2012-2020</a></h2>
-<!-- http://oliviervanherpt.com/functional-3d-printed-ceramics/ -->
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="usace_erdc_aces.jpg">
-  
-<h2 id="usace-erdc-automated-construction-of-expeditionary-structures-aces-2017httpswwwerdcusacearmymilmediafact-sheetsfact-sheet-article-viewarticle1290247automated-construction-of-expeditionary-structures-aces"><a href="https://www.erdc.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/1290247/automated-construction-of-expeditionary-structures-aces/">USACE ERDC, Automated Construction of Expeditionary Structures (ACES), 2017</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="kinematic-petals-dress.jpg">
-  
-<h2 id="nervous-system-kinematic-petal-dress-2016httpsn-e-r-v-o-u-scomprojectssetskinematics-dress"><a href="https://n-e-r-v-o-u-s.com/projects/sets/kinematics-dress/">Nervous System, Kinematic Petal Dress, 2016</a></h2>
-<!-- Customized Couture -->
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="shifting-datum-1.jpg">
-  
-<h2 id="3d-printed-models">3D Printed Models</h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="delas-freres-winery-3.jpg">
-  
-<h2 id="carl-fredrik-svenstedt-architect-delas-frères-winery-2020httpswwwcarlfredriksvenstedtcomaheaddelas-freres-winery"><a href="https://www.carlfredriksvenstedt.com/ahead/delas-freres-winery/">Carl Fredrik Svenstedt Architect, Delas Frères Winery, 2020</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://www.youtube.com/embed/u4juGQXyDD0?autoplay=1&amp;start=47&amp;rel=0">
-  
-<!-- Delas Frères Winery -->
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="delas-freres-winery-4.jpg">
-  
-<h2 id="carl-fredrik-svenstedt-architect-delas-frères-winery-2020httpswwwcarlfredriksvenstedtcomaheaddelas-freres-winery-1"><a href="https://www.carlfredriksvenstedt.com/ahead/delas-freres-winery/">Carl Fredrik Svenstedt Architect, Delas Frères Winery, 2020</a></h2>
+<h1 id="computational-design-3">Computational Design</h1>
+<h2 id="in-landscape-architecture">in Landscape Architecture</h2>
 </section><section>
-<h2 id="generative-fabrication">Generative Fabrication</h2>
-<p>The methods of fabrication and assembly
-can play a generative role in the design process.
-While generative fabrication has begun to enable
-the mass customization of products,
-generative robotics could enable
-the mass customization of the environment.</p>
+<h1 id="title">Title</h1>
+<h2 id="designer-date">Designer, Date</h2>
+
+
+
+<aside class="notes">
+...
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+
+
+
+<aside class="notes">
+...
+</aside>
 </section><section>
-<h2 id="robotic-construction">Robotic Construction</h2>
-<ul>
-<li>Automated brick laying</li>
-<li>Weaving tensile structures</li>
-<li>Assembling timber frames</li>
-<li>Constructing complex formwork</li>
-<li>3D printing metal or concrete structures</li>
-<li>Automated earthmoving</li>
-</ul>
+<h1 id="title-1">Title</h1>
+<h2 id="designer-date-1">Designer, Date</h2>
+
+
+
+<aside class="notes">
+...
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="ethz-endless-wall.jpg">
+      data-background-image="">
   
-<h2 id="eth-zurich-gramazio--kohler-endless-wall-2011httpdfabarchethzchwebeforschung216html"><a href="http://dfab.arch.ethz.ch/web/e/forschung/216.html">ETH Zurich, Gramazio &amp; Kohler, Endless Wall, 2011</a></h2>
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://player.vimeo.com/video/69238768">
-  
-<!-- Endless Wall -->
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-image="ethz-flight-assembled-architecture.jpg">
-  
-<h2 id="eth-zurich-gramazio--kohler-flight-assembled-architecture-2012httpwwwdfabarchethzchwebdprojekte209html"><a href="http://www.dfab.arch.ethz.ch/web/d/projekte/209.html">ETH Zurich, Gramazio &amp; Kohler, Flight Assembled Architecture, 2012</a></h2>
-</section>
 
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://player.vimeo.com/video/69257453?autoplay=1#t=5m">
-  
-<!-- Flight Assembled Architecture -->
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="mx3d-bridge.jpg">
-  
-<h2 id="joris-laarman-mx3d-bridge-2018httpswwwjorislaarmancomworkmx3d-bridge"><a href="https://www.jorislaarman.com/work/mx3d-bridge/">Joris Laarman, MX3D Bridge, 2018</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://player.vimeo.com/video/234391874?autoplay=1">
-  
+<aside class="notes">
+...
+</aside>
 </section><section>
-<h2 id="generative-landscapes">Generative Landscapes</h2>
+<h1 id="title-2">Title</h1>
+<h2 id="designer-date-2">Designer, Date</h2>
+
+
+
+<aside class="notes">
+...
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="">
+  
+
+
+
+<aside class="notes">
+...
+</aside>
 </section><section>
-<h2 id="aerial-surveying-with-drones">Aerial Surveying with Drones</h2>
-<p><i class="ms ms-drone-quad-nano"></i></p>
-<ul>
-<li>Photography and videography</li>
-<li>Multispectral sensing</li>
-<li>Photogrammetry</li>
-</ul>
+<h1 id="robotic-embankment">Robotic Embankment</h1>
+<h2 id="jud-hurkxkens--hutter-2020">Jud, Hurkxkens, &amp; Hutter, 2020</h2>
+
+
+
+<aside class="notes">
+Swiss Federal Institute of Technology in Zürich
+</aside>
 </section>
 
 <section data-noprocess data-shortcode-slide
-      data-background-image="firefly-takeoff.jpg">
+      data-background-image="ethz-robotic-embankment-1.jpg">
   
-<h2 id="aerial-surveying-with-droneshttpbaharmongithubioblogdrone-surveying"><a href="http://baharmon.github.io/blog/drone-surveying">Aerial Surveying with Drones</a></h2>
-<h3 id="i-classms-ms-drone-wingi"><i class="ms ms-drone-wing"></i></h3>
+
+
+
+<aside class="notes">
+...
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ethz-robotic-embankment-2.jpg">
+  
+
+
+
+<aside class="notes">
+...
+</aside>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="ethz-robotic-embankment-3.jpg">
+  
+
+
+
+<aside class="notes">
+...
+</aside>
 </section><section>
-<h2 id="aerial-surveying-with-drones-1">Aerial Surveying with Drones</h2>
-<ul>
-<li>Orthophotographs</li>
-<li>Point clouds</li>
-<li>Digital surface models</li>
-<li>Time series</li>
-<li>Cut-fill</li>
-<li>Biomass</li>
-<li>Carbon storage</li>
-</ul>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://sketchfab.com/models/18e50ba68fc647fea58134bdff26c19a/embed?autostart=1&amp;amp;ui_controls=1&amp;amp;ui_infos=1&amp;amp;ui_inspector=1&amp;amp;ui_stop=1&amp;amp;ui_watermark=1&amp;amp;ui_watermark_link=1">
-  
-<h2 id="surveying-landscapes">Surveying Landscapes</h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="tangible-landscape.jpg">
-  
-<h2 id="tangible-landscapehttpstangible-landscapegithubio"><a href="https://tangible-landscape.github.io/">Tangible Landscape</a></h2>
-<h3 id="i-classms-ms-grass-gisihttpgrassosgeoorg"><a href="http://grass.osgeo.org/"><i class="ms ms-grass-gis"></i></a></h3>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="tangible-landscape-diagram.jpg">
-  
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://www.youtube.com/embed/Cd3cCQTGer4?autoplay=1&amp;rel=0">
-  
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://www.youtube.com/embed/akCTeknStmQ?autoplay=1&amp;rel=0">
-  
-</section>
-<!-- ethz dfab robotic construction -->
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="ethz-excabot.jpg">
-  
-<h2 id="ethz-dfab-construction-roboticshttpsdfabchstreamsconstruction-robotics"><a href="https://dfab.ch/streams/construction-robotics">ETHZ dfab, Construction Robotics</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://girot.arch.ethz.ch/events-conferences/robotic-embankment-prototype">
-  
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="benedikt-gross-avena.png">
-  
-<h2 id="benedikt-groß-avena-test-bed-2013httpbenedikt-grossdelog201306avena-test-bed_agricultural-printing-and-altered-landscapes"><a href="http://benedikt-gross.de/log/2013/06/avena-test-bed_agricultural-printing-and-altered-landscapes/">Benedikt Groß, Avena+ Test Bed, 2013</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-iframe="https://player.vimeo.com/video/73025162">
-  
-<!-- Benedikt Groß, Avena+ Test Bed-->
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="snohetta-max-iv-1.jpg">
-  
-<h2 id="snøhetta-max-iv-laboratory-landscape-2016httpssnohettacomprojects70-max-iv-laboratory-landscape-1"><a href="https://snohetta.com/projects/70-max-iv-laboratory-landscape">Snøhetta, MAX IV Laboratory Landscape, 2016</a></h2>
-</section>
-
-<section data-noprocess data-shortcode-slide
-      data-background-image="snohetta-max-iv-3.jpg">
-  
-<h2 id="snøhetta-max-iv-laboratory-landscape-2016httpssnohettacomprojects70-max-iv-laboratory-landscape-2"><a href="https://snohetta.com/projects/70-max-iv-laboratory-landscape">Snøhetta, MAX IV Laboratory Landscape, 2016</a></h2>
-</section><section>
-<h2 id="snøhetta-max-iv-laboratory-landscape-2016httpssnohettacomprojects70-max-iv-laboratory-landscape-3"><a href="https://snohetta.com/projects/70-max-iv-laboratory-landscape">Snøhetta, MAX IV Laboratory Landscape, 2016</a></h2>
-<ul>
-<li>Landforms reduce ground vibrations from highway</li>
-<li>Algorithmic design based on möbius strip</li>
-<li>Constructed by automated GPS-controlled bulldozers</li>
-<li>Balanced cut-fill</li>
-</ul>
-</section><section>
-<h2 id="credits">Credits</h2>
+<h1 id="credits">Credits</h1>
 <ul>
 <li><a href="https://snohetta.com/">Snøhetta</a></li>
 <li><a href="https://n-e-r-v-o-u-s.com/">Nervous System</a></li>
@@ -365,7 +389,6 @@ the mass customization of the environment.</p>
 <li><a href="https://www.erdc.usace.army.mil/">USACE ERDC</a></li>
 <li><a href="https://gramaziokohler.arch.ethz.ch/">ETH Zurich, Gramazio &amp; Kohler</a></li>
 <li><a href="https://www.jorislaarman.com/">Joris Laarman</a></li>
-<li><a href="https://tangible-landscape.github.io/">Tangible Landscape</a></li>
 <li><a href="https://dfab.ch/">ETHZ dfab</a></li>
 <li><a href="https://girot.arch.ethz.ch/">ETHZ Landscape Architecture</a></li>
 <li><a href="http://benedikt-gross.de/">Benedikt Groß</a></li>

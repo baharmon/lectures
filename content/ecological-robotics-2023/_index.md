@@ -78,9 +78,10 @@ They have developed methods for
 autonomous earth-moving, planting, and mowing. 
 Through these experiments,
 architects and landscape architects
-have been to explore the novel
+have been exploring the novel
 creative, material, tectonic, 
 performative, and aesthetic potential 
+of robots.
 {{< /note >}}
 
 ---
