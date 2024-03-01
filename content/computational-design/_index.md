@@ -32,6 +32,7 @@ of the landscape architecture.
 ...
 {{< /note >}}
 
+
 ---
 
 {{< slide background-image="" >}}
@@ -43,57 +44,7 @@ of the landscape architecture.
 //doi.org/10.1093/OED/1019775631.
 
 {{< note >}}
-Algorithms – 
-“precisely defined sets of mathematical 
-or logical operations for the performance
-of a particular task” – 
-when used creatively in art and design 
-evoke a peculiar aesthetics of infinity. 
-{{< /note >}}
-
----
-
-{{< container_columns "100%" "left" "10px" >}}
-{{< highlight python "style=monokai">}}
-import numpy as np
-import matplotlib.pyplot as plt
-# create figure
-ax = plt.subplot(projection='3d')
-# instantiate random number generator
-rng = np.random.default_rng()
-# generate random x-, y-, and z-values
-n = 100
-x = rng.random(n)
-y = rng.random(n)
-z = rng.random(n)
-# plot points
-plot = ax.scatter(
-    x, y, z, 
-    c='black', 
-    s=100
-    )
-    
-    
-    
-    
-    
-    
-    
-{{< /highlight >}}
-----
-![Random points](points.png)
-{{< /container_columns >}}
-
-{{< note >}}
-...
-{{< /note >}}
-
----
-
-{{< slide background-image="algorithm.png" background-size="contain" >}}
-
-{{< note >}}
-Grasshopper...
+Algorithms are “precisely defined sets of mathematical or logical operations for the performance of a particular task”. When used creatively in art and design algorithms can evoke a peculiar aesthetics of infinity. 
 {{< /note >}}
 
 ---
@@ -111,15 +62,15 @@ Algorithms that model the behavior of natural systems, such as fractals, cellula
 
 ---
 
-{{< slide background-iframe="https://player.vimeo.com/video/505967885" background-size="cover"  >}}
+{{< slide background-image="tarbell-infinite-regeneration.png"  >}}
 
 {{< note >}}
-Jared Tarbell's Infinite Regeneration
-particles drift endlessly through
-a field of procedural noise,
-evoking the emergence of complexity
-from simple systems.
+Jared Tarbell's Infinite Regeneration particles drift endlessly through a field of procedural noise, evoking the emergence of complexity from simple systems.
 {{< /note >}}
+
+---
+
+{{< slide background-iframe="https://player.vimeo.com/video/505967885" background-size="cover"  >}}
 
 ---
 
@@ -128,11 +79,18 @@ from simple systems.
 
 ---
 
+{{< slide background-image="quayola-pleasant-places.jpg" >}}
+
+{{< note >}}
+In Quayola’s Pleasant Places, film footage of a landscape is gradually transformed by algorithms to reveal the sublime in nature. As image analysis, image processing, and audio signal processing algorithms progressively distort the original footage and sound, the landscape becomes more and more abstract with windswept leaves, grasses, and flowers gradually transforming into swirls of color. In its eventual abstraction this video alludes to the impressionist tradition of landscape painting, but as a performance it explores the dynamic nature of sensation, memory, and the environment.
+{{< /note >}}
+
+---
+
 {{< slide background-iframe="https://player.vimeo.com/video/834027582" >}}
 
 {{< note >}}
-In Quayola’s Pleasant Places,
-film footage of a landscape is gradually transformed by algorithms to reveal the sublime in nature. As image analysis, image processing, and audio signal processing algorithms progressively distort the original footage and sound, the landscape becomes more and more abstract with windswept leaves, grasses, and flowers gradually transforming into swirls of color. In its eventual abstraction this video alludes to the impressionist tradition of landscape painting, but as a performance it explores the dynamic nature of sensation, memory, and the environment.
+In Quayola’s Pleasant Places, film footage of a landscape is gradually transformed by algorithms to reveal the sublime in nature. As image analysis, image processing, and audio signal processing algorithms progressively distort the original footage and sound, the landscape becomes more and more abstract with windswept leaves, grasses, and flowers gradually transforming into swirls of color. In its eventual abstraction this video alludes to the impressionist tradition of landscape painting, but as a performance it explores the dynamic nature of sensation, memory, and the environment.
 {{< /note >}}
 
 ---
@@ -156,8 +114,65 @@ laser scanning and rendered as points. An exploration of light as a medium, thes
 # Computational Design
 ## in Architecture
 
+* Form finding
+* Simulation & analysis
+* Digital fabrication
+* Autonomous construction
+
 {{< note >}}
-In computational design this aesthetics of the algorithm is given form in landscape and the built environment. In computational design, designers, rather than drawing or modeling a singular form, write code or compose visual programs that generate form. The designer scripts a creative process, a generative system. By designing algorithms rather than discrete forms, designers can rapidly explore design ideas and generate variations on a theme.
+In computational design, this aesthetics of the algorithm is given form in landscape and the built environment. In computational design, designers, rather than drawing or modeling a singular form, write code or compose visual programs that generate form. The designer scripts a creative process, a generative system. By designing algorithms rather than discrete forms, designers can rapidly explore design ideas, generate variations on a theme, run simulations, and evaluate performance. In architecture, computational design is used for form finding, simulation and analysis, digital fabrication, and autonomous construction.
+{{< /note >}}
+
+---
+
+# [One Main](http://www.decoi-architects.org/2011/10/onemain/)
+## dECOi Architects, 2011
+
+{{< note >}}
+Digital fabrication, by giving architects more control over the construction of their designs, has spurred structural, material, and aesthetic explorations in architecture. Architects use technologies such as laser and plasma cutting, CNC routing and milling, 3D printing, and robotics to build prefabricated parts for complex assemblies. Projects such as dECOi Architects’ interior for One Main used CNC milling to carve unique wooden components for organic, parametrically modeled forms. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="decoi-one-main.jpg" >}}
+
+{{< note >}}
+The interior of One Main was assembled from non-standard, CNC milled panels of sustainably harvested spruce plywood to create a novel, sinuous aesthetic in which architectural elements and furniture blend together as a cohesive whole.
+{{< /note >}}
+
+---
+
+# [Digital Grotesque II](https://www.michael-hansmeyer.com/digital-grotesque-II)
+## Michael Hansmeyer & Benjamin Dillenburger, 2017
+
+{{< note >}}
+With digital fabrication, the aesthetics of the algorithm can be expressed through built form. 
+Hansmeyer and Dillenburger's Digital Grotesque, for example, evokes the infinite.
+{{< /note >}}
+
+---
+
+{{< slide background-image="ethz-digital-grotesque.webp" >}}
+
+{{< note >}}
+This form was generated by algorithm using volumetric modeling and was 3D printed in sandstone. 
+{{< /note >}}
+
+---
+
+# [Tor Alva](https://www.michael-hansmeyer.com/white-tower)
+## Michael Hansmeyer & Benjamin Dillenburger, 2024
+
+{{< note >}}
+Architects have been experimenting with robotic processes for autonomously constructing buildings such as laying bricks, stone cutting, assembling timber frames, constructing complex formwork, winding tensile structures, and 3D printing metal, concrete, and soil structures. For example, Tor Avla by Hansmeyer and at ETH Zürich is being constructed from pre-fabricated columns 3D printed concrete
+{{< /note >}}
+
+---
+
+{{< slide background-image="ethz-white-tower-2.webp" >}}
+
+{{< note >}}
+When robots, programmed by architects and engineers, construct buildings components, the design team has direct control over fabrication. With robotic fabrication and construction, architecture becomes performative; architects are no longer just designing form, but rather the process by which form takes its shape.
 {{< /note >}}
 
 ---
@@ -168,7 +183,7 @@ In computational design this aesthetics of the algorithm is given form in landsc
 ## Gramazio Kohler Research, 2011
 
 {{< note >}}
-Pioneering work by Gramazio Kohler Research at ETH Zürich explored the creative, aesthetic, and material implications of on-site robotic construction. 
+While digital fabrication has extended architectural agency from the design office to the machine shop, robotics promises to extend architectural agency to the construction site. Pioneering work by Gramazio Kohler Research at ETH Zürich explored the creative, aesthetic, and material implications of on-site robotic construction. 
 {{< /note >}}
 
 ---
@@ -229,10 +244,72 @@ The robots, using machine vision to interpret their environment, are programmed 
 # Computational Design
 ## in Landscape Architecture
 
+* Form-finding & simulation
+* Autonomous planting
+* Autonomous earthworks
+* Remote sensing
+
+{{< note >}}
+Landscape architects use algorithms to generate paving patterns, planting patterns, and landforms. With remote sensing and robotics, they can autonomously map, construct, and plant these complex, algorithmically generated designs. 
+{{< /note >}}
+
 ---
 
-# Title
-## Designer, Date
+# [Cummins, Inc. Distribution Headquarters](https://land-collective.com/projects/cummins-distribution-headquarters/)
+## Land Collective, 2017
+
+{{< note >}}
+For the Cummins Distribution Headquarters...
+{{< /note >}}
+
+---
+
+{{< slide background-image="land-collective-cummins.jpg" >}}
+
+{{< note >}}
+Land Collective used an algorithmic approach to rapidly generate alternative paving patterns from fading gradients to the final design of alternating stripes of light and dark. This enabled the design team to quickly iterate through design concepts, testing many different ideas. The aesthetic is computational in its legible complexity, its sense of movement, and its nod to pixels and barcodes.
+{{< /note >}}
+
+---
+
+# [Les Jardins d’Etretat](https://etretatgarden.fr/en/)
+## Il Nature, 2015
+
+{{< note >}}
+At Il Nature's Les Jardins d’Etretat...
+{{< /note >}}
+
+---
+
+{{< slide background-image="il-nature-etretat.jpg" >}}
+
+{{< note >}}
+Procedural modeling was used to design the extensive topiary,
+which are meant evoke the energy and dynamism of the ocean waves
+below this cliffside garden.
+{{< /note >}}
+
+---
+
+
+# [MAX IV Laboratory Landscape](https://www.snohetta.com/projects/max-iv-laboratory-landscape-2)
+## Snøhetta, 2016
+
+{{< note >}}
+Computational design can also be used to build high performance landscapes. Snøhetta designed the MAX IV Laboratory Landscape for functional performance, algorithmically modeling and autonomously constructing landforms that would dampen ground vibrations around the particle accelerator and collect stormwater. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="snohetta-max-iv-1.jpg" >}}
+
+{{< note >}}
+GPS-controlled bulldozers were used to precisely construct these complex landforms.
+{{< /note >}}
+
+---
+
+{{< slide background-image="snohetta-max-iv-3.jpg" >}}
 
 {{< note >}}
 ...
@@ -240,54 +317,29 @@ The robots, using machine vision to interpret their environment, are programmed 
 
 ---
 
-{{< slide background-image="" >}}
+# [Avena+ Test Bed](https://benedikt-gross.de/projects/avena-test-bed-agricultural-printing-and-altered-landscapes/)
+## Benedikt Groß, 2013
 
 {{< note >}}
-...
+For Avena+ Test Bed, Benedikt Groß designed algorithmic patterns of crops, herbs, and flowers for wildlife friendly farming that were planted using a tractor with GPS-guided machine control. 
 {{< /note >}}
 
 ---
 
-# Title
-## Designer, Date
+{{< slide background-image="benedikt-gross-avena-test-bed.jpg" >}}
 
 {{< note >}}
-...
+Using a Voronoi diagram, an eleven and half hectare field was partitioned into cells planted with oats and bordered with herbs and wildflowers to attract pollinators and predators for pests.
+
 {{< /note >}}
 
 ---
 
-{{< slide background-image="" >}}
-
-{{< note >}}
-...
-{{< /note >}}
-
----
-
-# Title
-## Designer, Date
-
-{{< note >}}
-...
-{{< /note >}}
-
----
-
-{{< slide background-image="" >}}
-
-{{< note >}}
-...
-{{< /note >}}
-
-
----
-
-# Robotic Embankment
+# [Robotic Embankment](https://rsl.ethz.ch/robots-media/heap.html)
 ## Jud, Hurkxkens, & Hutter, 2020
 
 {{< note >}}
-Swiss Federal Institute of Technology in Zürich
+Reseachers and designers at the Swiss Federal Institute of Technology in Zürich...
 {{< /note >}}
 
 ---
@@ -295,7 +347,7 @@ Swiss Federal Institute of Technology in Zürich
 {{< slide background-image="ethz-robotic-embankment-1.jpg" >}}
 
 {{< note >}}
-...
+...used a legged robotic excavator to autonomously construct an embankment.
 {{< /note >}}
 
 ---
@@ -303,7 +355,7 @@ Swiss Federal Institute of Technology in Zürich
 {{< slide background-image="ethz-robotic-embankment-2.jpg" >}}
 
 {{< note >}}
-...
+The embankment was built using on-site material, balancing cut-and-fill.
 {{< /note >}}
 
 ---
@@ -311,25 +363,77 @@ Swiss Federal Institute of Technology in Zürich
 {{< slide background-image="ethz-robotic-embankment-3.jpg" >}}
 
 {{< note >}}
-...
+Here, construction becomes on ongoing performance directed by the design team and enacted by machine.
 {{< /note >}}
+
+---
+
+# [Cloudism](https://doi.org/10.1515/9783035622164-013)
+## Christophe Girot, 2019
+
+"designers adopting cloudism will step into an overwhelmingly convincing simulacrum of physical reality, space and time; this will enhance their understanding of site, and yield a stronger awareness of ambient aspects and cues"
+
+[**https://doi.org/10.1515/9783035622164-013**](https://doi.org/10.1515/9783035622164-013)
+
+{{< note >}}
+While remote sensing technologies like lidar have long been used by landscape architects for mapping and modeling terrain, lidar point clouds are emerging as a new media for the discipline, with great analytical, phenomenological, and aesthetic promise. Christophe Girot wrote that "designers adopting cloudism will step into an overwhelmingly convincing simulacrum of physical reality, space and time; this will enhance their understanding of site, and yield a stronger awareness of ambient aspects and cues."
+{{< /note >}}
+
+---
+
+# [Landscape Section](https://skfb.ly/6G98u)
+## Philipp Urech, 2019
+
+{{< note >}}
+Sections cut lidar point clouds can reveal the ecological structure of a landscape.
+{{< /note >}}
+
+---
+
+{{< slide background-image="urech-cloudism-1.jpg" >}}
+
+{{< note >}}
+In this example from Singapore, the ground has been re-regraded and the existing plants fit to the transformed terrain.
+{{< /note >}}
+
+---
+
+# [Dublin Green Retrofit](https://skfb.ly/oRCrE)
+## Philipp Urech, 2016
+
+{{< note >}}
+In this example from Dublin...
+{{< /note >}}
+
+---
+
+{{< slide background-image="urech-cloudism-3.jpg" >}}
+
+{{< note >}}
+an airborne lidar dataset of the city is transformed to envision a green retrofit.
+{{< /note >}}
+
+---
+
+
+# Credits
+
+* [Jared S. Tarbell](https://www.infinite.center/)
+* [Quayola](https://quayola.com/)
+* [deCOi Architects](http://www.decoi-architects.org/)
+* [Michael Hansmeyer](https://www.michael-hansmeyer.com/)
+* [ETHZ Digital Building Technologies](https://dbt.arch.ethz.ch/)
+* [ETHZ Gramazio & Kohler](https://gramaziokohler.arch.ethz.ch/)
 
 ---
 
 # Credits
 
+* [Land Collective](https://land-collective.com/)
+* [Les Jardins d'Etretat](https://flickr.com/photos/sottolestelle/40839159062/)
+photographed by [Julien Chatelain](https://flickr.com/photos/sottolestelle/)
 * [Snøhetta](https://snohetta.com/)
-* [Nervous System](https://n-e-r-v-o-u-s.com/)
-* [deCOi Architects](http://www.decoi-architects.org/)
-* [University of Stuttgart, ICD](https://www.icd.uni-stuttgart.de/projects/)
-& [ITKE](https://www.itke.uni-stuttgart.de/)
-* [Carl Fredrik Svenstedt Architect](https://www.carlfredriksvenstedt.com/)
-* [Olivier van Herpt](http://oliviervanherpt.com/)
-* [USACE ERDC](https://www.erdc.usace.army.mil/)
-* [ETH Zurich, Gramazio & Kohler](https://gramaziokohler.arch.ethz.ch/)
-* [Joris Laarman](https://www.jorislaarman.com/)
-* [ETHZ dfab](https://dfab.ch/)
-* [ETHZ Landscape Architecture](https://girot.arch.ethz.ch/)
 * [Benedikt Groß](http://benedikt-gross.de/)
-
-
+* [ETHZ Robotic Systems Lab](https://rsl.ethz.ch/)
+* [Christophe Girot](https://doi.org/10.1515/9783035622164-013)
+* [Philipp Urech](https://sketchfab.com/prwurech)
