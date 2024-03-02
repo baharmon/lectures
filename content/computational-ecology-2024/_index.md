@@ -27,10 +27,10 @@ for ecological research
 and the creative use of computation 
 in the design process.
 This talk will explore several applications
-of computational ecology and design -
-the preservation of heritage landscapes,
+of computational ecology and design including
 planting and remote sensing with robots,
 lidar analytics and biomass estimation, 
+the preservation of heritage landscapes,
 and point cloud modeling. 
 {{< /note >}}
 
@@ -39,7 +39,9 @@ and point cloud modeling.
 # Robotics
 
 {{< note >}}
-I am exploring creative applications for robots.
+Since 2019, I have been exploring 
+creative, ecological applications for robots
+such as autonomous planting and sensing.
 {{< /note >}}
 
 ---
@@ -51,10 +53,7 @@ I am exploring creative applications for robots.
 {{< note >}}
 I have been developing methods
 for robotic planting 
-in the lab and the field.
-Here, for example, 
-is the field robot that I will use 
-for autonomous planting in the field.
+both in the lab and the field.
 {{< /note >}}
 
 ---
@@ -94,6 +93,27 @@ and other algorithms.
 
 ---
 
+{{< slide background-image="ecological-robotics-5.jpg" >}}
+
+{{< note >}}
+With robotic planting,
+ecological gradients - for example -
+can be computationally designe
+and autonomously planted.
+Here is a gradient of procedural noise.
+{{< /note >}}
+
+---
+
+{{< slide background-image="ecological-robotics-6.jpg" >}}
+
+{{< note >}}
+And here is a tray of seedlings
+planted in a prodecural noise gradient. 
+{{< /note >}}
+
+---
+
 {{< slide background-image="ecological-robotics-4.jpg" background-size="contain" >}}
 
 {{< note >}}
@@ -116,23 +136,24 @@ with new computational aesthetics.
 
 ---
 
-{{< slide background-image="ecological-robotics-5.jpg" >}}
+{{< slide background-image="ecological-robotics-7.jpg" >}}
 
 {{< note >}}
-With robotic planting,
-ecological gradients - for example -
-can be computationally designed and
-and autonomously planted.
-Here is a gradient of procedural noise.
-{{< /note >}}
-
----
-
-{{< slide background-image="ecological-robotics-6.jpg" >}}
-
-{{< note >}}
-And here are seedlings
-planted in a prodecural noise gradient. 
+This is our new unmanned ground vehicle
+with real-time kinematic GNSS,
+a robotic arm, and a lidar module.
+I will use this field robot to plant test plots
+and a demonstration garden. 
+Applications for autonomous planting
+include seeding meadows and prairies,
+reforestation, ecological restoration,
+and precision agriculture.
+Imagine reforestation schemes 
+that are no longer monocultural grids,
+but rather in diverse communities
+planted in gradients based on 
+microclimatic, topographic, 
+hydrological, and soil conditions.
 {{< /note >}}
 
 ---
@@ -191,6 +212,16 @@ established at LSU's Hilltop Arboretum.
 
 ---
 
+{{< slide background-image="hilltop-2.jpg" >}}
+
+{{< note >}}
+Here is the fixed wing drone with a multispectral sensor
+that I use to capture monthly imagery of the meadow
+with red, green, blue, near infrared, and rededge channels.
+{{< /note >}}
+
+---
+
 {{< slide background-image="hilltop-3.jpg" background-size="contain" >}}
 
 {{< note >}}
@@ -204,6 +235,17 @@ in its first year.
 By accounting for carbon storage in meadows and prairies,
 we can demonstrate their ecoystem services
 and advocate for their creation or conservation.
+{{< /note >}}
+
+---
+
+{{< slide background-image="hilltop-4.jpg" >}}
+
+{{< note >}}
+Along with this research program, 
+I regularly teach drone piloting, photogrammetry, and lidar
+to landscape architecture students
+in my computational design course. 
 {{< /note >}}
 
 ---
@@ -250,7 +292,7 @@ As part of this project,
 I have developed a method 
 for building volumetric models
 from laser scanned point clouds. 
-This volumetric modeling process 
+My volumetric modeling process 
 can be used to calculate 
 the volume of large, old trees
 with extensive cavities
@@ -258,6 +300,7 @@ for biomass and carbon estimation.
 It can also be used to 3D print models 
 of these specimens
 for outreach, education, and exhibition.
+
 {{< /note >}}
 
 ---
@@ -297,6 +340,15 @@ and neural radiance fields
 to record the spatial structure
 and phenomenological character
 of heritage landscapes.
+Here are some of the tools I use -
+a laser scanner on a tripod 
+for scanning on the ground
+and a drone with real-time kinematic GNSS
+and a lidar module
+for scanning from above.
+By combining aerial and ground based scans,
+we can reconstruct complex landscapes
+in minute detail.
 {{< /note >}}
 
 ---
@@ -353,6 +405,50 @@ of the site in ways that other media cannot.
 The scan of the service staircase
 captures how the tall steps are worn underfoot,
 recording an index of the labor of the enslaved.
+The point clouds for this project can be viewed
+on my server xyz.cct.lsu.edu.
+And the data has been archived online on Zenodo
+with a free culture license.
+{{< /note >}}
+
+---
+
+{{< slide background-image="petit-versailles-1.webp" background-size="contain" >}}
+
+# Le Petit Versailles
+
+{{< note >}}
+Drone lidar can be use for landscape archeology.
+Since lidar can penetrate forest canopy, 
+it can reveal hidden landforms, traces of past landscapes.
+Le Petit Versailles 
+was the 19th century pleasure garden of Valcour Aimee.
+Long abandoned, the ruins of the garden 
+are lost beneath dense overgrowth
+and a canopy of mature southern live oaks.
+{{< /note >}}
+
+---
+
+{{< slide background-image="petit-versailles-2.webp" background-size="contain" >}}
+
+{{< note >}}
+To study this historic landscape,
+I collected drone lidar during leaf off season this January.
+Then I used a cloth simulation filter algorithm
+to classify and segment bare ground,
+revealing the historic waterways, mound, rockery, and paths.
+This is just the beginning of this project;
+I plan to experiment with other ground classification techniques
+such as the multiscale curvature classification
+and progressive morphological filter algorithms.
+I also plan to use terrain analysis techniques 
+- such as landform classification with geomorphons,
+skyview factor, and principal component analysis -
+to identify features in the landscape. 
+In the future I plan to use these techniques 
+to reveal lost histories and landscapes of the enslaved
+thoughout the southern United States.
 {{< /note >}}
 
 ---
@@ -389,7 +485,7 @@ Here is a point cloud of Alford Cemetery
 captured by a drone with a lidar module.
 With drone lidar,
 we can record these landscapes 
-and their surroundings
+and their surroundings from above
 at centimeter resolution. 
 {{< /note >}}
 
@@ -403,6 +499,21 @@ we can record gravesites in immersive detail.
 We are also experimenting with 
 new scanning techniques such as 
 neural radiance fields. 
+Our plan is to use 
+a segmented point cloud model 
+of the cemetery as a way to 
+map, curate, and explore other data.
+Selecting a gravsite
+within the point cloud model of the cemetery,
+for example,
+would reveal a curated collection
+of geneological records, 
+architectural drawings and measurements,
+and photographs.
+We have grand plans for this project
+and over the next decade 
+hope to record sites throughout
+the southern United State and the Caribbean.
 {{< /note >}}
 
 ---
@@ -417,7 +528,7 @@ that is both hyper-detailed, yet also abstract.
 
 ---
 
-{{< slide background-image="gaussian-planting-1.jpg" >}}
+{{< slide background-image="point-cloud-path-1.jpg" background-size="contain" >}}
 
 # Point Cloud Modeling
 
@@ -425,14 +536,33 @@ that is both hyper-detailed, yet also abstract.
 I have been experimenting with
 point cloud modeling techniques.
 Complex, detailed scenes can be composited
-by segmenting, transforming, and merging point clouds. 
-Features can be classified and segmented
+by classifying, segmenting, transforming, and merging point clouds. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="cloud-forest.jpg" background-size="contain" >}}
+
+{{< note >}}
+Features - such as these trees - 
+can be classified and segmented
 either manually or automatically
 with algorithms and machine learning techniques.
-Segmented point clouds can be transformed manually 
-or algorithmically with, for example, Grasshopper.
+When individual specimens have been isolated,
+their biomass and carbon can be calculated.
+{{< /note >}}
+
+---
+
+{{< slide background-image="gaussian-planting-1.jpg" background-size="contain" >}}
+
+{{< note >}}
+Segmented point clouds can then be transformed manually 
+or algorithmically with, for example, Grasshopper
+to create new designs.
 Here is a simple example of 
-randomly scattered laser scanned plants.
+laser scanned plants scattered
+in a Gaussian distribution.
 {{< /note >}}
 
 ---
@@ -441,7 +571,7 @@ randomly scattered laser scanned plants.
 
 * **Project:** field robotics
 
-* **Paper** computational aesthetics
+* **Paper:** computational aesthetics
 
 * **Book:** computational ecology
 
@@ -450,7 +580,31 @@ randomly scattered laser scanned plants.
 * **Grasshopper plugins:** lidar & geospatial analytics
 
 {{< note >}}
-
+My future plans include 
+creative applications of field robotics,
+a paper on computational aesthetics,
+a book on computational ecology,
+and plugin development. 
+I plan to explore new ecological applications 
+for field robotics such as 
+mobile lidar scanning,
+rapid ecological censuses,
+procedural mowing, 
+spot burning of weeds,
+and experiment with different planting and seeding systems. 
+I plan to write a paper on computational aesthetics 
+that delves into contemporary philosophies such as
+object oriented ontology and vital materialism.
+Now that I have finished writing my book 
+on computational design for landscape architects 
+which is due out this May,
+I plan to write a new textbook on computational ecology.
+Recently I developed a GIS plugin for simulating landscape evolution.
+Now I plan to develop open source GIS plugins 
+for grading and earthworks
+and erosion modeling.
+I also plan to develop open source Grasshopper plugins
+for lidar analytics and terrain analysis. 
 {{< /note >}}
 
 ---

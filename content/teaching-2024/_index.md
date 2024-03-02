@@ -178,6 +178,19 @@ and how to CNC mill models of exisiting or regraded terrain.
 
 ---
 
+{{< slide background-iframe="https://baharmon.github.io/lectures/geospatial-modeling/#/44" background-size="cover"  >}}
+
+
+# Intro to GIS
+
+### Urban Growth Simulation
+
+{{< note >}}
+Advanced topics have included urban growth simulation.
+{{< /note >}}
+
+---
+
 {{< slide background-image="hilltop-2.jpg" >}}
 
 # Computational Ecology
