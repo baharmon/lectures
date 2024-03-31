@@ -1,9 +1,9 @@
 +++
-title = "Computational Ecology for Landscape Architects"
+title = "Computational Design for Landscape Architects"
 outputs = ["Reveal"]
 +++
 
-# Computational Ecology
+# Computational Design
 ### for Landscape Architects
 
 [Brendan Harmon](https://baharmon.github.io/)
@@ -17,7 +17,8 @@ I am Brendan Harmon,
 an assistant professor of landscape architecture
 at Louisiana State University.
 Today I will be talking about
-my recent research and teaching.
+my recent research and forthcoming book
+on computational design.
 While I have expertise in the spatial sciences,
 recently I have been focused on 
 computational ecology and 
@@ -26,22 +27,24 @@ computational design
 for ecological research
 and the creative use of computation 
 in the design process.
-This talk will explore several applications
-of computational ecology and design including
-planting and remote sensing with robots,
-lidar analytics and biomass estimation, 
-the preservation of heritage landscapes,
-and point cloud modeling. 
 {{< /note >}}
 
 ---
 
-# Robotics
+# Design Research
+
+* Ecological Robotics
+* Computational Ecology
+* Historic Preservation
+* Point Cloud Modeling
 
 {{< note >}}
-Since 2019, I have been exploring 
-creative, ecological applications for robots
-such as autonomous planting and sensing.
+This talk will explore several applications
+of computational design including
+planting and remote sensing with robots,
+lidar analytics and biomass estimation, 
+the preservation of heritage landscapes,
+and point cloud modeling. 
 {{< /note >}}
 
 ---
@@ -51,6 +54,9 @@ such as autonomous planting and sensing.
 # Ecological Robotics
 
 {{< note >}}
+Since 2019, I have been exploring 
+creative, ecological applications for robots
+such as autonomous planting and sensing.
 I have been developing methods
 for robotic planting 
 both in the lab and the field.
@@ -69,9 +75,9 @@ With robotic paste-based extrusion,
 seeds can be precisely planted
 in computationally generated patterns.
 Initially I tested this process in the lab,
-printing in small trays
-with mixes of seeds
-in different patterns.
+printing seed mixes
+in computational patterns
+in small trays.
 {{< /note >}}
 
 ---
@@ -83,12 +89,12 @@ This prototype uses Grasshopper
 to generate planting designs
 and program the robot and extruder.
 With this process, 
-planting patterns could be generated from
+planting patterns can be generated from
+algorithms such as
 procedural noise gradients,
 cellular automata,
-space filling curves,
-AI image generation,
-and other algorithms.
+space filling curves, or
+AI image generation.
 {{< /note >}}
 
 ---
@@ -98,7 +104,7 @@ and other algorithms.
 {{< note >}}
 With robotic planting,
 ecological gradients - for example -
-can be computationally designe
+can be computationally designed
 and autonomously planted.
 Here is a gradient of procedural noise.
 {{< /note >}}
@@ -136,7 +142,7 @@ with new computational aesthetics.
 
 ---
 
-{{< slide background-image="ecological-robotics-7.jpg" >}}
+{{< slide background-image="ecological-robotics-8.jpg" >}}
 
 {{< note >}}
 This is our new unmanned ground vehicle
@@ -154,47 +160,27 @@ but rather in diverse communities
 planted in gradients based on 
 microclimatic, topographic, 
 hydrological, and soil conditions.
+Imagine meadows or perennial plantings 
+that are no longer randomly sown
+or slowly, meticulously laid out in drfits,
+but rather are rapidly, robotically sown in gradients
+to catalyze the emergence of 
+diverse, resilient ecosystems.
 {{< /note >}}
 
 ---
 
-{{< slide background-image="echo-1.jpg" >}}
+{{< slide background-image="robotic-wall.png" >}}
 
-# Echo
-
-{{< note >}}
-
-With new media artist Hye Yeon Nam
-sound artist Ka Hei Cheng, 
-I used autonomous planting to highlight
-the entanglement of nature and technology.
-We transformed a 3D printed planting design
-into a new musical instrument. 
-{{< /note >}}
-
----
-
-{{< slide background-iframe="https://player.vimeo.com/video/801436544" background-size="cover" >}}
+# Construction Robotics
 
 {{< note >}}
-By embedding capacitive touch sensors
-in the soil,
-we transformed plants
-into a living interface for
-sonic performance. 
-Touching the seedlings plays a sample
-from a sound palette 
-of environmental recordings.
-{{< /note >}}
-
----
-
-# Computational Ecology
-
-{{< note >}}
-My recent research in computational ecology
-explores the use of lidar
-to estimate biomass and carbon. 
+I also teach creative applications
+of robotics for autonomous construction. 
+For example, in my classes, 
+students learn how to
+parametrically model brick walls
+and then robotically lay the bricks.
 {{< /note >}}
 
 ---
@@ -204,6 +190,9 @@ to estimate biomass and carbon.
 # Drone Data Analytics
 
 {{< note >}}
+My recent research in computational ecology
+explores the use of lidar
+to estimate biomass and carbon. 
 Since 2020 I have been using drones
 with lidar and multispectral sensors
 to study the evolution of the meadow
@@ -268,9 +257,23 @@ specimens that capture
 the imagination of the public 
 and encourage broader support 
 for biodiversity conservation.
+{{< /note >}}
+
+---
+
+{{< slide background-image="monarch-of-the-swamp.jpg" background-size="contain" >}}
+
+{{< note >}}
+
+Large, old tree populations, however, 
+are in decline around the world. 
+Louisiana's ancient trees are at risk
+due to coastal change,
+lack of legal protection, 
+and senescence.
 To preserve a record of these 
 irreplaceable cultural icons, 
-we are compiling an Atlas of Heritage Trees.
+I am compiling an Atlas of Heritage Trees.
 As a digital humanities project,
 this research aims to document and share
 the legacy of these heritage trees.
@@ -320,20 +323,15 @@ and the reigning national champion.
 
 # Heritage Preservation
 
+<img src="faro-focus.jpg" width="250">
+<img src="matrice.jpg" width="600">
+
 {{< note >}}
 My research in heritage preservation 
 uses remote sensing technologies 
 such as lidar
 to preserve a record
 of disappearing heritage landscapes.
-{{< /note >}}
-
----
-
-<img src="faro-focus.jpg" width="250">
-<img src="matrice.jpg" width="600">
-
-{{< note >}}
 I use drones with lidar, 
 terrestrial laser scanning,
 and neural radiance fields
@@ -518,25 +516,18 @@ the southern United State and the Caribbean.
 
 ---
 
-# Point Clouds
-
-{{< note >}}
-I am also interested in point clouds
-as a new design medium for landscape architecture,
-that is both hyper-detailed, yet also abstract.
-{{< /note >}}
-
----
-
 {{< slide background-image="point-cloud-path-1.jpg" background-size="contain" >}}
 
 # Point Cloud Modeling
 
 {{< note >}}
-I have been experimenting with
-point cloud modeling techniques.
-Complex, detailed scenes can be composited
-by classifying, segmenting, transforming, and merging point clouds. 
+I am also interested in point clouds
+as a new design medium for landscape architecture,
+that is both hyper-detailed, yet also abstract.
+With point cloud modeling, 
+complex, detailed scenes can be composited
+by classifying, segmenting, transforming, 
+and merging point clouds. 
 {{< /note >}}
 
 ---
@@ -605,6 +596,26 @@ for grading and earthworks
 and erosion modeling.
 I also plan to develop open source Grasshopper plugins
 for lidar analytics and terrain analysis. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="book.png" background-size="contain" >}}
+
+{{< note >}}
+My new book on Computational Design
+will be published this May.
+If you enjoyed this talk
+and then try the book!
+{{< /note >}}
+
+---
+
+{{< slide background-image="open-education.png" background-size="contain" >}}
+
+{{< note >}}
+I also publish open education materials online
+including tutorials, videos, and datasets. 
 {{< /note >}}
 
 ---
