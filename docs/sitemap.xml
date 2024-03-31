@@ -120,6 +120,11 @@
   </url>
   
   <url>
+    <loc>https://baharmon.github.io/lectures/todo/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://baharmon.github.io/lectures/vr/body/</loc>
   </url>
   
@@ -141,6 +146,22 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-design/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-design-2024/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-ecology-2024/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/computational-ecology-2024/version-1/</loc>
   </url>
   
   <url>
@@ -201,6 +222,10 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/teaching-2024/</loc>
   </url>
   
   <url>
