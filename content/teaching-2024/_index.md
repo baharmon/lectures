@@ -7,7 +7,7 @@ outputs = ["Reveal"]
 
 [Brendan Harmon](https://baharmon.github.io/)
 
-<img height="50px" src="lsu-coad-logo.png">
+<img height="50px" src="../images/lsu-coad-logo.png">
 
 
 {{< note >}}
@@ -51,7 +51,7 @@ and Advanced Studios.
 
 ---
 
-{{< slide background-image="hungry-river.jpg" >}}
+{{< slide background-image="../images/hungry-river.jpg" >}}
 # Site Ecology
 
 {{< note >}}
@@ -104,7 +104,7 @@ transects, and soundscapes.
 
 ---
 
-{{< slide background-image="lidar-landform.jpg" >}}
+{{< slide background-image="../images/lidar-landform.jpg" >}}
 # Intro to GIS
 
 {{< note >}}
@@ -151,7 +151,7 @@ a collection of Youtube videos, and datasets.
 
 ---
 
-{{< slide background-image="gis-for-designers.gif" >}}
+{{< slide background-image="../images/gis-for-designers.gif" >}}
 
 # Intro to GIS
 
@@ -166,7 +166,7 @@ and design interventions,
 
 ---
 
-{{< slide background-image="cnc-milling.jpg" >}}
+{{< slide background-image="../images/cnc-milling.jpg" >}}
 
 # Intro to GIS
 
@@ -191,7 +191,7 @@ Advanced topics have included urban growth simulation.
 
 ---
 
-{{< slide background-image="hilltop-2.jpg" >}}
+{{< slide background-image="../images/hilltop-7.jpg" >}}
 
 # Computational Ecology
 
@@ -233,7 +233,7 @@ Advanced topics have included urban growth simulation.
 
 ---
 
-{{< slide background-image="gaussian-planting-1.jpg" >}}
+{{< slide background-image="../images/gaussian-planting-1.jpg" >}}
 
 # Computational Design
 
@@ -279,7 +279,7 @@ earthworks, volumetric modeling, and digital fabrication.
 
 ---
 
-{{< slide background-image="gaussian-planting-script.png" >}}
+{{< slide background-image="../images/gaussian-planting-script.png" >}}
 
 
 # Computational Design
@@ -294,7 +294,7 @@ programming with Python...
 
 ---
 
-{{< slide background-image="robotic-3dp.jpg" >}}
+{{< slide background-image="../images/robotic-3dp.jpg" >}}
 
 # Computational Design
 
@@ -306,7 +306,7 @@ and robotic 3D printing.
 
 ---
 
-{{< slide background-image="book.png" background-size="contain" >}}
+{{< slide background-image="../images/book.png" background-size="contain" >}}
 
 {{< note >}}
 My new book on Computational Design
@@ -330,7 +330,7 @@ to planning and design projects.
 
 ---
 
-{{< slide background-image="panda-park-1.jpg" >}}
+{{< slide background-image="../images/panda-park-1.jpg" >}}
 
 {{< note >}}
 In a studio on computational ecology, for example,
@@ -341,7 +341,7 @@ in Sichuan, China.
 
 ---
 
-{{< slide background-image="panda-park-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/panda-park-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 After fieldwork in the mountains, 
@@ -352,7 +352,7 @@ that accounted for sensory ecology and stochastic variation.
 
 ---
 
-{{< slide background-image="panda-park-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/panda-park-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 Then they used Grasshopper to rapidy design 
@@ -383,7 +383,7 @@ to catalyze the development of new wetlands.
 
 ---
 
-{{< slide background-image="siltcatcher-1.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-1.jpg" background-size="contain" >}}
 
 {{< note >}}
 The student used a physical hydrodynamic model
@@ -392,7 +392,7 @@ to test and evaluate design ideas.
 
 ---
 
-{{< slide background-image="siltcatcher-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 He used simulations with tracer dye
@@ -401,7 +401,7 @@ to study the flow and acculumation of fine sediment...
 
 ---
 
-{{< slide background-image="siltcatcher-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 and develop a design
@@ -411,7 +411,7 @@ in Lake Pontchartrain.
 
 ---
 
-{{< slide background-image="siltcatcher-4.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-4.jpg" background-size="contain" >}}
 
 {{< note >}}
 {{< /note >}}

@@ -8,7 +8,7 @@ outputs = ["Reveal"]
 [Brendan Harmon](https://baharmon.github.io/) &
 [Hye Yeon Nam](https://hynam.org/)
 
-<img height="50px" src="lsu-coad-logo.png">
+<img height="50px" src="../images/lsu-coad-logo.png">
 
 
 {{< note >}}
@@ -21,7 +21,7 @@ for autonomous planting.
 
 ---
 
-{{< slide background-image="field-robotics.png" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-4.jpg" background-size="contain" >}}
 # Ecological Robotics
 
 {{< note >}}
@@ -87,7 +87,7 @@ of robots.
 ---
 
 # Pasted-Based Robotic Planting
-<img src="robotic-planting-process.jpg" width="900">
+<img src="../images/ecological-robotics-2.jpg" width="900">
 
 {{< note >}}
 Our process for autonomous planting
@@ -103,7 +103,7 @@ with precision.
 ---
 
 # Implementation
-<img src="technical-diagram.jpg" width="900">
+<img src="../images/ecological-robotics-3.jpg" width="900">
 
 {{< note >}}
 We use a linear actuator ram
@@ -139,10 +139,10 @@ they have a high germination rate.
 
 # Computational Planting Design
 
-<img src="cellular-distance-noise.png" width="200">
-<img src="cellular-gradient-noise.png" width="200">
-<img src="perlin-fractal-gradient-noise.png" width="200">
-<img src="perlin-multifractal-noise.png" width="200">
+<img src="../images/cellular-distance-noise.png" width="200">
+<img src="../images/cellular-gradient-noise.png" width="200">
+<img src="../images/perlin-fractal-gradient-noise.png" width="200">
+<img src="../images/perlin-multifractal-noise.png" width="200">
 
 {{< note >}}
 We can print 
@@ -161,7 +161,7 @@ and other algorithms.
 
 ---
 
-{{< slide background-image="noise-print.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-6.jpg" >}}
 # Procedural Noise Prints
 
 {{< note >}}
@@ -226,7 +226,7 @@ of environmental recordings.
 
 ---
 
-{{< slide background-image="robotic-fieldwork-1.jpg" >}}
+{{< slide background-image="../images/robotic-fieldwork-1.jpg" >}}
 # Field Experiment
 
 {{< note >}}
@@ -235,7 +235,7 @@ We also conducted a field experiment.
 
 ---
 
-{{< slide background-image="robotic-fieldwork-2.jpg" >}}
+{{< slide background-image="../images/robotic-fieldwork-2.jpg" >}}
 # Field Experiment
 
 {{< note >}}
@@ -269,7 +269,7 @@ a controlled field experiment.
 
 ---
 
-{{< slide background-image="warthog-unboxing.jpg" >}}
+{{< slide background-image="../images/warthog-unboxing.jpg" >}}
 # Field Robotics
 ### Clearpath Warthog UGV
 

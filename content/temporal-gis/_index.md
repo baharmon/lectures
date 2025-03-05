@@ -9,7 +9,7 @@ outputs = ["Reveal"]
 
 Brendan Harmon
 
-<img height="50px" src="lsu-coad-logo.png" alt="lsu college of art and design logo">
+<img height="50px" src="../images/lsu-coad-logo.png" alt="lsu college of art and design logo">
 
 ---
 
@@ -19,7 +19,7 @@ Brendan Harmon
 * Temporal datasets, processing, visualization, and conversion
 * Implemented in [GRASS GIS](https://grass.osgeo.org/)
 
-![GRASS GIS Logo](grass-logo-s.jpg)
+![GRASS GIS Logo](../images/grass-logo-s.jpg)
 
 ---
 
@@ -50,26 +50,26 @@ Brendan Harmon
 
 ---
 
-{{< slide background-image="hilltop-arboretum.jpg" >}}
+{{< slide background-image="../images/hilltop-arboretum.jpg" >}}
 ## Hilltop Arboretum
 
 ---
 
-{{< slide background-image="hilltop-wildflowers-3.jpg" >}}
+{{< slide background-image="../images/hilltop-wildflowers-3.jpg" >}}
 ## Cajun Prairie Wildflower Meadow
 
 ---
 
-{{< slide background-image="firefly-takeoff.jpg" >}}
+{{< slide background-image="../images/hilltop-2.jpg" >}}
 ## Monthly Drone Surveys
 
 ---
 
-{{< slide background-image="drone-data-analytics-1.png" >}}
+{{< slide background-image="../images/drone-data-analytics-1.png" >}}
 
 ---
 
-{{< slide background-image="grass-python-scripting.png" >}}
+{{< slide background-image="../images/grass-python-scripting.png" >}}
 ## Time Series Analysis
 
 ---
@@ -81,7 +81,7 @@ Brendan Harmon
 
 ---
 
-{{< slide background-image="statistics-with-python.png" >}}
+{{< slide background-image="../images/statistics-with-python.png" >}}
 ## Monthly Changes in Biomass
 
 ---
@@ -96,7 +96,7 @@ Brendan Harmon
 
 ---
 
-{{< slide background-image="transect-biomass-2020.jpg" background-size="contain" >}}
+{{< slide background-image="../images/transect-biomass-2020.jpg" background-size="contain" >}}
 ## Net Annual Biomass
 
 ---

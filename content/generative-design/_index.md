@@ -7,7 +7,7 @@ outputs = ["Reveal"]
 
 Brendan Harmon
 
-<img height="50px" src="lsu-coad-logo.png">
+<img height="50px" src="../images/lsu-coad-logo.png">
 
 ---
 

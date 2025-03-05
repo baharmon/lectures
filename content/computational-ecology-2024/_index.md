@@ -1,14 +1,14 @@
 +++
-title = "Computational Design for Landscape Architects"
+title = "Computational Ecology for Landscape Architects"
 outputs = ["Reveal"]
 +++
 
-# Computational Design
+# Computational Ecology
 ### for Landscape Architects
 
 [Brendan Harmon](https://baharmon.github.io/)
 
-<img height="50px" src="lsu-coad-logo.png">
+<img height="50px" src="../images/lsu-coad-logo.png">
 
 
 {{< note >}}
@@ -49,7 +49,7 @@ and point cloud modeling.
 
 ---
 
-{{< slide background-image="ecological-robotics-7.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-7.jpg" >}}
 
 # Ecological Robotics
 
@@ -64,7 +64,7 @@ both in the lab and the field.
 
 ---
 
-{{< slide background-image="ecological-robotics-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 In the lab I developed a process 
@@ -82,7 +82,7 @@ in small trays.
 
 ---
 
-{{< slide background-image="ecological-robotics-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 This prototype uses Grasshopper 
@@ -99,7 +99,7 @@ AI image generation.
 
 ---
 
-{{< slide background-image="ecological-robotics-5.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-5.jpg" >}}
 
 {{< note >}}
 With robotic planting,
@@ -111,7 +111,7 @@ Here is a gradient of procedural noise.
 
 ---
 
-{{< slide background-image="ecological-robotics-6.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-6.jpg" >}}
 
 {{< note >}}
 And here is a tray of seedlings
@@ -120,7 +120,7 @@ planted in a prodecural noise gradient.
 
 ---
 
-{{< slide background-image="ecological-robotics-4.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-4.jpg" background-size="contain" >}}
 
 {{< note >}}
 To scale up, I will deploy this
@@ -142,7 +142,7 @@ with new computational aesthetics.
 
 ---
 
-{{< slide background-image="ecological-robotics-8.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-8.jpg" >}}
 
 {{< note >}}
 This is our new unmanned ground vehicle
@@ -170,7 +170,7 @@ diverse, resilient ecosystems.
 
 ---
 
-{{< slide background-image="robotic-wall.png" >}}
+{{< slide background-image="../images/robotic-wall.png" >}}
 
 # Construction Robotics
 
@@ -185,7 +185,7 @@ and then robotically lay the bricks.
 
 ---
 
-{{< slide background-image="hilltop-1.jpg" >}}
+{{< slide background-image="../images/hilltop-1.jpg" >}}
 
 # Drone Data Analytics
 
@@ -201,7 +201,7 @@ established at LSU's Hilltop Arboretum.
 
 ---
 
-{{< slide background-image="hilltop-2.jpg" >}}
+{{< slide background-image="../images/hilltop-2.jpg" >}}
 
 {{< note >}}
 Here is the fixed wing drone with a multispectral sensor
@@ -211,7 +211,7 @@ with red, green, blue, near infrared, and rededge channels.
 
 ---
 
-{{< slide background-image="hilltop-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/hilltop-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 With regular aerial surveys 
@@ -228,7 +228,7 @@ and advocate for their creation or conservation.
 
 ---
 
-{{< slide background-image="hilltop-4.jpg" >}}
+{{< slide background-image="../images/hilltop-4.jpg" >}}
 
 {{< note >}}
 Along with this research program, 
@@ -239,7 +239,7 @@ in my computational design course.
 
 ---
 
-{{< slide background-image="duelling-oak.jpg" background-size="contain" >}}
+{{< slide background-image="../images/duelling-oak.jpg" background-size="contain" >}}
 
 # Atlas of Heritage Trees
 
@@ -261,7 +261,7 @@ for biodiversity conservation.
 
 ---
 
-{{< slide background-image="monarch-of-the-swamp.jpg" background-size="contain" >}}
+{{< slide background-image="../images/monarch-of-the-swamp.jpg" background-size="contain" >}}
 
 {{< note >}}
 
@@ -285,10 +285,10 @@ which act as keystone ecological structures.
 
 ---
 
-<img src="big-cypress-point-cloud.jpg" width="500">
-<img src="big-cypress-voxels.jpg" width="400">
-<img src="big-cypress-marching-cubes.jpg" width="400">
-<img src="big-cypress-dendro.jpg" width="400">
+<img src="../images/big-cypress-point-cloud.jpg" width="500">
+<img src="../images/big-cypress-voxels.jpg" width="400">
+<img src="../images/big-cypress-marching-cubes.jpg" width="400">
+<img src="../images/big-cypress-dendro.jpg" width="400">
 
 {{< note >}}
 As part of this project,
@@ -308,7 +308,7 @@ for outreach, education, and exhibition.
 
 ---
 
-{{< slide background-image="big-cypress-print-xl.jpg" >}}
+{{< slide background-image="../images/big-cypress-print-xl.jpg" >}}
 
 {{< note >}}
 Here, for example, 
@@ -323,8 +323,8 @@ and the reigning national champion.
 
 # Heritage Preservation
 
-<img src="faro-focus.jpg" width="250">
-<img src="matrice.jpg" width="600">
+<img src="../images/faro-focus.jpg" width="250">
+<img src="../images/matrice.jpg" width="600">
 
 {{< note >}}
 My research in heritage preservation 
@@ -351,7 +351,7 @@ in minute detail.
 
 ---
 
-{{< slide background-image="rosedown-landscape.jpg" >}}
+{{< slide background-image="../images/rosedown-landscape.jpg" >}}
 
 # Rosedown
 
@@ -370,7 +370,7 @@ but also as artifacts of enslaved labor.
 
 ---
 
-{{< slide background-image="rosedown-rockery.jpg" >}}
+{{< slide background-image="../images/rosedown-rockery.jpg" >}}
 
 {{< note >}}
 With terrestrial laser scanning,
@@ -383,7 +383,7 @@ on the live oak allee.
 
 ---
 
-{{< slide background-image="rosedown-tunnel.jpg" >}}
+{{< slide background-image="../images/rosedown-tunnel.jpg" >}}
 
 {{< note >}}
 The scan of the tunnel through the rockery,
@@ -397,7 +397,7 @@ of the site in ways that other media cannot.
 
 ---
 
-{{< slide background-image="rosedown-staircase.jpg" >}}
+{{< slide background-image="../images/rosedown-staircase.jpg" >}}
 
 {{< note >}}
 The scan of the service staircase
@@ -411,7 +411,7 @@ with a free culture license.
 
 ---
 
-{{< slide background-image="petit-versailles-1.webp" background-size="contain" >}}
+{{< slide background-image="../images/petit-versailles-1.webp" background-size="contain" >}}
 
 # Le Petit Versailles
 
@@ -428,7 +428,7 @@ and a canopy of mature southern live oaks.
 
 ---
 
-{{< slide background-image="petit-versailles-2.webp" background-size="contain" >}}
+{{< slide background-image="../images/petit-versailles-2.webp" background-size="contain" >}}
 
 {{< note >}}
 To study this historic landscape,
@@ -451,7 +451,7 @@ thoughout the southern United States.
 
 ---
 
-{{< slide background-image="alford-1.jpg" >}}
+{{< slide background-image="../images/alford-1.jpg" >}}
 
 # African American Burial Grounds
 
@@ -489,7 +489,7 @@ at centimeter resolution.
 
 ---
 
-{{< slide background-image="alford-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/alford-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 With terrestrial laser scanning,
@@ -516,7 +516,7 @@ the southern United State and the Caribbean.
 
 ---
 
-{{< slide background-image="point-cloud-path-1.jpg" background-size="contain" >}}
+{{< slide background-image="../images/point-cloud-path-1.jpg" background-size="contain" >}}
 
 # Point Cloud Modeling
 
@@ -532,7 +532,7 @@ and merging point clouds.
 
 ---
 
-{{< slide background-image="cloud-forest.jpg" background-size="contain" >}}
+{{< slide background-image="../images/cloud-forest.jpg" background-size="contain" >}}
 
 {{< note >}}
 Features - such as these trees - 
@@ -545,7 +545,7 @@ their biomass and carbon can be calculated.
 
 ---
 
-{{< slide background-image="gaussian-planting-1.jpg" background-size="contain" >}}
+{{< slide background-image="../images/gaussian-planting-1.jpg" background-size="contain" >}}
 
 {{< note >}}
 Segmented point clouds can then be transformed manually 
@@ -600,7 +600,7 @@ for lidar analytics and terrain analysis.
 
 ---
 
-{{< slide background-image="book.png" background-size="contain" >}}
+{{< slide background-image="../images/book.png" background-size="contain" >}}
 
 {{< note >}}
 My new book on Computational Design
@@ -611,7 +611,7 @@ and then try the book!
 
 ---
 
-{{< slide background-image="open-education.png" background-size="contain" >}}
+{{< slide background-image="../images/open-education.png" background-size="contain" >}}
 
 {{< note >}}
 I also publish open education materials online

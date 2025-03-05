@@ -75,11 +75,6 @@
   </url>
   
   <url>
-    <loc>https://baharmon.github.io/lectures/notes/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://baharmon.github.io/lectures/point-cloud-aesthetics-2021/body/</loc>
   </url>
   
@@ -120,11 +115,6 @@
   </url>
   
   <url>
-    <loc>https://baharmon.github.io/lectures/todo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://baharmon.github.io/lectures/vr/body/</loc>
   </url>
   
@@ -161,7 +151,7 @@
   </url>
   
   <url>
-    <loc>https://baharmon.github.io/lectures/computational-ecology-2024/version-1/</loc>
+    <loc>https://baharmon.github.io/lectures/computational-ecology-2025/</loc>
   </url>
   
   <url>
@@ -210,6 +200,10 @@
   
   <url>
     <loc>https://baharmon.github.io/lectures/point-clouds-2021/</loc>
+  </url>
+  
+  <url>
+    <loc>https://baharmon.github.io/lectures/randomness/</loc>
   </url>
   
   <url>

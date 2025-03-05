@@ -8,7 +8,7 @@ outputs = ["Reveal"]
 
 [Brendan Harmon](https://baharmon.github.io/)
 
-<img height="50px" src="lsu-coad-logo.png">
+<img height="50px" src="../images/lsu-coad-logo.png">
 
 
 {{< note >}}
@@ -43,8 +43,8 @@ to preserve a record of disappearing heritage landscapes.
 
 ---
 
-<img src="faro-focus.jpg" width="250">
-<img src="matrice.jpg" width="600">
+<img src="../images/faro-focus.jpg" width="250">
+<img src="../images/matrice.jpg" width="600">
 
 {{< note >}}
 I use drones with lidar, 
@@ -57,7 +57,7 @@ of heritage landscapes.
 
 ---
 
-{{< slide background-image="rosedown-landscape.jpg" >}}
+{{< slide background-image="../images/rosedown-landscape.jpg" >}}
 
 # Rosedown
 
@@ -75,7 +75,7 @@ but also as artifacts of enslaved labor.
 
 ---
 
-{{< slide background-image="rosedown-rockery.jpg" >}}
+{{< slide background-image="../images/rosedown-rockery.jpg" >}}
 
 {{< note >}}
 With terrestrial laser scanning,
@@ -88,7 +88,7 @@ on the live oak allee.
 
 ---
 
-{{< slide background-image="rosedown-tunnel.jpg" >}}
+{{< slide background-image="../images/rosedown-tunnel.jpg" >}}
 
 {{< note >}}
 The scan of the tunnel through the rockery,
@@ -101,7 +101,7 @@ of the site in ways that other media cannot.
 
 ---
 
-{{< slide background-image="rosedown-staircase.jpg" >}}
+{{< slide background-image="../images/rosedown-staircase.jpg" >}}
 
 {{< note >}}
 The scan of the service staircase
@@ -111,7 +111,7 @@ recording an index of the labor of the enslaved.
 
 ---
 
-{{< slide background-image="alford-1.jpg" >}}
+{{< slide background-image="../images/alford-1.jpg" >}}
 
 # African American Burial Grounds
 
@@ -143,7 +143,7 @@ at centimeter resolution.
 
 ---
 
-{{< slide background-image="alford-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/alford-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 With terrestrial laser scanning,
@@ -165,7 +165,7 @@ that is both hyper-detailed, yet also abstract.
 
 ---
 
-{{< slide background-image="gaussian-planting-1.jpg" >}}
+{{< slide background-image="../images/gaussian-planting-1.jpg" >}}
 
 # Point Cloud Modeling
 
@@ -195,7 +195,7 @@ to estimate biomass and carbon.
 
 ---
 
-{{< slide background-image="hilltop-1.jpg" >}}
+{{< slide background-image="../images/hilltop-1.jpg" >}}
 
 # Drone Data Analytics
 
@@ -208,7 +208,7 @@ established at LSU's Hilltop Arboretum.
 
 ---
 
-{{< slide background-image="hilltop-6.png" background-size="contain" >}}
+{{< slide background-image="../images/hilltop-6.png" background-size="contain" >}}
 
 {{< note >}}
 With regular aerial surveys 
@@ -224,7 +224,7 @@ and advocate for their creation or conservation.
 
 ---
 
-{{< slide background-image="duelling-oak.jpg" background-size="contain" >}}
+{{< slide background-image="../images/duelling-oak.jpg" background-size="contain" >}}
 
 # Atlas of Heritage Trees
 
@@ -250,10 +250,10 @@ which act as keystone ecological structures.
 
 ---
 
-<img src="big-cypress-point-cloud.jpg" width="500">
-<img src="big-cypress-voxels.jpg" width="400">
-<img src="big-cypress-marching-cubes.jpg" width="400">
-<img src="big-cypress-dendro.jpg" width="400">
+<img src="../images/big-cypress-point-cloud.jpg" width="500">
+<img src="../images/big-cypress-voxels.jpg" width="400">
+<img src="../images/big-cypress-marching-cubes.jpg" width="400">
+<img src="../images/big-cypress-dendro.jpg" width="400">
 
 {{< note >}}
 As part of this project,
@@ -269,7 +269,7 @@ for outreach, education, and exhibition.
 
 ---
 
-{{< slide background-image="big-cypress-print-xl.jpg" >}}
+{{< slide background-image="../images/big-cypress-print-xl.jpg" >}}
 
 {{< note >}}
 Here, for example, is a 3D print of the Big Cypress,
@@ -288,7 +288,7 @@ I am also exploring creative applications for robots.
 
 ---
 
-{{< slide background-image="ecological-robotics-7.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-7.jpg" >}}
 
 # Ecological Robotics
 
@@ -299,7 +299,7 @@ robotic planting in the lab and the field.
 
 ---
 
-{{< slide background-image="ecological-robotics-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 In the lab I developed a process for 3D printing with seeds.
@@ -309,7 +309,7 @@ of clay, planting media, and water.
 
 ---
 
-{{< slide background-image="ecological-robotics-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 With robotic paste-based extrusion,
@@ -319,7 +319,7 @@ in computationally generated patterns.
 
 ---
 
-{{< slide background-image="ecological-robotics-4.jpg" background-size="contain" >}}
+{{< slide background-image="../images/ecological-robotics-4.jpg" background-size="contain" >}}
 
 {{< note >}}
 To scale up, I will deploy this
@@ -330,7 +330,7 @@ I will use lidar to monitor growth.
 
 ---
 
-{{< slide background-image="ecological-robotics-5.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-5.jpg" >}}
 
 {{< note >}}
 With robotic planting,
@@ -343,7 +343,7 @@ gradient of procedural noise.
 
 ---
 
-{{< slide background-image="ecological-robotics-6.jpg" >}}
+{{< slide background-image="../images/ecological-robotics-6.jpg" >}}
 
 {{< note >}}
 And here are seedlings
@@ -384,7 +384,7 @@ a collection of Youtube videos, and datasets.
 
 ---
 
-{{< slide background-image="lidar-landform.jpg" >}}
+{{< slide background-image="../images/lidar-landform.jpg" >}}
 
 {{< note >}}
 Students learn how to work with lidar data,
@@ -393,7 +393,7 @@ how to model and anlyze a site's terrain,
 
 ---
 
-{{< slide background-image="gis-for-designers.gif" >}}
+{{< slide background-image="../images/gis-for-designers.gif" >}}
 
 {{< note >}}
 how to simulate water flow over exisiting conditions 
@@ -402,7 +402,7 @@ and design interventions,
 
 ---
 
-{{< slide background-image="cnc-milling.jpg" >}}
+{{< slide background-image="../images/cnc-milling.jpg" >}}
 
 {{< note >}}
 and how to CNC mill models of exisiting or regraded terrain.
@@ -424,7 +424,7 @@ earthworks, volumetric modeling, and digital fabrication.
 
 ---
 
-{{< slide background-image="gaussian-planting-script.png" >}}
+{{< slide background-image="../images/gaussian-planting-script.png" >}}
 
 {{< note >}}
 Iterations of this course have also covered
@@ -433,7 +433,7 @@ drones, laser scanning, point cloud modeling.
 
 ---
 
-{{< slide background-image="book.png" background-size="contain" >}}
+{{< slide background-image="../images/book.png" background-size="contain" >}}
 
 {{< note >}}
 My new book on Computational Design
@@ -457,7 +457,7 @@ to planning and design projects.
 
 ---
 
-{{< slide background-image="panda-park-1.jpg" >}}
+{{< slide background-image="../images/panda-park-1.jpg" >}}
 
 {{< note >}}
 In a studio on computational ecology, for example,
@@ -468,7 +468,7 @@ in Sichuan, China.
 
 ---
 
-{{< slide background-image="panda-park-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/panda-park-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 After fieldwork in the mountains, 
@@ -479,7 +479,7 @@ that accounted for sensory ecology and stochastic variation.
 
 ---
 
-{{< slide background-image="panda-park-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/panda-park-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 Then they used Grasshopper to rapidy design 
@@ -510,7 +510,7 @@ to catalyze the development of new wetlands.
 
 ---
 
-{{< slide background-image="siltcatcher-1.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-1.jpg" background-size="contain" >}}
 
 {{< note >}}
 The student used a physical hydrodynamic model
@@ -519,7 +519,7 @@ to test and evaluate design ideas.
 
 ---
 
-{{< slide background-image="siltcatcher-2.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-2.jpg" background-size="contain" >}}
 
 {{< note >}}
 He used simulations with tracer dye
@@ -528,7 +528,7 @@ to study the flow and acculumation of fine sediment...
 
 ---
 
-{{< slide background-image="siltcatcher-3.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-3.jpg" background-size="contain" >}}
 
 {{< note >}}
 and develop a design
@@ -538,7 +538,7 @@ in Lake Pontchartrain.
 
 ---
 
-{{< slide background-image="siltcatcher-4.jpg" background-size="contain" >}}
+{{< slide background-image="../images/siltcatcher-4.jpg" background-size="contain" >}}
 
 {{< note >}}
 {{< /note >}}

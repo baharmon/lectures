@@ -15,6 +15,7 @@ outputs = ["Reveal"]
 
 {{< slide id="research" >}}
 
+* [<i class="ms ms-txt"></i> Computational Ecology 2025](/lectures/computational-ecology-2025/)
 * [<i class="ms ms-txt"></i> Computational Ecology 2024](/lectures/computational-ecology-2024/)
 * [<i class="ms ms-txt"></i> Computational Design 2024](/lectures/computational-design-2024/)
 * [<i class="ms ms-txt"></i> Ecological Robotics 2023](/lectures/ecological-robotics-2023/)
@@ -54,4 +55,4 @@ outputs = ["Reveal"]
 * [<i class="ms ms-txt"></i> Research 2020](/lectures/research-2020/)
 * [<i class="ms ms-txt"></i> Technology](/lectures/technology/)
 * [<i class="ms ms-txt"></i> Teaching 2024](/lectures/teaching-2024/)
-
+* [<i class="ms ms-txt"></i> Randomness](/lectures/randomness/)
