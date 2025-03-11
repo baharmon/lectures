@@ -188,6 +188,10 @@ which act as keystone ecological structures.
 
 ---
 
+{{< slide background-image="../images/big-cypress.jpg" background-size="contain" >}}
+
+---
+
 <img src="../images/big-cypress-point-cloud.jpg" width="500">
 <img src="../images/big-cypress-voxels.jpg" width="400">
 <img src="../images/big-cypress-marching-cubes.jpg" width="400">
