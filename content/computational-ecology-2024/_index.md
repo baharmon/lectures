@@ -532,7 +532,7 @@ and merging point clouds.
 
 ---
 
-{{< slide background-image="../images/cloud-forest.jpg" background-size="contain" >}}
+{{< slide background-image="../images/cloud-forest-1.webp" background-size="contain" >}}
 
 {{< note >}}
 Features - such as these trees - 

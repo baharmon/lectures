@@ -142,7 +142,7 @@ and advocate for their creation or conservation.
 
 ---
 
-{{< slide background-image="../images/duelling-oak.jpg" background-size="contain" >}}
+{{< slide background-image="../images/heritage-trees-1.webp" >}}
 
 ## Atlas of Heritage Trees
 
@@ -161,6 +161,10 @@ the imagination of the public
 and encourage broader support 
 for biodiversity conservation.
 {{< /note >}}
+
+---
+
+{{< slide background-image="../images/duelling-oak.jpg" background-size="contain" >}}
 
 ---
 
@@ -225,6 +229,30 @@ on Cat Island in Louisiana.
 It is the largest recorded bald cypress
 and the reigning national champion.
 {{< /note >}}
+
+---
+
+{{< slide background-image="../images/field-recordings-1.webp" >}}
+
+## Field Recordings
+
+---
+
+{{< slide background-image="../images/field-recordings-2.webp" >}}
+
+---
+
+{{< slide background-image="../images/field-recordings-3.webp" background-size="contain" >}}
+
+---
+
+{{< slide background-image="../images/field-recordings-4.webp" background-size="contain" >}}
+
+<!-- Video: 3D Print as Speaker -->
+
+<!-- Video: Duelling Oak Animation -->
+
+<!-- Video: Live Performance -->
 
 ---
 
@@ -380,6 +408,16 @@ thoughout the southern United States.
 ---
 
 # Computational Design
+
+---
+
+{{< slide background-image="../images/cloud-garden-1.webp" >}}
+
+## Point Cloud Modeling
+
+---
+
+{{< slide background-image="../images/cloud-forest-1.webp" background-size="contain" >}}
 
 ---
 
