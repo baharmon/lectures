@@ -248,11 +248,9 @@ and the reigning national champion.
 
 {{< slide background-image="../images/field-recordings-4.webp" background-size="contain" >}}
 
-<!-- Video: 3D Print as Speaker -->
+---
 
-<!-- Video: Duelling Oak Animation -->
-
-<!-- Video: Live Performance -->
+{{< slide background-iframe="https://drive.google.com/file/d/1IrwrmwUJu5GvFA_jr0SHvvk46fK68pm1/preview" >}}
 
 ---
 
