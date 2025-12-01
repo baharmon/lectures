@@ -51,7 +51,7 @@ and Advanced Studios.
 
 ---
 
-{{< slide background-image="../images/hungry-river.jpg" >}}
+{{< slide background-image="../images/hungry-river-1.jpg" >}}
 # Site Ecology
 
 {{< note >}}
@@ -396,7 +396,7 @@ to test and evaluate design ideas.
 
 {{< note >}}
 He used simulations with tracer dye
-to study the flow and acculumation of fine sediment...
+to study the flow and accumulation of fine sediment...
 {{< /note >}}
 
 ---
