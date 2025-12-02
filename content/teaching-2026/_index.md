@@ -273,7 +273,9 @@ parametrically model brick walls
 and then robotically lay the bricks.
 {{< /note >}}
 
----
+<!-- 
+
+--
 
 ## Landscape Ecology
 
@@ -299,6 +301,8 @@ and then robotically lay the bricks.
 * Aesthetics
 * Philosophy
 {{< /container_columns >}}
+
+-->
 
 ---
 
