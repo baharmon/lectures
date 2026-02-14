@@ -16,6 +16,7 @@ outputs = ["Reveal"]
 {{< slide id="research" >}}
 
 * [<i class="ms ms-txt"></i> Computational Ecology 2026](/lectures/computational-ecology-2026/)
+* [<i class="ms ms-txt"></i> Computational Design 2025](/lectures/computational-design-2025/)
 * [<i class="ms ms-txt"></i> Computational Ecology 2025](/lectures/computational-ecology-2025/)
 * [<i class="ms ms-txt"></i> Computational Ecology 2024](/lectures/computational-ecology-2024/)
 * [<i class="ms ms-txt"></i> Computational Design 2024](/lectures/computational-design-2024/)
