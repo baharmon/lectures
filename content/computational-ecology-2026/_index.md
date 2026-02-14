@@ -20,11 +20,17 @@ my recent research and teaching.
 While I have expertise in the spatial sciences,
 recently I have been focused on 
 computational ecology and 
-computational design 
-- on computational methods 
+computational design,
+on computational methods 
 for ecological research
 and the creative use of computation 
 in the design process.
+My work centers on the entanglement of 
+humans, technology, and the environment,
+exploring speculative pathways to sustainability, 
+grounded in a post-anthropocentric perspective
+that problematizes our conception 
+of nature and technology as other.
 {{< /note >}}
 
 ---
@@ -34,12 +40,9 @@ in the design process.
 # Computational Ecology
 
 {{< note >}}
-This talk will explore several applications
-of computational ecology and design including
-planting and remote sensing with robots,
-lidar analytics and biomass estimation, 
-the preservation of heritage landscapes,
-and point cloud modeling. 
+My research program in computational ecology
+uses lidar to estimate biomass and carbon
+and ecoacoustics to study biodiversity in soundscapes.
 {{< /note >}}
 
 ---
@@ -49,9 +52,6 @@ and point cloud modeling.
 ## Drone Data Analytics
 
 {{< note >}}
-My recent research in computational ecology
-explores the use of lidar
-to estimate biomass and carbon. 
 Since 2020 I have been using drones
 with lidar and multispectral sensors
 to study the evolution of the meadow
@@ -67,19 +67,9 @@ in my computational design course.
 {{< slide background-image="../images/hilltop-4.jpg" >}}
 
 {{< note >}}
-Here is the fixed wing drone with a multispectral sensor
-that I use to capture monthly imagery of the meadow
-with red, green, blue, near infrared, and rededge channels.
-With regular aerial surveys 
-I can map fluxes of aboveground biomass and carbon
-in the meadow. 
-Here, for example, is 
-a 3D scatterplot of
-the net annual biomass of the meadow
-in its first year. 
-By accounting for carbon storage in meadows and prairies,
-we can demonstrate their ecosystem services
-and advocate for their creation or conservation.
+I have been surveying the meadow monthly since it was first established.
+With regular aerial surveys like this 
+I can map fluxes of aboveground biomass and carbon in the meadow. 
 {{< /note >}}
 
 ---
@@ -87,10 +77,18 @@ and advocate for their creation or conservation.
 
 {{< slide background-image="../images/hilltop-timeseries-1.webp" background-size="contain" >}}
 
+{{< note >}}
+Here you can see the bare ground after the initial bush hogging in January. 
+{{< /note >}}
+
 ---
 
 
 {{< slide background-image="../images/hilltop-timeseries-3.webp" background-size="contain" >}}
+
+{{< note >}}
+And the evolution of the meadow over the months....
+{{< /note >}}
 
 ---
 
@@ -121,6 +119,14 @@ and advocate for their creation or conservation.
 
 &nbsp;
 
+{{< note >}}
+From this time series of data 
+we can calculate the fluctuations of biomass
+and thus carbon in the meadow.
+Here is a 3D scatterplot of the net annual biomass 
+of the meadow in its first year. 
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/hilltop-timeseries-13.webp" background-size="contain" >}}
@@ -139,6 +145,12 @@ and advocate for their creation or conservation.
 &nbsp;
 
 &nbsp;
+
+{{< note >}}
+By accounting for carbon storage in meadows and prairies,
+we can demonstrate their ecosystem services
+and advocate for their creation or conservation.
+{{< /note >}}
 
 ---
 
@@ -166,18 +178,36 @@ for biodiversity conservation.
 
 {{< slide background-image="../images/duelling-oak.jpg" background-size="contain" >}}
 
+{{< note >}}
+Here for example is the Duelling Oak in New Orleans,
+a live oak infamous as a site for duels in the 19th century.
+Duellists would face off between this tree and its partner
+which was lost to a hurricane.
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/monarch-of-the-swamp.jpg" background-size="contain" >}}
 
 {{< note >}}
-
-Large, old tree populations, however, 
+Large, old tree populations
 are in decline around the world. 
 Louisiana's ancient trees are at risk
 due to coastal change,
 lack of legal protection, 
 and senescence.
+For example this 600 year old bald cypress, 
+the Monarch of the Swamp,
+is slowly, but inevitably dying 
+from salt water intrusion
+as the coast of Louisiana retreats. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/big-cypress.jpg" background-size="contain" >}}
+
+{{< note >}}
 To preserve a record of these 
 irreplaceable cultural icons, 
 I am compiling an Atlas of Heritage Trees.
@@ -189,10 +219,6 @@ this research aims to estimate the
 biomass and carbon of large, old trees
 which act as keystone ecological structures. 
 {{< /note >}}
-
----
-
-{{< slide background-image="../images/big-cypress.jpg" background-size="contain" >}}
 
 ---
 
@@ -240,38 +266,184 @@ and the reigning national champion.
 
 ## Field Recordings
 
+{{< note >}}
+Recently I begun a research program in ecoacoustics,
+recording the aural character of cultural landscapes
+as a way to archive a trace of their biodiversity. 
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/field-recordings-2.webp" >}}
+
+{{< note >}}
+We have recorded soundscapes for ancient trees 
+and cultural landscapes across Louisiana. 
+We use passive acoustic monitoring to capture long recordings
+and ambisonics to capture immersive spatial audio.
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/field-recordings-3.webp" background-size="contain" >}}
 
+{{< note >}}
+With these recordings 
+we can classify the acoustic activity 
+of wildlife as well as anthropogenic noise,
+to map species occurrence and disturbances.
+Here is a spectrogram from a burial ground in Louisiana
+where the songs of birds, cicadas, and crickets 
+compete with the roar of traffic passing along River Road.
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/field-recordings-4.webp" background-size="contain" >}}
 
+{{< note >}}
+To engage the public, 
+I collaborate with musicians to create 
+immersive soundscape experiences.
+For a recent exhibition of heritage trees,
+we used tactile transducers to transform
+the 3D printed specimens into speakers,
+each playing its own soundscape.
+Now we are working to reconstruct 
+the soundscape of Mannahatta
+before colonization in 1609.
+{{< /note >}}
+
 ---
 
-{{< slide background-iframe="https://drive.google.com/file/d/1IrwrmwUJu5GvFA_jr0SHvvk46fK68pm1/preview" >}}
+<!-- {{< slide background-iframe="https://drive.google.com/file/d/1IrwrmwUJu5GvFA_jr0SHvvk46fK68pm1/preview" >}} -->
+
+---
+
+{{< slide background-image="../images/great-smoky-mountains-1.webp" >}}
+# Landscape Ecology
+
+{{< note >}}
+In the future I am interested in teaching landscape ecology.
+{{< /note >}}
+
+---
+
+## Landscape Ecology
+
+{{< container_columns "100%" "left" "10px" >}}
+**Pattern & Process**
+* Ecosystems
+* Structure
+* Flows
+* Disturbances
+* Succession
+----
+**Conservation**
+* Biogeography
+* Biodiversity
+* Bioacoustics
+* Connectivity
+* Rewilding
+----
+**Design**
+* Complexity
+* Restoration
+* Phytoremediation
+* Aesthetics
+* Philosophy
+{{< /container_columns >}}
+
+{{< note >}}
+I would like to develop a landscape ecology course 
+that addresses not only theory, 
+but also conservation, design, and philosophy. 
+{{< /note >}}
+
+---
+
+# Giant Panda National Park Studio
+
+## Advanced Topics Studio
+
+{{< frag c=" • fieldwork in Sichuan" >}}
+{{< frag c=" • ecological simulation of panda movement" >}}
+{{< frag c=" • model network of habitat corridors" >}}
+{{< frag c=" • accounting for sensory ecology" >}}
+{{< frag c=" • and stochastic variation" >}}
+{{< frag c=" • parametric reforestation" >}}
+
+{{< note >}}
+In my upper level studios, 
+students have an opportunity
+to apply creative computational thinking
+to ecological problems.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/panda-park-1.jpg" >}}
+
+{{< note >}}
+In a studio on computational ecology, for example,
+students designed a masterplan
+for giant panda conservation
+in Sichuan, China.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/panda-park-2.jpg" background-size="contain" >}}
+
+{{< note >}}
+After fieldwork in the mountains, 
+they used ecological models to simulate a network 
+of ecologically functional corridors for giant pandas
+that accounted for sensory ecology and stochastic variation.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/panda-park-3.jpg" background-size="contain" >}}
+
+{{< note >}}
+Then they used Grasshopper to rapidly design 
+ecologically diverse reforestation schemes
+for these habitat corridors.
+{{< /note >}}
 
 ---
 
 # Heritage Preservation
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/rosedown-landscape.jpg" >}}
 ## Plantations
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/rosedown-dining-room.jpg" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/rosedown-staircase.jpg" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
@@ -295,41 +467,81 @@ throughout the southern United States.
 {{< slide background-image="../images/alma-lidar-2024.webp" >}}
 ## African American Burial Grounds
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/silvery-lidar-2024.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/mulatto-bend-lidar-2024.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/lady-of-knight-lidar-2024.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/nerfstudio-3.png" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/nerfstudio-6.png" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/field-recordings-print-06.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/field-recordings-print-10.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/field-recordings-print-11.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 # Computational Design
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
@@ -379,11 +591,13 @@ I will use lidar to monitor growth.
 
 ---
 
+<!--
 {{< slide background-image="../images/echo-1.jpg" >}}
 
 ---
 
 {{< slide background-iframe="https://player.vimeo.com/video/801436544?h=a9e5603b45" background-size="contain" >}}
+-->
 
 ---
 
@@ -391,52 +605,247 @@ I will use lidar to monitor growth.
 
 ## Point Cloud Modeling
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/nerf-01.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/nerf-02.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/nerf-03.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/nerf-04.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/nerf-05.webp" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/nerf-06.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/cloud-forest-02.webp" background-size="contain" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/gaillardia-aristata-01.webp" background-size="contain" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/cloud-forest-01.webp" background-size="contain" >}}
+
+{{< note >}}
+...
+{{< /note >}}
 
 ---
 
 {{< slide background-image="../images/cloud-garden-1.webp" background-size="contain" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
 {{< slide background-image="../images/field-recordings-print-12.webp" >}}
 
+{{< note >}}
+...
+{{< /note >}}
+
 ---
 
+{{< slide background-image="../images/cnc-milling.jpg" >}}
+# Computational Design
+
+{{< note >}}
+I also regularly teach a course on computational design
+that introduces the basics of visual programming with Grasshopper. 
+{{< /note >}}
+
+---
+
+# Computational Design
+
+{{< container_columns "100%" "left" "10px" >}}
+**Fundamentals**
+* Grasshopper
+* Algorithms
+* Stochasticity
+* Noise
+* Attractors
+----
+**Modeling**
+* Tessellations
+* Physics
+* Simulation
+* Point clouds
+* Voxels
+----
+**Fabrication**
+* Machining
+* Printing
+* Materials
+* Robotics
+* Construction
+{{< /container_columns >}}
+
+{{< note >}}
+This course teaches creative computational thinking for design problems.
+It introduces a procedural approach to design and making. 
+Topics include randomness and noise, physics and simulations,
+ceramic 3D printing, and robotic construction.
+{{< /note >}}
+
+---
+
+<!-- 
+
+---
+
+{{< slide background-image="../images/robotic-wall.png" >}}
+# Construction Robotics
+
+---
+
+## Construction Robotics
+
+{{< container_columns "100%" "left" "10px" >}}
+**Robotics**
+* Introduction
+* Operations
+* Programming
+* Sensing
+* Applications
+----
+**Materials Research**
+* Research
+* Conceptualization
+* Experimentation
+* Fabrication
+* Analysis
+----
+**Construction**
+* Ideation
+* Design
+* Prototype
+* Construction
+* Documentation
+{{< /container_columns >}}
+
+{{< note >}}
+I also teach creative applications
+of robotics for autonomous construction. 
+For example, in my classes, 
+students learn how to
+parametrically model brick walls
+and then robotically lay the bricks.
+{{< /note >}} -->
+
+---
+
+# [The Siltcatcher](https://doi.org/10.31390/gradschool_theses.5135)
+
+## [A Sediment-Capture System for Wetland Creation and Coastal Protection in Western Lake Pontchartrain](https://doi.org/10.31390/gradschool_theses.5135)
+
+### Thesis, Andrew Wright, 2020
+
+{{< frag c=" • designed offshore structures" >}}
+{{< frag c=" • to catalyze emergence of wetlands" >}}
+{{< frag c=" • using a physical hydrodynamic model" >}}
+{{< frag c=" • for simulations with tracer dye" >}}
+{{< frag c=" • of flow and accumulation of fine sediment" >}}
+
+{{< note >}}
+I also regularly teach research methods
+and advise capstone and theses.
+Here is an example of a thesis I advised
+that uses simulation for speculative design. 
+This thesis - the Siltcatcher - 
+envisioned a system of offshore structures
+for accumulating sediment from the Bonnet Carré Spillway
+to catalyze the development of new wetlands.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/siltcatcher-1.jpg" background-size="contain">}}
+
+{{< note >}}
+The student used a physical hydrodynamic model
+to test and evaluate design ideas.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/siltcatcher-2.jpg" background-size="contain">}}
+
+{{< note >}}
+He used simulations with tracer dye
+to study the flow and accumulation of fine sediment...
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/siltcatcher-3.jpg" background-size="contain">}}
+
+{{< note >}}
+and develop a design
+that would catalyze land building
+in Lake Pontchartrain.
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/siltcatcher-4.jpg" background-size="contain">}}
+
+---
+
+<!--
 
 # Spatial Science
 
@@ -457,6 +866,62 @@ I will use lidar to monitor growth.
 ---
 
 {{< slide background-image="../images/earthworks-09.webp" background-size="contain" >}}
+
+-->
+
+---
+
+{{< slide background-image="../images/new-orleans.png">}}
+# GIS for Designers
+
+{{< note >}}
+I have regularly taught an introduction to
+geographic information systems for designers.
+{{< /note >}}
+
+---
+
+# GIS for Designers
+
+{{< container_columns "100%" "left" "10px" >}}
+**Fundamentals**
+* Intro to GIS
+* Geodesy
+* Cartography
+* Map algebra
+* Programming
+----
+**Landscape**
+* Lidar
+* Terrain
+* Hydrology
+* Visibility
+* Solar
+----
+**Urban**
+* Urban data
+* Demographics
+* Walkability
+* Map overlays
+* 3D printing
+{{< /container_columns >}}
+
+{{< note >}}
+Topics covered include cartography, map algebra, 
+terrain modeling, hydrology, urban analytics, 
+visual programming, and digital fabrication. 
+For this course I have developed extensive tutorials,
+a collection of Youtube videos, and datasets. 
+{{< /note >}}
+
+---
+
+{{< slide background-image="../images/open-education.png" background-size="contain" >}}
+
+{{< note >}}
+I also publish open education materials online
+including tutorials, videos, and datasets. 
+{{< /note >}}
 
 ---
 
@@ -479,6 +944,3 @@ I will use lidar to monitor growth.
 
 Learn more at
 [**baharmon.github.io**](https://baharmon.github.io/)
-
-<!-- Ecoacoustics -->
-<!-- Welikia Soundscape Engine -->
